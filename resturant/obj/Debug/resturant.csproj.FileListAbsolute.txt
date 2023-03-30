@@ -43,3 +43,4 @@ C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\restura
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\resturant.csproj.CopyComplete
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\resturant.exe
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\resturant.pdb
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll

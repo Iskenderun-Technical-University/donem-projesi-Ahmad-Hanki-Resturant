@@ -32,7 +32,6 @@ namespace resturant
         {
 
         }
-        Form2 form2 = new Form2();
         private void Home_Click(object sender, EventArgs e)
         {
             panelSepete.Visible = false;
@@ -59,11 +58,6 @@ namespace resturant
         {
             panelSepete.Visible = true;
             panelHome.Visible = false;
-        }
-
-        private void orders_Click(object sender, EventArgs e)
-        {
-            form2.ShowDialog();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -118,9 +112,63 @@ namespace resturant
         {
 
         }
+        public string ord = "";
+        int id;
+        Form2 form2 = new Form2();
         private void bunifuButton24_Click(object sender, EventArgs e)
         {
+            ord = "";
             int z = top();
+            // pasing the order to form 2
+            if (x1!=0)
+            {
+                ord = ord + ", " + l1.Text;
+            }
+            if (x2 != 0)
+            {
+                ord = ord + ", " + l2.Text;
+            }
+            if (x3 != 0)
+            {
+                ord = ord + ", " + l3.Text;
+            }
+            if (x4 != 0)
+            {
+                ord = ord + ", " + l4.Text;
+            }
+            if (x5 != 0)
+            {
+                ord = ord + ", " + l5.Text;
+            }
+            if (x6 != 0)
+            {
+                ord = ord + ", " + l6.Text;
+            }
+            if (x7 != 0)
+            {
+                ord = ord + ", " + l7.Text;
+            }
+            if (x8 != 0)
+            {
+                ord = ord + ", " + l8.Text;
+            }
+            if (x9 != 0)
+            {
+                ord = ord + ", " + l9.Text;
+            }
+            if (x10 != 0)
+            {
+                ord = ord + ", " + l10.Text;
+            }
+            if (x11 != 0)
+            {
+                ord = ord + ", " + l11.Text;
+            }
+            if (x12 != 0)
+            {
+                ord = ord + ", " + l12.Text;
+            }
+
             if (z==0)
             {
                 MessageBox.Show("Bir şey eklemeniz gerekiyor","Eklenmemiş",MessageBoxButtons.OK,MessageBoxIcon.Error);
@@ -131,13 +179,19 @@ namespace resturant
                 DialogResult result = MessageBox.Show("Onyalamak ister misiniz?", "Onaylamak", MessageBoxButtons.OKCancel);
                 if (result == DialogResult.OK)
                 {
-                    form2.ShowDialog();
+                    MessageBox.Show("Siparişiniz hazırlanıyor^^, sipariş listindeki görebilirsiniz!", "yaaay", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    id++;
+                }
+                else
+                {
+                    return;
                 }
             }
+            form2.order = ord;
+
         }
         int x2;
         int i2;
-
         private void bunifuButton11_Click(object sender, EventArgs e)
         {
             x5++;
@@ -429,6 +483,12 @@ namespace resturant
             Toplam.Text = z.ToString() + "TL";
         }
 
+        private void orders_Click(object sender, EventArgs e)
+        {
+            form2.ShowDialog();
+            
+        }
+        
         private void se2_Click(object sender, EventArgs e)
         {
             x2++;

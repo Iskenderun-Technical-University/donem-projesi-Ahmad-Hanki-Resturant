@@ -36,6 +36,7 @@ namespace resturant
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.lblval = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,12 +102,23 @@ namespace resturant
             this.label3.TabIndex = 6;
             this.label3.Text = "Verdiğiniz sipereşler";
             // 
+            // lblval
+            // 
+            this.lblval.AutoSize = true;
+            this.lblval.Location = new System.Drawing.Point(75, 400);
+            this.lblval.Name = "lblval";
+            this.lblval.Size = new System.Drawing.Size(46, 17);
+            this.lblval.TabIndex = 7;
+            this.lblval.Text = "label4";
+            this.lblval.Click += new System.EventHandler(this.lblval_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1033, 745);
+            this.Controls.Add(this.lblval);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label2);
@@ -115,6 +127,7 @@ namespace resturant
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -130,5 +143,6 @@ namespace resturant
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblval;
     }
 }

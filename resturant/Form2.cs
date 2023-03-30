@@ -16,10 +16,24 @@ namespace resturant
         {
             InitializeComponent();
         }
+        public string order { get; set; }
+
 
         private void Home_Click(object sender, EventArgs e)
         {
             this.Hide();
+            
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            
+            lblval.Text = order;
+        }
+
+        private void lblval_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
