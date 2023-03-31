@@ -17,23 +17,42 @@ namespace resturant
             InitializeComponent();
         }
         public string order { get; set; }
-
+        public int price { get; set; }
 
         private void Home_Click(object sender, EventArgs e)
         {
             this.Hide();
             
         }
+        string[] ordText = new string[500];
+        int[] pri = new int[500];
+        static public int i=1;
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
-            lblval.Text = order;
+            ordText[i] = order;
+            pri[i] = price;
         }
 
-        private void lblval_Click(object sender, EventArgs e)
+        public void AddItem (int i, string ordText, int pri )
         {
+            dataGridView1.Rows.Add(i, ordText, pri);     
+        }
 
+        private void view_Click(object sender, EventArgs e)
+        {
+            if (ordText[i]==""||pri[i]==0)
+            {
+                MessageBox.Show("Bir şey eklenmemiş!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                string or = ordText[i];
+                int tot = pri[i];
+                AddItem(i, or, tot);
+                i++;
+            }
         }
     }
 }

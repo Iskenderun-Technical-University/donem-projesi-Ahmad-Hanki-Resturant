@@ -112,61 +112,61 @@ namespace resturant
         {
 
         }
-        public string ord = "";
-        int id;
+        public string ord ="";
+        
         Form2 form2 = new Form2();
         private void bunifuButton24_Click(object sender, EventArgs e)
         {
-            ord = "";
+            ord ="";
             int z = top();
             // pasing the order to form 2
             if (x1!=0)
             {
-                ord = ord + ", " + l1.Text;
+                ord =l1.Text + ", ";
             }
             if (x2 != 0)
             {
-                ord = ord + ", " + l2.Text;
+                ord = ord + l2.Text + ", ";
             }
             if (x3 != 0)
             {
-                ord = ord + ", " + l3.Text;
+                ord = ord + l3.Text +", ";
             }
             if (x4 != 0)
             {
-                ord = ord + ", " + l4.Text;
+                ord = ord + l4.Text +", ";
             }
             if (x5 != 0)
             {
-                ord = ord + ", " + l5.Text;
+                ord = ord + l5.Text + ", ";
             }
             if (x6 != 0)
             {
-                ord = ord + ", " + l6.Text;
+                ord = ord+ l6.Text +", ";
             }
             if (x7 != 0)
             {
-                ord = ord + ", " + l7.Text;
+                ord = ord+ l7.Text + ", ";
             }
             if (x8 != 0)
             {
-                ord = ord + ", " + l8.Text;
+                ord = ord+ l8.Text +", ";
             }
             if (x9 != 0)
             {
-                ord = ord + ", " + l9.Text;
+                ord = ord+ l9.Text + ", ";
             }
             if (x10 != 0)
             {
-                ord = ord + ", " + l10.Text;
+                ord = ord+ l10.Text + ", ";
             }
             if (x11 != 0)
             {
-                ord = ord + ", " + l11.Text;
+                ord = ord + l11.Text + ", ";
             }
             if (x12 != 0)
             {
-                ord = ord + ", " + l12.Text;
+                ord = ord+ l12.Text + ", ";
             }
 
             if (z==0)
@@ -180,14 +180,15 @@ namespace resturant
                 if (result == DialogResult.OK)
                 {
                     MessageBox.Show("Siparişiniz hazırlanıyor^^, sipariş listindeki görebilirsiniz!", "yaaay", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    id++;
+                    form2.order = ord;
+                    form2.price = z;
                 }
                 else
                 {
                     return;
                 }
             }
-            form2.order = ord;
+            
 
         }
         int x2;
@@ -486,7 +487,6 @@ namespace resturant
         private void orders_Click(object sender, EventArgs e)
         {
             form2.ShowDialog();
-            
         }
         
         private void se2_Click(object sender, EventArgs e)

@@ -306,7 +306,7 @@ namespace resturant
             this.panelHome.Controls.Add(this.menuu);
             this.panelHome.Location = new System.Drawing.Point(136, 156);
             this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(828, 407);
+            this.panelHome.Size = new System.Drawing.Size(828, 577);
             this.panelHome.TabIndex = 6;
             // 
             // panelIceck
