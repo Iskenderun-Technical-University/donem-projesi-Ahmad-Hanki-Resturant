@@ -327,7 +327,7 @@ namespace resturant
             this.panelIceck.Controls.Add(this.pictureBox12);
             this.panelIceck.Location = new System.Drawing.Point(1, 102);
             this.panelIceck.Name = "panelIceck";
-            this.panelIceck.Size = new System.Drawing.Size(792, 471);
+            this.panelIceck.Size = new System.Drawing.Size(792, 479);
             this.panelIceck.TabIndex = 16;
             // 
             // se12

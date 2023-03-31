@@ -39,11 +39,17 @@ namespace resturant
             panelMenu.Visible = true;
             panelMezeler.Visible = false;
             panelSanvic.Visible = false;
+            panelIceck.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             panelSepete.Visible = false;
+            panelHome.Visible = true;
+            panelMenu.Visible = true;
+            panelMezeler.Visible = false;
+            panelSanvic.Visible = false;
+            panelIceck.Visible = false;
         }
 
         private void menuu_Click(object sender, EventArgs e)
@@ -113,6 +119,7 @@ namespace resturant
 
         }
         public string ord ="";
+        static int id = 1;
         
         Form2 form2 = new Form2();
         private void bunifuButton24_Click(object sender, EventArgs e)
@@ -182,6 +189,74 @@ namespace resturant
                     MessageBox.Show("Siparişiniz hazırlanıyor^^, sipariş listindeki görebilirsiniz!", "yaaay", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     form2.order = ord;
                     form2.price = z;
+                    form2.ide = id;
+
+                    x1 = 0;
+                    n1.Text = x1.ToString();
+                    i1 = 0;
+                    p1.Text = i1.ToString();
+
+                    x2 = 0;
+                    n2.Text = x2.ToString();
+                    i2 = 0;
+                    p2.Text = i2.ToString();
+
+                    x3 = 0;
+                    n3.Text = x3.ToString();
+                    i3 = 0;
+                    p3.Text = i3.ToString();
+
+                    x4 = 0;
+                    n4.Text = x4.ToString();
+                    i4 = 0;
+                    p4.Text = i4.ToString();
+
+                    x5 = 0;
+                    n5.Text = x5.ToString();
+                    i5 = 0;
+                    p5.Text = i5.ToString();
+
+                    x6 = 0;
+                    n6.Text = x6.ToString();
+                    i6 = 0;
+                    p6.Text = i6.ToString();
+
+                    x7 = 0;
+                    n7.Text = x7.ToString();
+                    i7 = 0;
+                    p7.Text = i7.ToString();
+
+                    x8 = 0;
+                    n8.Text = x8.ToString();
+                    i8 = 0;
+                    p8.Text = i8.ToString();
+
+                    x9 = 0;
+                    n9.Text = x9.ToString();
+                    i9 = 0;
+                    p9.Text = i9.ToString();
+
+                    x10 = 0;
+                    n10.Text = x10.ToString();
+                    i10 = 0;
+                    p10.Text = i10.ToString();
+
+                    x11 = 0;
+                    n11.Text = x11.ToString();
+                    i11 = 0;
+                    p11.Text = i11.ToString();
+
+                    x12 = 0;
+                    n12.Text = x12.ToString();
+                    i12 = 0;
+                    p12.Text = i12.ToString();
+
+                    Toplam.Text = "";
+                    top();
+                    id++;
+                    form2.ShowDialog();
+
+
                 }
                 else
                 {

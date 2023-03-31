@@ -30,14 +30,12 @@ namespace resturant
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.Home = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.view = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sipariş = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,96 +106,6 @@ namespace resturant
             this.label3.TabIndex = 6;
             this.label3.Text = "Verdiğiniz sipereşler";
             // 
-            // view
-            // 
-            this.view.AllowAnimations = true;
-            this.view.AllowMouseEffects = true;
-            this.view.AllowToggling = false;
-            this.view.AnimationSpeed = 200;
-            this.view.AutoGenerateColors = false;
-            this.view.AutoRoundBorders = false;
-            this.view.AutoSizeLeftIcon = true;
-            this.view.AutoSizeRightIcon = true;
-            this.view.BackColor = System.Drawing.Color.Transparent;
-            this.view.BackColor1 = System.Drawing.Color.DodgerBlue;
-            this.view.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("view.BackgroundImage")));
-            this.view.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.view.ButtonText = "sipariş göster";
-            this.view.ButtonTextMarginLeft = 0;
-            this.view.ColorContrastOnClick = 45;
-            this.view.ColorContrastOnHover = 45;
-            this.view.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.view.CustomizableEdges = borderEdges2;
-            this.view.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.view.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.view.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.view.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.view.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.view.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.view.ForeColor = System.Drawing.Color.White;
-            this.view.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.view.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.view.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.view.IconMarginLeft = 11;
-            this.view.IconPadding = 10;
-            this.view.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.view.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.view.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.view.IconSize = 25;
-            this.view.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.view.IdleBorderRadius = 1;
-            this.view.IdleBorderThickness = 1;
-            this.view.IdleFillColor = System.Drawing.Color.DodgerBlue;
-            this.view.IdleIconLeftImage = null;
-            this.view.IdleIconRightImage = null;
-            this.view.IndicateFocus = false;
-            this.view.Location = new System.Drawing.Point(13, 634);
-            this.view.Name = "view";
-            this.view.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.view.OnDisabledState.BorderRadius = 1;
-            this.view.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.view.OnDisabledState.BorderThickness = 1;
-            this.view.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.view.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.view.OnDisabledState.IconLeftImage = null;
-            this.view.OnDisabledState.IconRightImage = null;
-            this.view.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.view.onHoverState.BorderRadius = 1;
-            this.view.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.view.onHoverState.BorderThickness = 1;
-            this.view.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.view.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.view.onHoverState.IconLeftImage = null;
-            this.view.onHoverState.IconRightImage = null;
-            this.view.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.view.OnIdleState.BorderRadius = 1;
-            this.view.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.view.OnIdleState.BorderThickness = 1;
-            this.view.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
-            this.view.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.view.OnIdleState.IconLeftImage = null;
-            this.view.OnIdleState.IconRightImage = null;
-            this.view.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.view.OnPressedState.BorderRadius = 1;
-            this.view.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.view.OnPressedState.BorderThickness = 1;
-            this.view.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.view.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.view.OnPressedState.IconLeftImage = null;
-            this.view.OnPressedState.IconRightImage = null;
-            this.view.Size = new System.Drawing.Size(150, 69);
-            this.view.TabIndex = 8;
-            this.view.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.view.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.view.TextMarginLeft = 0;
-            this.view.TextPadding = new System.Windows.Forms.Padding(0);
-            this.view.UseDefaultRadiusAndThickness = true;
-            this.view.Click += new System.EventHandler(this.view_Click);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -214,7 +122,7 @@ namespace resturant
             // 
             // ID
             // 
-            this.ID.HeaderText = "ID";
+            this.ID.HeaderText = "Sipariş No.";
             this.ID.MinimumWidth = 6;
             this.ID.Name = "ID";
             this.ID.ReadOnly = true;
@@ -230,7 +138,7 @@ namespace resturant
             // 
             // Fiyat
             // 
-            this.Fiyat.HeaderText = "Fiyat";
+            this.Fiyat.HeaderText = "Fiyat TL";
             this.Fiyat.MinimumWidth = 6;
             this.Fiyat.Name = "Fiyat";
             this.Fiyat.ReadOnly = true;
@@ -243,7 +151,6 @@ namespace resturant
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1033, 745);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.view);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label2);
@@ -269,7 +176,6 @@ namespace resturant
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton view;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Sipariş;
