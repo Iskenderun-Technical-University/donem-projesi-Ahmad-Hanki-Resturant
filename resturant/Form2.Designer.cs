@@ -32,7 +32,6 @@ namespace resturant
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.Home = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,6 +39,7 @@ namespace resturant
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sipariş = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Home = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -63,18 +63,6 @@ namespace resturant
             this.label1.Size = new System.Drawing.Size(307, 67);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tavuk  Günü";
-            // 
-            // Home
-            // 
-            this.Home.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Home.BackgroundImage")));
-            this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Home.ForeColor = System.Drawing.Color.Red;
-            this.Home.Location = new System.Drawing.Point(78, 171);
-            this.Home.Name = "Home";
-            this.Home.Size = new System.Drawing.Size(865, 79);
-            this.Home.TabIndex = 3;
-            this.Home.UseVisualStyleBackColor = true;
-            this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
             // label2
             // 
@@ -113,7 +101,7 @@ namespace resturant
             this.ID,
             this.Sipariş,
             this.Fiyat});
-            this.dataGridView1.Location = new System.Drawing.Point(13, 326);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 370);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -143,6 +131,18 @@ namespace resturant
             this.Fiyat.Name = "Fiyat";
             this.Fiyat.ReadOnly = true;
             this.Fiyat.Width = 150;
+            // 
+            // Home
+            // 
+            this.Home.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Home.BackgroundImage")));
+            this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Home.ForeColor = System.Drawing.Color.Red;
+            this.Home.Location = new System.Drawing.Point(78, 171);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(865, 79);
+            this.Home.TabIndex = 3;
+            this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
             // Form2
             // 

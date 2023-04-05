@@ -44,3 +44,9 @@ C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\restura
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\resturant.exe
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\resturant.pdb
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\bin\Debug\Interop.WMPLib.dll
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\Interop.WMPLib.dll
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\resturant.csproj.ResolveComReference.cache
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ezaiia\resturant\obj\Debug\resturant.Loading.resources

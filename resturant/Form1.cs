@@ -12,26 +12,13 @@ namespace resturant
 {
     public partial class Form1 : Form
     {
+        int load = 1;
         public Form1()
         {
             InitializeComponent();
+            
         }
-
         
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void homeB_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
         private void Home_Click(object sender, EventArgs e)
         {
             panelSepete.Visible = false;
@@ -44,12 +31,21 @@ namespace resturant
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            if (load ==1)
+            {
+                // opens the loading form
+                Loading lo = new Loading();
+                lo.ShowDialog();
+                load++;
+            }
+            // opens the menu home page first
             panelSepete.Visible = false;
             panelHome.Visible = true;
             panelMenu.Visible = true;
             panelMezeler.Visible = false;
             panelSanvic.Visible = false;
             panelIceck.Visible = false;
+            
         }
 
         private void menuu_Click(object sender, EventArgs e)
@@ -66,15 +62,14 @@ namespace resturant
             panelHome.Visible = false;
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        int x1 = 0;
+        int x1 = 0; 
         int i1=0;
+        // numers to count the prices and the amount of food
+        // x for how many meal and i for the price
         int x5, x6, x7, x8, x9, x10, x11, x12;
         int i5, i6, i7, i8, i9, i10, i11, i12;
+
+        // e (ekleme ) to add a meal to the cart
         private void e1_Click(object sender, EventArgs e)
         {
             
@@ -85,7 +80,7 @@ namespace resturant
             int z = top();
             Toplam.Text = z.ToString() + "TL";
         }
-
+        // c (cikart) to remove a meal from the cart
         private void c1_Click(object sender, EventArgs e)
         {
             if (x1>=1)
@@ -98,7 +93,8 @@ namespace resturant
             int z = top();
             Toplam.Text = z.ToString() + "TL";
         }
-        
+
+        // buttons to add and remove from the cart
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
             x1++;
@@ -108,20 +104,13 @@ namespace resturant
             int z = top();
             Toplam.Text = z.ToString() + "TL";
         }
-
-        private void n1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void l2_Click(object sender, EventArgs e)
-        {
-
-        }
+        
+        // to save the order's name in a string and the id of it
         public string ord ="";
         static int id = 1;
         
         Form2 form2 = new Form2();
+        // top function to count the total 
         private void bunifuButton24_Click(object sender, EventArgs e)
         {
             ord ="";
@@ -563,7 +552,9 @@ namespace resturant
         {
             form2.ShowDialog();
         }
+
         
+
         private void se2_Click(object sender, EventArgs e)
         {
             x2++;
