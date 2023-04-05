@@ -17,6 +17,7 @@ namespace resturant
         {
             InitializeComponent();
             this.ControlBox = false;
+            this.FormBorderStyle = FormBorderStyle.None;
             string path = "C:\\Users\\ir4ve\\OneDrive\\Desktop\\donem-projesi-Ezaiia\\video\\Happy.mp4";
             axWindowsMediaPlayer1.URL = path;
 

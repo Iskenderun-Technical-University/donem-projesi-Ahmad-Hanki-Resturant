@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace resturant
 {
-    public partial class Form1 : Form
+    public partial class main : Form
     {
-        int load = 1;
-        public Form1()
+        
+        public main()
         {
             InitializeComponent();
-            
         }
         
         private void Home_Click(object sender, EventArgs e)
@@ -28,7 +27,7 @@ namespace resturant
             panelSanvic.Visible = false;
             panelIceck.Visible = false;
         }
-
+        int load = 1;
         private void Form1_Load(object sender, EventArgs e)
         {
             if (load ==1)
@@ -109,7 +108,7 @@ namespace resturant
         public string ord ="";
         static int id = 1;
         
-        Form2 form2 = new Form2();
+        Cart form2 = new Cart();
         // top function to count the total 
         private void bunifuButton24_Click(object sender, EventArgs e)
         {
@@ -552,8 +551,21 @@ namespace resturant
         {
             form2.ShowDialog();
         }
+        About abt = new About();
+        private void label2_Click(object sender, EventArgs e)
+        {
+            abt.ShowDialog();
+        }
 
-        
+        private void label2_MouseEnter(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.SkyBlue;
+        }
+
+        private void label2_MouseLeave(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.White;
+        }
 
         private void se2_Click(object sender, EventArgs e)
         {
