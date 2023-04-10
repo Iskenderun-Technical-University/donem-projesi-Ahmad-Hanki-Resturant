@@ -117,51 +117,64 @@ namespace resturant
             // pasing the order to form 2
             if (x1!=0)
             {
-                ord =l1.Text + ", ";
+                
+               int adet = i1 / 55;
+                ord =l1.Text + " x"+adet.ToString() + ", ";
             }
             if (x2 != 0)
             {
-                ord = ord + l2.Text + ", ";
+                int adet = i2 / 99;
+                ord = ord + l2.Text + " x" + adet.ToString() + ", ";
             }
             if (x3 != 0)
             {
-                ord = ord + l3.Text +", ";
+                int adet = i3 / 45;
+                ord = ord + l3.Text + " x" + adet.ToString() + ", ";
             }
             if (x4 != 0)
             {
-                ord = ord + l4.Text +", ";
+                int adet = i4 / 30;
+                ord = ord + l4.Text + " x" + adet.ToString() + ", ";
             }
             if (x5 != 0)
             {
-                ord = ord + l5.Text + ", ";
+                int adet = i5 / 59;
+                ord = ord + l5.Text + " x" + adet.ToString() + ", ";
             }
             if (x6 != 0)
             {
-                ord = ord+ l6.Text +", ";
+                int adet = i6 / 29;
+                ord = ord+ l6.Text + " x" + adet.ToString() + ", ";
             }
             if (x7 != 0)
             {
-                ord = ord+ l7.Text + ", ";
+                int adet = i7 / 25;
+                ord = ord+ l7.Text + " x" + adet.ToString() + ", ";
             }
             if (x8 != 0)
             {
-                ord = ord+ l8.Text +", ";
+                int adet = i8 / 20;
+                ord = ord+ l8.Text + " x" + adet.ToString() + ", ";
             }
             if (x9 != 0)
             {
-                ord = ord+ l9.Text + ", ";
+                int adet = i9 / 15;
+                ord = ord+ l9.Text + " x" + adet.ToString() + ", ";
             }
             if (x10 != 0)
             {
-                ord = ord+ l10.Text + ", ";
+                int adet = i10 / 3;
+                ord = ord+ l10.Text + " x" + adet.ToString() + ", ";
             }
             if (x11 != 0)
             {
-                ord = ord + l11.Text + ", ";
+                int adet = i11 / 13;
+                ord = ord + l11.Text + " x" + adet.ToString() + ", ";
             }
             if (x12 != 0)
             {
-                ord = ord+ l12.Text + ", ";
+                int adet = i12 / 5;
+                ord = ord+ l12.Text + " x" + adet.ToString() + ", ";
             }
 
             if (z==0)
