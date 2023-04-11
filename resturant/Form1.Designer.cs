@@ -210,6 +210,7 @@ namespace resturant
             this.orders = new System.Windows.Forms.Button();
             this.cart = new System.Windows.Forms.Button();
             this.Home = new System.Windows.Forms.Button();
+            this.close = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelHome.SuspendLayout();
             this.panelIceck.SuspendLayout();
@@ -234,6 +235,7 @@ namespace resturant
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel1.Controls.Add(this.close);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -5015,6 +5017,18 @@ namespace resturant
             this.Home.UseVisualStyleBackColor = true;
             this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
+            // close
+            // 
+            this.close.AutoSize = true;
+            this.close.Location = new System.Drawing.Point(1004, 9);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(17, 17);
+            this.close.TabIndex = 1;
+            this.close.Text = "X";
+            this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.MouseEnter += new System.EventHandler(this.close_MouseEnter);
+            this.close.MouseLeave += new System.EventHandler(this.close_MouseLeave);
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -5205,6 +5219,7 @@ namespace resturant
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Label Warning;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label close;
     }
 }
 

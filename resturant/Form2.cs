@@ -33,6 +33,8 @@ namespace resturant
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            this.ControlBox = false;
+
             ordText[i] = order;
             pri[i] = price;
             id = ide;
@@ -56,6 +58,20 @@ namespace resturant
             dataGridView1.Rows.Add(i, ordText, pri);     
         }
 
-        
+        private void close_MouseEnter(object sender, EventArgs e)
+        {
+            close.BackColor = Color.Red;
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+        }
+
+        private void close_MouseLeave(object sender, EventArgs e)
+        {
+            close.BackColor = Color.DodgerBlue;
+        }
     }
 }

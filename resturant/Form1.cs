@@ -38,6 +38,7 @@ namespace resturant
                 load++;
             }
             // opens the menu home page first
+            this.ControlBox = false;
             panelSepete.Visible = false;
             panelHome.Visible = true;
             panelMenu.Visible = true;
@@ -578,6 +579,22 @@ namespace resturant
         private void label2_MouseLeave(object sender, EventArgs e)
         {
             label2.BackColor = Color.White;
+        }
+
+        private void close_MouseEnter(object sender, EventArgs e)
+        {
+            close.BackColor = Color.Red;
+        }
+
+        private void close_MouseLeave(object sender, EventArgs e)
+        {
+            close.BackColor = Color.DodgerBlue;
+
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void se2_Click(object sender, EventArgs e)
