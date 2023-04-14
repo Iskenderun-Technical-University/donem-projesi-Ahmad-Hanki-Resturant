@@ -28,9 +28,10 @@ namespace resturant
             panelSanvic.Visible = false;
             panelIceck.Visible = false;
         }
-        int load = 1;
+        int load = 9;
         private void Form1_Load(object sender, EventArgs e)
         {
+
             if (load ==1)
             {
                 // opens the loading form
@@ -39,6 +40,7 @@ namespace resturant
                 load++;
             }
             // opens the menu home page first
+            this.FormBorderStyle = FormBorderStyle.None;
             this.ControlBox = false;
             panelSepete.Visible = false;
             panelHome.Visible = true;
@@ -197,7 +199,7 @@ namespace resturant
                     x2 = 0;
                     n2.Text = x2.ToString();
                     i2 = 0;
-                    p2.Text = i2.ToString();
+                    label34.Text = i2.ToString();
 
                     x3 = 0;
                     n3.Text = x3.ToString();
@@ -600,6 +602,7 @@ namespace resturant
             {
                 x1--;
             }
+            
             i1 = x1 * 55;
             n1.Text = x1.ToString();
             p1.Text = i1.ToString() + "TL";
@@ -614,7 +617,7 @@ namespace resturant
 
         private void label22_MouseEnter(object sender, EventArgs e)
         {
-            
+            e1.BackColor = Color.LightGray;
         }
 
         private void c1_MouseLeave(object sender, EventArgs e)
@@ -624,7 +627,527 @@ namespace resturant
 
         private void label22_Click(object sender, EventArgs e)
         {
+            x1++;
+            n1.Text = x1.ToString();
+            i1 = 55 * x1;
+            p1.Text = i1.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
 
+        private void e1_MouseLeave(object sender, EventArgs e)
+        {
+            e1.BackColor = Color.White;
+        }
+
+        private void label35_Click(object sender, EventArgs e)
+        {
+            if (x2 >= 1)
+            {
+                x2--;
+            }
+            i2 = x2 * 55;
+            n2.Text = x2.ToString();
+            label34.Text = i2.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void label22_Click_1(object sender, EventArgs e)
+        {
+            x2++;
+            n2.Text = x2.ToString();
+            i2 = 99 * x2;
+            label34.Text = i2.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e2_MouseEnter(object sender, EventArgs e)
+        {
+            e1.BackColor = Color.LightGray;
+        }
+
+        private void pc1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label35_Click_1(object sender, EventArgs e)
+        {
+            if (x3 >= 1)
+            {
+                x3--;
+            }
+            i3 = x3 * 55;
+            n3.Text = x3.ToString();
+            p3.Text = i3.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void label22_Click_2(object sender, EventArgs e)
+        {
+            x3++;
+            n3.Text = x3.ToString();
+            i3 = 45 * x3;
+            p3.Text = i3.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void label35_Click_2(object sender, EventArgs e)
+        {
+            if (x4 >= 1)
+            {
+                x4--;
+            }
+            i4 = x4 * 30;
+            n4.Text = x4.ToString();
+            p4.Text = i4.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e4_Click(object sender, EventArgs e)
+        {
+            x4++;
+            n4.Text = x4.ToString();
+            i4 = 30 * x4;
+            p4.Text = i4.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void c5_Click_1(object sender, EventArgs e)
+        {
+            if (x5 >= 1)
+            {
+                x5--;
+            }
+            i5 = x5 * 59;
+            n5.Text = x5.ToString();
+            p5.Text = i5.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e5_Click(object sender, EventArgs e)
+        {
+            x5++;
+            n5.Text = x5.ToString();
+            i5 = 59 * x5;
+            p5.Text = i5.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void c6_Click_1(object sender, EventArgs e)
+        {
+            if (x6 >= 1)
+            {
+                x6--;
+            }
+            i6 = x6 * 25;
+            n6.Text = x6.ToString();
+            p6.Text = i6.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e6_Click_1(object sender, EventArgs e)
+        {
+            x6++;
+            n6.Text = x6.ToString();
+            i6 = 29 * x6;
+            p6.Text = i6.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void label35_Click_3(object sender, EventArgs e)
+        {
+            if (x7 >= 1)
+            {
+                x7--;
+            }
+            i7 = x7 * 25;
+            n7.Text = x7.ToString();
+            p7.Text = i7.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e7_Click_1(object sender, EventArgs e)
+        {
+            x7++;
+            n7.Text = x7.ToString();
+            i7 = 25 * x7;
+            p7.Text = i7.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void label35_Click_4(object sender, EventArgs e)
+        {
+            if (x8 >= 1)
+            {
+                x8--;
+            }
+            i8 = x8 * 20;
+            n8.Text = x8.ToString();
+            p8.Text = i8.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e8_Click_1(object sender, EventArgs e)
+        {
+            x8++;
+            n8.Text = x8.ToString();
+            i8 = 20 * x8;
+            p8.Text = i8.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void c9_Click_1(object sender, EventArgs e)
+        {
+            if (x9 >= 1)
+            {
+                x9--;
+            }
+            i9 = x9 * 15;
+            n9.Text = x9.ToString();
+            p9.Text = i9.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e9_Click_1(object sender, EventArgs e)
+        {
+            x9++;
+            n9.Text = x9.ToString();
+            i9 = 15 * x9;
+            p9.Text = i9.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void c10_Click_1(object sender, EventArgs e)
+        {
+            if (x10 >= 1)
+            {
+                x10--;
+            }
+            i10 = x10 * 3;
+            n10.Text = x10.ToString();
+            p10.Text = i10.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void label22_Click_3(object sender, EventArgs e)
+        {
+            x10++;
+            n10.Text = x10.ToString();
+            i10 = 3 * x10;
+            p10.Text = i10.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void c11_Click_1(object sender, EventArgs e)
+        {
+            if (x11 >= 1)
+            {
+                x11--;
+            }
+            i11 = x11 * 13;
+            n11.Text = x11.ToString();
+            p11.Text = i11.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e11_Click_1(object sender, EventArgs e)
+        {
+            x11++;
+            n11.Text = x11.ToString();
+            i11 = 13 * x11;
+            p11.Text = i11.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void label35_Click_5(object sender, EventArgs e)
+        {
+            if (x12 >= 1)
+            {
+                x12--;
+            }
+            i12 = x12 * 5;
+            n12.Text = x12.ToString();
+            p12.Text = i12.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e12_Click_1(object sender, EventArgs e)
+        {
+            x12++;
+            n12.Text = x12.ToString();
+            i12 = 5 * x12;
+            p12.Text = i12.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void e3_MouseEnter(object sender, EventArgs e)
+        {
+            e3.BackColor = Color.LightGray;
+        }
+
+        private void e4_MouseEnter(object sender, EventArgs e)
+        {
+            e4.BackColor = Color.LightGray;
+        }
+
+        private void e5_MouseEnter(object sender, EventArgs e)
+        {
+            e5.BackColor = Color.LightGray;
+        }
+
+        private void e6_MouseEnter(object sender, EventArgs e)
+        {
+            e6.BackColor = Color.LightGray;
+        }
+
+        private void e7_MouseEnter(object sender, EventArgs e)
+        {
+            e7.BackColor = Color.LightGray;
+        }
+
+        private void e8_MouseEnter(object sender, EventArgs e)
+        {
+            e8.BackColor = Color.LightGray;
+        }
+
+        private void e9_MouseEnter(object sender, EventArgs e)
+        {
+            e9.BackColor = Color.LightGray;
+        }
+
+        private void e10_MouseEnter(object sender, EventArgs e)
+        {
+            e10.BackColor = Color.LightGray;
+        }
+
+        private void e11_MouseEnter(object sender, EventArgs e)
+        {
+            e11.BackColor = Color.LightGray;
+        }
+
+        private void e12_MouseEnter(object sender, EventArgs e)
+        {
+            e12.BackColor = Color.LightGray;
+        }
+
+        private void c2_MouseLeave(object sender, EventArgs e)
+        {
+            c2.BackColor = Color.White;
+
+        }
+
+        private void e2_MouseLeave(object sender, EventArgs e)
+        {
+            e2.BackColor = Color.White;
+
+        }
+
+        private void c3_MouseLeave(object sender, EventArgs e)
+        {
+            c3.BackColor = Color.White;
+
+        }
+
+        private void e3_MouseLeave(object sender, EventArgs e)
+        {
+            e3.BackColor = Color.White;
+
+        }
+
+        private void c4_MouseLeave(object sender, EventArgs e)
+        {
+            c4.BackColor = Color.White;
+        
+
+        }
+
+        private void e4_MouseLeave(object sender, EventArgs e)
+        {
+            e4.BackColor = Color.White;
+
+        }
+
+        private void c5_MouseLeave(object sender, EventArgs e)
+        {
+            c5.BackColor = Color.White;
+
+        }
+
+        private void e5_MouseLeave(object sender, EventArgs e)
+        {
+            e5.BackColor = Color.White;
+
+        }
+
+        private void c6_MouseLeave(object sender, EventArgs e)
+        {
+            c6.BackColor = Color.White;
+
+        }
+
+        private void e6_MouseLeave(object sender, EventArgs e)
+        {
+            e6.BackColor = Color.White;
+
+        }
+
+        private void c7_MouseLeave(object sender, EventArgs e)
+        {
+            c7.BackColor = Color.White;
+
+        }
+
+        private void e7_MouseLeave(object sender, EventArgs e)
+        {
+            e7.BackColor = Color.White;
+
+        }
+
+        private void c8_MouseLeave(object sender, EventArgs e)
+        {
+            c8.BackColor = Color.White;
+
+        }
+
+        private void e8_MouseLeave(object sender, EventArgs e)
+        {
+            e8.BackColor = Color.White;
+
+        }
+
+        private void c9_MouseLeave(object sender, EventArgs e)
+        {
+            c9.BackColor = Color.White;
+
+        }
+
+        private void e9_MouseLeave(object sender, EventArgs e)
+        {
+            e9.BackColor = Color.White;
+
+        }
+
+        private void c10_MouseLeave(object sender, EventArgs e)
+        {
+            c10.BackColor = Color.White;
+
+        }
+
+        private void e10_MouseLeave(object sender, EventArgs e)
+        {
+            e10.BackColor = Color.White;
+
+        }
+
+        private void c11_MouseLeave(object sender, EventArgs e)
+        {
+            c11.BackColor = Color.White;
+
+        }
+
+        private void e11_MouseLeave(object sender, EventArgs e)
+        {
+            e11.BackColor = Color.White;
+
+        }
+
+        private void c12_MouseLeave(object sender, EventArgs e)
+        {
+            c12.BackColor = Color.White;
+
+        }
+
+        private void e12_MouseLeave(object sender, EventArgs e)
+        {
+            e12.BackColor = Color.White;
+
+        }
+
+        private void c2_MouseEnter(object sender, EventArgs e)
+        {
+            c2.BackColor = Color.Red;
+
+        }
+
+        private void c3_MouseEnter(object sender, EventArgs e)
+        {
+            c3.BackColor = Color.Red;
+
+        }
+
+        private void c4_MouseEnter(object sender, EventArgs e)
+        {
+            c4.BackColor = Color.Red;
+
+        }
+
+        private void c5_MouseEnter(object sender, EventArgs e)
+        {
+            c5.BackColor = Color.Red;
+
+        }
+
+        private void c6_MouseEnter(object sender, EventArgs e)
+        {
+            c6.BackColor = Color.Red;
+
+        }
+
+        private void c7_MouseEnter(object sender, EventArgs e)
+        {
+            c7.BackColor = Color.Red;
+
+        }
+
+        private void c8_MouseEnter(object sender, EventArgs e)
+        {
+            c8.BackColor = Color.Red;
+
+        }
+
+        private void c9_MouseEnter(object sender, EventArgs e)
+        {
+            c9.BackColor = Color.Red;
+
+        }
+
+        private void c10_MouseEnter(object sender, EventArgs e)
+        {
+            c10.BackColor = Color.Red;
+        }
+
+        private void c11_MouseEnter(object sender, EventArgs e)
+        {
+            c11.BackColor = Color.Red;
+
+        }
+
+        private void c12_MouseEnter(object sender, EventArgs e)
+        {
+            c12.BackColor = Color.Red;
         }
 
         private void se2_Click(object sender, EventArgs e)
@@ -632,7 +1155,7 @@ namespace resturant
             x2++;
             n2.Text = x2.ToString();
             i2 = 99 * x2;
-            p2.Text = i2.ToString() + "TL";
+            label34.Text = i2.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
         }
@@ -642,7 +1165,7 @@ namespace resturant
             x2++;
             n2.Text = x2.ToString();
             i2 = 99 * x2;
-            p2.Text = i2.ToString() + "TL";
+            label34.Text = i2.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
         }
@@ -655,7 +1178,7 @@ namespace resturant
             }
             i2 = x2 * 55;
             n2.Text = x2.ToString();
-            p2.Text = i2.ToString() + "TL";
+            label34.Text = i2.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
         }
