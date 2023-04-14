@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace resturant
 {
@@ -72,13 +73,8 @@ namespace resturant
         // e (ekleme ) to add a meal to the cart
         private void e1_Click(object sender, EventArgs e)
         {
+
             
-            x1++;
-            n1.Text = x1.ToString();
-             i1 = 55 * x1;
-            p1.Text = i1.ToString()+"TL";
-            int z = top();
-            Toplam.Text = z.ToString() + "TL";
         }
         // c (cikart) to remove a meal from the cart
         private void c1_Click(object sender, EventArgs e)
@@ -588,13 +584,47 @@ namespace resturant
 
         private void close_MouseLeave(object sender, EventArgs e)
         {
-            close.BackColor = Color.DodgerBlue;
+            close.BackColor = Color.Black;
 
         }
 
         private void close_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void c1_Click_1(object sender, EventArgs e)
+        {
+
+            if (x1 >= 1)
+            {
+                x1--;
+            }
+            i1 = x1 * 55;
+            n1.Text = x1.ToString();
+            p1.Text = i1.ToString() + "TL";
+            int z = top();
+            Toplam.Text = z.ToString() + "TL";
+        }
+
+        private void c1_MouseEnter(object sender, EventArgs e)
+        {
+            c1.BackColor = Color.Red;
+        }
+
+        private void label22_MouseEnter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void c1_MouseLeave(object sender, EventArgs e)
+        {
+            c1.BackColor = Color.White;
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void se2_Click(object sender, EventArgs e)

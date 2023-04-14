@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace resturant
 {
@@ -18,8 +19,10 @@ namespace resturant
             InitializeComponent();
             this.ControlBox = false;
             this.FormBorderStyle = FormBorderStyle.None;
-            string path = "C:\\Users\\ir4ve\\OneDrive\\Desktop\\donem-projesi-Ahmad-Hanki-Resturant\\video\\Happy.mp4";
-            axWindowsMediaPlayer1.URL = path;
+            string path = @"..\..\..\video\Happy.mp4";
+            string fullpath = Path.GetFullPath(path);
+
+            axWindowsMediaPlayer1.URL = fullpath;
 
             axWindowsMediaPlayer1.settings.setMode("loop", false);
             axWindowsMediaPlayer1.settings.autoStart = true;
