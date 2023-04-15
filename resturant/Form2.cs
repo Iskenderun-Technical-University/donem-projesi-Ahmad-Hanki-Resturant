@@ -34,6 +34,10 @@ namespace resturant
         private void Form2_Load(object sender, EventArgs e)
         {
             this.ControlBox = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridView1.ScrollBars = ScrollBars.Vertical;
+            
 
             ordText[i] = order;
             pri[i] = price;
@@ -50,6 +54,7 @@ namespace resturant
                 int tot = pri[i];
                 AddItem(id, or, tot);
                 i++;
+
             }
         }
 
@@ -71,7 +76,7 @@ namespace resturant
 
         private void close_MouseLeave(object sender, EventArgs e)
         {
-            close.BackColor = Color.DodgerBlue;
+            close.BackColor = Color.Black;
         }
     }
 }

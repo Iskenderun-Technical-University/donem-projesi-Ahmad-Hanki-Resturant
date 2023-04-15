@@ -59,6 +59,7 @@ namespace resturant
             // close
             // 
             this.close.AutoSize = true;
+            this.close.ForeColor = System.Drawing.Color.White;
             this.close.Location = new System.Drawing.Point(1004, 9);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(17, 17);
@@ -111,6 +112,7 @@ namespace resturant
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -129,7 +131,6 @@ namespace resturant
             this.ID.MinimumWidth = 6;
             this.ID.Name = "ID";
             this.ID.ReadOnly = true;
-            this.ID.Width = 150;
             // 
             // Sipariş
             // 
@@ -145,7 +146,6 @@ namespace resturant
             this.Fiyat.MinimumWidth = 6;
             this.Fiyat.Name = "Fiyat";
             this.Fiyat.ReadOnly = true;
-            this.Fiyat.Width = 150;
             // 
             // Home
             // 

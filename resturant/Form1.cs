@@ -28,9 +28,8 @@ namespace resturant
             panelSanvic.Visible = false;
             panelIceck.Visible = false;
 
-            // hide the panels in the cart 
-            pc1.Visible = false;
-            pc1.Visible = false;
+       
+      
         }
         int load = 9;
         private void Form1_Load(object sender, EventArgs e)
@@ -52,7 +51,21 @@ namespace resturant
             panelMezeler.Visible = false;
             panelSanvic.Visible = false;
             panelIceck.Visible = false;
-            
+
+            pc1.Visible = false;
+            pc2.Visible = false;
+            pc3.Visible = false;
+            pc4.Visible = false;
+            pc5.Visible = false;
+            pc6.Visible = false;
+            pc7.Visible = false;
+            pc8.Visible = false;
+            pc9.Visible = false;
+            pc10.Visible = false;
+            pc11.Visible = false;
+            pc12.Visible = false;
+
+            warn.Text = "Bir şeyi eklenmemişsiniz!\nEklanmek için Menu sayfasına geri dön!";
         }
 
         private void menuu_Click(object sender, EventArgs e)
@@ -105,6 +118,7 @@ namespace resturant
             p1.Text = i1.ToString()+"TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc1.Visible = true;
         }
         
         // to save the order's name in a string and the id of it
@@ -310,6 +324,7 @@ namespace resturant
             p6.Text = i6.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc6.Visible = true;
         }
 
         private void se7_Click(object sender, EventArgs e)
@@ -320,6 +335,7 @@ namespace resturant
             p7.Text = i7.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc7.Visible = true;
         }
 
         private void se8_Click(object sender, EventArgs e)
@@ -330,6 +346,7 @@ namespace resturant
             p8.Text = i8.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc8.Visible = true;
         }
 
         private void se9_Click(object sender, EventArgs e)
@@ -340,6 +357,7 @@ namespace resturant
             p9.Text = i9.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc9.Visible = true;
         }
 
         private void Sandwitch_Click(object sender, EventArgs e)
@@ -374,6 +392,8 @@ namespace resturant
             p10.Text = i10.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc10.Visible = true;
+            
         }
 
         private void se11_Click(object sender, EventArgs e)
@@ -384,6 +404,7 @@ namespace resturant
             p11.Text = i11.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc11.Visible = true;
         }
 
         private void se12_Click(object sender, EventArgs e)
@@ -394,6 +415,7 @@ namespace resturant
             p12.Text = i12.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc12.Visible = true;
         }
 
         private void e8_Click(object sender, EventArgs e)
@@ -605,6 +627,10 @@ namespace resturant
             if (x1 >= 1)
             {
                 x1--;
+                if (x1==0)
+                {
+                    pc1.Visible = false;
+                }
             }
             
             i1 = x1 * 55;
@@ -612,6 +638,7 @@ namespace resturant
             p1.Text = i1.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            
         }
 
         private void c1_MouseEnter(object sender, EventArgs e)
@@ -649,10 +676,15 @@ namespace resturant
             if (x2 >= 1)
             {
                 x2--;
+                if (x2 == 0)
+                {
+                    pc2.Visible = false;
+                }
             }
-            i2 = x2 * 55;
+
+            i2 = x2 * 99;
             n2.Text = x2.ToString();
-            label34.Text = i2.ToString() + "TL";
+            p2.Text = i2.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
         }
@@ -661,8 +693,8 @@ namespace resturant
         {
             x2++;
             n2.Text = x2.ToString();
-            i2 = 99 * x2;
-            label34.Text = i2.ToString() + "TL";
+            i2 = 55 * x2;
+            p2.Text = i2.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
         }
@@ -682,6 +714,10 @@ namespace resturant
             if (x3 >= 1)
             {
                 x3--;
+                if (x3 == 0)
+                {
+                    pc3.Visible = false;
+                }
             }
             i3 = x3 * 55;
             n3.Text = x3.ToString();
@@ -705,6 +741,10 @@ namespace resturant
             if (x4 >= 1)
             {
                 x4--;
+                if (x4 == 0)
+                {
+                    pc4.Visible = false;
+                }
             }
             i4 = x4 * 30;
             n4.Text = x4.ToString();
@@ -728,6 +768,10 @@ namespace resturant
             if (x5 >= 1)
             {
                 x5--;
+                if (x5 == 0)
+                {
+                    pc5.Visible = false;
+                }
             }
             i5 = x5 * 59;
             n5.Text = x5.ToString();
@@ -751,6 +795,10 @@ namespace resturant
             if (x6 >= 1)
             {
                 x6--;
+                if (x6 == 0)
+                {
+                    pc6.Visible = false;
+                }
             }
             i6 = x6 * 25;
             n6.Text = x6.ToString();
@@ -774,6 +822,10 @@ namespace resturant
             if (x7 >= 1)
             {
                 x7--;
+                if (x7 == 0)
+                {
+                    pc7.Visible = false;
+                }
             }
             i7 = x7 * 25;
             n7.Text = x7.ToString();
@@ -797,6 +849,10 @@ namespace resturant
             if (x8 >= 1)
             {
                 x8--;
+                if (x8 == 0)
+                {
+                    pc8.Visible = false;
+                }
             }
             i8 = x8 * 20;
             n8.Text = x8.ToString();
@@ -820,6 +876,10 @@ namespace resturant
             if (x9 >= 1)
             {
                 x9--;
+                if (x9 == 0)
+                {
+                    pc9.Visible = false;
+                }
             }
             i9 = x9 * 15;
             n9.Text = x9.ToString();
@@ -843,6 +903,10 @@ namespace resturant
             if (x10 >= 1)
             {
                 x10--;
+                if (x10 == 0)
+                {
+                    pc10.Visible = false;
+                }
             }
             i10 = x10 * 3;
             n10.Text = x10.ToString();
@@ -866,6 +930,10 @@ namespace resturant
             if (x11 >= 1)
             {
                 x11--;
+                if (x11 == 0)
+                {
+                    pc11.Visible = false;
+                }
             }
             i11 = x11 * 13;
             n11.Text = x11.ToString();
@@ -889,6 +957,10 @@ namespace resturant
             if (x12 >= 1)
             {
                 x12--;
+                if (x12 == 0)
+                {
+                    pc12.Visible = false;
+                }
             }
             i12 = x12 * 5;
             n12.Text = x12.ToString();
@@ -1159,9 +1231,10 @@ namespace resturant
             x2++;
             n2.Text = x2.ToString();
             i2 = 99 * x2;
-            label34.Text = i2.ToString() + "TL";
+            p2.Text = i2.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc2.Visible = true;
         }
 
         private void e2_Click(object sender, EventArgs e)
@@ -1196,6 +1269,7 @@ namespace resturant
             p3.Text = i3.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc3.Visible = true;
         }
 
         private void e3_Click(object sender, EventArgs e)
@@ -1229,6 +1303,7 @@ namespace resturant
             p5.Text = i5.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc5.Visible = true;
         }
         int x4;
         int i4;
@@ -1240,6 +1315,7 @@ namespace resturant
             p4.Text = i4.ToString() + "TL";
             int z = top();
             Toplam.Text = z.ToString() + "TL";
+            pc4.Visible = true;
         }
 
         private void bunifuButton7_Click(object sender, EventArgs e)
@@ -1258,10 +1334,12 @@ namespace resturant
             {
                 Warning.Text = "Eklenmiş";
                 Warning.ForeColor = Color.Red;
+                warn.Text = "";
             }
             if (TOTAL==0)
             {
                 Warning.Text = "";
+                warn.Text = "Bir şeyi eklanmemişsiniz!\n Eklenmek için Menu sayfasına geri dön.";
             }
             return TOTAL;
         }

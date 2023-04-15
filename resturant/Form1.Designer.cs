@@ -30,23 +30,23 @@ namespace resturant
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges52 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges53 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges54 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges59 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges60 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges61 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges62 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges63 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges64 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges65 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges66 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges67 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges55 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges56 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges57 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges58 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges68 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges239 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges240 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges241 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges242 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges243 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges244 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges249 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges250 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges251 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges252 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges253 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges254 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges245 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges246 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges247 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges248 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges255 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.close = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -200,6 +200,7 @@ namespace resturant
             this.cart = new System.Windows.Forms.Button();
             this.Home = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.warn = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelHome.SuspendLayout();
             this.panelIceck.SuspendLayout();
@@ -287,7 +288,7 @@ namespace resturant
             this.panelHome.Controls.Add(this.menuu);
             this.panelHome.Location = new System.Drawing.Point(136, 156);
             this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(828, 569);
+            this.panelHome.Size = new System.Drawing.Size(828, 560);
             this.panelHome.TabIndex = 6;
             // 
             // panelIceck
@@ -308,7 +309,7 @@ namespace resturant
             this.panelIceck.Controls.Add(this.pictureBox12);
             this.panelIceck.Location = new System.Drawing.Point(1, 102);
             this.panelIceck.Name = "panelIceck";
-            this.panelIceck.Size = new System.Drawing.Size(792, 458);
+            this.panelIceck.Size = new System.Drawing.Size(792, 464);
             this.panelIceck.TabIndex = 16;
             // 
             // se12
@@ -330,11 +331,11 @@ namespace resturant
             this.se12.ColorContrastOnClick = 45;
             this.se12.ColorContrastOnHover = 45;
             this.se12.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges52.BottomLeft = true;
-            borderEdges52.BottomRight = true;
-            borderEdges52.TopLeft = true;
-            borderEdges52.TopRight = true;
-            this.se12.CustomizableEdges = borderEdges52;
+            borderEdges239.BottomLeft = true;
+            borderEdges239.BottomRight = true;
+            borderEdges239.TopLeft = true;
+            borderEdges239.TopRight = true;
+            this.se12.CustomizableEdges = borderEdges239;
             this.se12.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se12.DisabledBorderColor = System.Drawing.Color.Black;
             this.se12.DisabledFillColor = System.Drawing.Color.Black;
@@ -420,11 +421,11 @@ namespace resturant
             this.se11.ColorContrastOnClick = 45;
             this.se11.ColorContrastOnHover = 45;
             this.se11.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges53.BottomLeft = true;
-            borderEdges53.BottomRight = true;
-            borderEdges53.TopLeft = true;
-            borderEdges53.TopRight = true;
-            this.se11.CustomizableEdges = borderEdges53;
+            borderEdges240.BottomLeft = true;
+            borderEdges240.BottomRight = true;
+            borderEdges240.TopLeft = true;
+            borderEdges240.TopRight = true;
+            this.se11.CustomizableEdges = borderEdges240;
             this.se11.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se11.DisabledBorderColor = System.Drawing.Color.Black;
             this.se11.DisabledFillColor = System.Drawing.Color.Black;
@@ -510,11 +511,11 @@ namespace resturant
             this.se10.ColorContrastOnClick = 45;
             this.se10.ColorContrastOnHover = 45;
             this.se10.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges54.BottomLeft = true;
-            borderEdges54.BottomRight = true;
-            borderEdges54.TopLeft = true;
-            borderEdges54.TopRight = true;
-            this.se10.CustomizableEdges = borderEdges54;
+            borderEdges241.BottomLeft = true;
+            borderEdges241.BottomRight = true;
+            borderEdges241.TopLeft = true;
+            borderEdges241.TopRight = true;
+            this.se10.CustomizableEdges = borderEdges241;
             this.se10.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se10.DisabledBorderColor = System.Drawing.Color.Black;
             this.se10.DisabledFillColor = System.Drawing.Color.Black;
@@ -709,7 +710,7 @@ namespace resturant
             this.panelMezeler.Controls.Add(this.pictureBox9);
             this.panelMezeler.Location = new System.Drawing.Point(3, 99);
             this.panelMezeler.Name = "panelMezeler";
-            this.panelMezeler.Size = new System.Drawing.Size(789, 458);
+            this.panelMezeler.Size = new System.Drawing.Size(789, 470);
             this.panelMezeler.TabIndex = 15;
             // 
             // se9
@@ -731,11 +732,11 @@ namespace resturant
             this.se9.ColorContrastOnClick = 45;
             this.se9.ColorContrastOnHover = 45;
             this.se9.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges59.BottomLeft = true;
-            borderEdges59.BottomRight = true;
-            borderEdges59.TopLeft = true;
-            borderEdges59.TopRight = true;
-            this.se9.CustomizableEdges = borderEdges59;
+            borderEdges242.BottomLeft = true;
+            borderEdges242.BottomRight = true;
+            borderEdges242.TopLeft = true;
+            borderEdges242.TopRight = true;
+            this.se9.CustomizableEdges = borderEdges242;
             this.se9.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se9.DisabledBorderColor = System.Drawing.Color.Black;
             this.se9.DisabledFillColor = System.Drawing.Color.Black;
@@ -821,11 +822,11 @@ namespace resturant
             this.se8.ColorContrastOnClick = 45;
             this.se8.ColorContrastOnHover = 45;
             this.se8.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges60.BottomLeft = true;
-            borderEdges60.BottomRight = true;
-            borderEdges60.TopLeft = true;
-            borderEdges60.TopRight = true;
-            this.se8.CustomizableEdges = borderEdges60;
+            borderEdges243.BottomLeft = true;
+            borderEdges243.BottomRight = true;
+            borderEdges243.TopLeft = true;
+            borderEdges243.TopRight = true;
+            this.se8.CustomizableEdges = borderEdges243;
             this.se8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se8.DisabledBorderColor = System.Drawing.Color.Black;
             this.se8.DisabledFillColor = System.Drawing.Color.Black;
@@ -911,11 +912,11 @@ namespace resturant
             this.se7.ColorContrastOnClick = 45;
             this.se7.ColorContrastOnHover = 45;
             this.se7.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges61.BottomLeft = true;
-            borderEdges61.BottomRight = true;
-            borderEdges61.TopLeft = true;
-            borderEdges61.TopRight = true;
-            this.se7.CustomizableEdges = borderEdges61;
+            borderEdges244.BottomLeft = true;
+            borderEdges244.BottomRight = true;
+            borderEdges244.TopLeft = true;
+            borderEdges244.TopRight = true;
+            this.se7.CustomizableEdges = borderEdges244;
             this.se7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se7.DisabledBorderColor = System.Drawing.Color.Black;
             this.se7.DisabledFillColor = System.Drawing.Color.Black;
@@ -1143,7 +1144,7 @@ namespace resturant
             this.panelSanvic.Controls.Add(this.pictureBox6);
             this.panelSanvic.Location = new System.Drawing.Point(3, 6);
             this.panelSanvic.Name = "panelSanvic";
-            this.panelSanvic.Size = new System.Drawing.Size(790, 452);
+            this.panelSanvic.Size = new System.Drawing.Size(790, 464);
             this.panelSanvic.TabIndex = 6;
             // 
             // se6
@@ -1165,11 +1166,11 @@ namespace resturant
             this.se6.ColorContrastOnClick = 45;
             this.se6.ColorContrastOnHover = 45;
             this.se6.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges62.BottomLeft = true;
-            borderEdges62.BottomRight = true;
-            borderEdges62.TopLeft = true;
-            borderEdges62.TopRight = true;
-            this.se6.CustomizableEdges = borderEdges62;
+            borderEdges249.BottomLeft = true;
+            borderEdges249.BottomRight = true;
+            borderEdges249.TopLeft = true;
+            borderEdges249.TopRight = true;
+            this.se6.CustomizableEdges = borderEdges249;
             this.se6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se6.DisabledBorderColor = System.Drawing.Color.Black;
             this.se6.DisabledFillColor = System.Drawing.Color.Black;
@@ -1255,11 +1256,11 @@ namespace resturant
             this.se5.ColorContrastOnClick = 45;
             this.se5.ColorContrastOnHover = 45;
             this.se5.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges63.BottomLeft = true;
-            borderEdges63.BottomRight = true;
-            borderEdges63.TopLeft = true;
-            borderEdges63.TopRight = true;
-            this.se5.CustomizableEdges = borderEdges63;
+            borderEdges250.BottomLeft = true;
+            borderEdges250.BottomRight = true;
+            borderEdges250.TopLeft = true;
+            borderEdges250.TopRight = true;
+            this.se5.CustomizableEdges = borderEdges250;
             this.se5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se5.DisabledBorderColor = System.Drawing.Color.Black;
             this.se5.DisabledFillColor = System.Drawing.Color.Black;
@@ -1345,11 +1346,11 @@ namespace resturant
             this.se4.ColorContrastOnClick = 45;
             this.se4.ColorContrastOnHover = 45;
             this.se4.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges64.BottomLeft = true;
-            borderEdges64.BottomRight = true;
-            borderEdges64.TopLeft = true;
-            borderEdges64.TopRight = true;
-            this.se4.CustomizableEdges = borderEdges64;
+            borderEdges251.BottomLeft = true;
+            borderEdges251.BottomRight = true;
+            borderEdges251.TopLeft = true;
+            borderEdges251.TopRight = true;
+            this.se4.CustomizableEdges = borderEdges251;
             this.se4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se4.DisabledBorderColor = System.Drawing.Color.Black;
             this.se4.DisabledFillColor = System.Drawing.Color.Black;
@@ -1555,11 +1556,11 @@ namespace resturant
             this.se3.ColorContrastOnClick = 45;
             this.se3.ColorContrastOnHover = 45;
             this.se3.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges65.BottomLeft = true;
-            borderEdges65.BottomRight = true;
-            borderEdges65.TopLeft = true;
-            borderEdges65.TopRight = true;
-            this.se3.CustomizableEdges = borderEdges65;
+            borderEdges252.BottomLeft = true;
+            borderEdges252.BottomRight = true;
+            borderEdges252.TopLeft = true;
+            borderEdges252.TopRight = true;
+            this.se3.CustomizableEdges = borderEdges252;
             this.se3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se3.DisabledBorderColor = System.Drawing.Color.Black;
             this.se3.DisabledFillColor = System.Drawing.Color.White;
@@ -1645,11 +1646,11 @@ namespace resturant
             this.se2.ColorContrastOnClick = 45;
             this.se2.ColorContrastOnHover = 45;
             this.se2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges66.BottomLeft = true;
-            borderEdges66.BottomRight = true;
-            borderEdges66.TopLeft = true;
-            borderEdges66.TopRight = true;
-            this.se2.CustomizableEdges = borderEdges66;
+            borderEdges253.BottomLeft = true;
+            borderEdges253.BottomRight = true;
+            borderEdges253.TopLeft = true;
+            borderEdges253.TopRight = true;
+            this.se2.CustomizableEdges = borderEdges253;
             this.se2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se2.DisabledBorderColor = System.Drawing.Color.Black;
             this.se2.DisabledFillColor = System.Drawing.Color.Black;
@@ -1735,11 +1736,11 @@ namespace resturant
             this.se1.ColorContrastOnClick = 45;
             this.se1.ColorContrastOnHover = 45;
             this.se1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges67.BottomLeft = true;
-            borderEdges67.BottomRight = true;
-            borderEdges67.TopLeft = true;
-            borderEdges67.TopRight = true;
-            this.se1.CustomizableEdges = borderEdges67;
+            borderEdges254.BottomLeft = true;
+            borderEdges254.BottomRight = true;
+            borderEdges254.TopLeft = true;
+            borderEdges254.TopRight = true;
+            this.se1.CustomizableEdges = borderEdges254;
             this.se1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.se1.DisabledBorderColor = System.Drawing.Color.Black;
             this.se1.DisabledFillColor = System.Drawing.Color.Black;
@@ -1945,11 +1946,11 @@ namespace resturant
             this.Drinks.ColorContrastOnClick = 45;
             this.Drinks.ColorContrastOnHover = 45;
             this.Drinks.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges55.BottomLeft = true;
-            borderEdges55.BottomRight = true;
-            borderEdges55.TopLeft = true;
-            borderEdges55.TopRight = true;
-            this.Drinks.CustomizableEdges = borderEdges55;
+            borderEdges245.BottomLeft = true;
+            borderEdges245.BottomRight = true;
+            borderEdges245.TopLeft = true;
+            borderEdges245.TopRight = true;
+            this.Drinks.CustomizableEdges = borderEdges245;
             this.Drinks.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Drinks.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Drinks.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2035,11 +2036,11 @@ namespace resturant
             this.Sandwitch.ColorContrastOnClick = 45;
             this.Sandwitch.ColorContrastOnHover = 45;
             this.Sandwitch.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges56.BottomLeft = true;
-            borderEdges56.BottomRight = true;
-            borderEdges56.TopLeft = true;
-            borderEdges56.TopRight = true;
-            this.Sandwitch.CustomizableEdges = borderEdges56;
+            borderEdges246.BottomLeft = true;
+            borderEdges246.BottomRight = true;
+            borderEdges246.TopLeft = true;
+            borderEdges246.TopRight = true;
+            this.Sandwitch.CustomizableEdges = borderEdges246;
             this.Sandwitch.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Sandwitch.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Sandwitch.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2125,11 +2126,11 @@ namespace resturant
             this.Side.ColorContrastOnClick = 45;
             this.Side.ColorContrastOnHover = 45;
             this.Side.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges57.BottomLeft = true;
-            borderEdges57.BottomRight = true;
-            borderEdges57.TopLeft = true;
-            borderEdges57.TopRight = true;
-            this.Side.CustomizableEdges = borderEdges57;
+            borderEdges247.BottomLeft = true;
+            borderEdges247.BottomRight = true;
+            borderEdges247.TopLeft = true;
+            borderEdges247.TopRight = true;
+            this.Side.CustomizableEdges = borderEdges247;
             this.Side.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Side.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Side.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2215,11 +2216,11 @@ namespace resturant
             this.menuu.ColorContrastOnClick = 45;
             this.menuu.ColorContrastOnHover = 45;
             this.menuu.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges58.BottomLeft = true;
-            borderEdges58.BottomRight = true;
-            borderEdges58.TopLeft = true;
-            borderEdges58.TopRight = true;
-            this.menuu.CustomizableEdges = borderEdges58;
+            borderEdges248.BottomLeft = true;
+            borderEdges248.BottomRight = true;
+            borderEdges248.TopLeft = true;
+            borderEdges248.TopRight = true;
+            this.menuu.CustomizableEdges = borderEdges248;
             this.menuu.DialogResult = System.Windows.Forms.DialogResult.None;
             this.menuu.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.menuu.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2288,6 +2289,7 @@ namespace resturant
             // 
             // panelSepete
             // 
+            this.panelSepete.Controls.Add(this.warn);
             this.panelSepete.Controls.Add(this.pc12);
             this.panelSepete.Controls.Add(this.pc11);
             this.panelSepete.Controls.Add(this.pc10);
@@ -3119,11 +3121,11 @@ namespace resturant
             this.conf.ColorContrastOnClick = 45;
             this.conf.ColorContrastOnHover = 45;
             this.conf.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges68.BottomLeft = true;
-            borderEdges68.BottomRight = true;
-            borderEdges68.TopLeft = true;
-            borderEdges68.TopRight = true;
-            this.conf.CustomizableEdges = borderEdges68;
+            borderEdges255.BottomLeft = true;
+            borderEdges255.BottomRight = true;
+            borderEdges255.TopLeft = true;
+            borderEdges255.TopRight = true;
+            this.conf.CustomizableEdges = borderEdges255;
             this.conf.DialogResult = System.Windows.Forms.DialogResult.None;
             this.conf.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.conf.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -3263,6 +3265,14 @@ namespace resturant
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(907, 24);
             this.panel3.TabIndex = 9;
+            // 
+            // warn
+            // 
+            this.warn.AutoSize = true;
+            this.warn.Location = new System.Drawing.Point(335, 31);
+            this.warn.Name = "warn";
+            this.warn.Size = new System.Drawing.Size(0, 17);
+            this.warn.TabIndex = 10;
             // 
             // main
             // 
@@ -3493,6 +3503,7 @@ namespace resturant
         private System.Windows.Forms.Label p12;
         private System.Windows.Forms.Label n12;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label warn;
     }
 }
 
