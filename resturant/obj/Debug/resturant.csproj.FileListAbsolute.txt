@@ -74,3 +74,5 @@ C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\ob
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\obj\Debug\resturant.csproj.CopyComplete
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\obj\Debug\resturant.exe
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\obj\Debug\resturant.pdb
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\bin\Debug\Database1.mdf
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\bin\Debug\Database1_log.ldf

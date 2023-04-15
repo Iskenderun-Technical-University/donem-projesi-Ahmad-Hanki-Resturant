@@ -37,10 +37,12 @@ namespace resturant
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Home = new System.Windows.Forms.Button();
+            this.idd = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sipariş = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Home = new System.Windows.Forms.Button();
+            this.Adı = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -115,37 +117,17 @@ namespace resturant
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
+            this.idd,
             this.Sipariş,
-            this.Fiyat});
+            this.Fiyat,
+            this.Adı,
+            this.Telefon});
             this.dataGridView1.Location = new System.Drawing.Point(12, 370);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1008, 277);
             this.dataGridView1.TabIndex = 9;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "Sipariş No.";
-            this.ID.MinimumWidth = 6;
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // Sipariş
-            // 
-            this.Sipariş.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Sipariş.HeaderText = "Sipariş";
-            this.Sipariş.MinimumWidth = 6;
-            this.Sipariş.Name = "Sipariş";
-            this.Sipariş.ReadOnly = true;
-            // 
-            // Fiyat
-            // 
-            this.Fiyat.HeaderText = "Fiyat TL";
-            this.Fiyat.MinimumWidth = 6;
-            this.Fiyat.Name = "Fiyat";
-            this.Fiyat.ReadOnly = true;
             // 
             // Home
             // 
@@ -158,6 +140,41 @@ namespace resturant
             this.Home.TabIndex = 3;
             this.Home.UseVisualStyleBackColor = true;
             this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
+            // idd
+            // 
+            this.idd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.idd.HeaderText = "ID";
+            this.idd.MinimumWidth = 6;
+            this.idd.Name = "idd";
+            this.idd.ReadOnly = true;
+            this.idd.Width = 191;
+            // 
+            // Sipariş
+            // 
+            this.Sipariş.HeaderText = "Sipariş";
+            this.Sipariş.MinimumWidth = 6;
+            this.Sipariş.Name = "Sipariş";
+            this.Sipariş.ReadOnly = true;
+            // 
+            // Fiyat
+            // 
+            this.Fiyat.HeaderText = "Fiyat";
+            this.Fiyat.MinimumWidth = 6;
+            this.Fiyat.Name = "Fiyat";
+            // 
+            // Adı
+            // 
+            this.Adı.HeaderText = "Adı Soyadı";
+            this.Adı.MinimumWidth = 6;
+            this.Adı.Name = "Adı";
+            // 
+            // Telefon
+            // 
+            this.Telefon.HeaderText = "Telefon No";
+            this.Telefon.MinimumWidth = 6;
+            this.Telefon.Name = "Telefon";
+            this.Telefon.ReadOnly = true;
             // 
             // Cart
             // 
@@ -192,9 +209,11 @@ namespace resturant
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.Label close;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idd;
         private System.Windows.Forms.DataGridViewTextBoxColumn Sipariş;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fiyat;
-        private System.Windows.Forms.Label close;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Adı;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Telefon;
     }
 }

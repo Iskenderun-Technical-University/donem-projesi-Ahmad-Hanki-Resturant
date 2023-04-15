@@ -19,6 +19,8 @@ namespace resturant
         public string order { get; set; }
         public int price { get; set; }
         public int ide { get; set; }
+        public string FullNAME { get; set; }
+        public int phoNUM { get; set; }
 
         private void Home_Click(object sender, EventArgs e)
         {
@@ -28,6 +30,8 @@ namespace resturant
         string[] ordText = new string[500];
         int[] pri = new int[500];
         int id;
+        int tele;
+        string FName;
 
         static public int i;
 
@@ -35,13 +39,17 @@ namespace resturant
         {
             this.ControlBox = false;
             this.FormBorderStyle = FormBorderStyle.None;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dataGridView1.ScrollBars = ScrollBars.Vertical;
-            
+            foreach (DataGridViewColumn col in dataGridView1.Columns)
+            {
+                col.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            }
+            dataGridView1.ScrollBars = ScrollBars.Horizontal;
 
             ordText[i] = order;
             pri[i] = price;
             id = ide;
+            tele = phoNUM;
+            FName = FullNAME;
 
             if (i==id)
             { 
@@ -52,15 +60,17 @@ namespace resturant
 
                 string or = ordText[i];
                 int tot = pri[i];
-                AddItem(id, or, tot);
+                string FLN = FName;
+                int tel = tele;
+                AddItem(id, or, tot, FLN, tel);
                 i++;
 
             }
         }
 
-        public void AddItem (int i, string ordText, int pri )
+        public void AddItem (int i, string ordText, int pri, string name , int numberphone )
         {
-            dataGridView1.Rows.Add(i, ordText, pri);     
+            dataGridView1.Rows.Add(i, ordText, pri, name, numberphone);     
         }
 
         private void close_MouseEnter(object sender, EventArgs e)

@@ -52,6 +52,16 @@ namespace resturant
             panelSanvic.Visible = false;
             panelIceck.Visible = false;
 
+           
+            costumerPanel.Visible = false;
+
+            vis();
+
+            warn.Text = "Bir şeyi eklenmemişsiniz!\nEklanmek için Menu sayfasına geri dön!";
+        }
+
+         void vis ()
+        {
             pc1.Visible = false;
             pc2.Visible = false;
             pc3.Visible = false;
@@ -64,10 +74,7 @@ namespace resturant
             pc10.Visible = false;
             pc11.Visible = false;
             pc12.Visible = false;
-
-            warn.Text = "Bir şeyi eklenmemişsiniz!\nEklanmek için Menu sayfasına geri dön!";
         }
-
         private void menuu_Click(object sender, EventArgs e)
         {
             panelMenu.Visible = true;
@@ -129,70 +136,9 @@ namespace resturant
         // top function to count the total 
         private void bunifuButton24_Click(object sender, EventArgs e)
         {
-            ord ="";
+            
             int z = top();
-            // pasing the order to form 2
-            if (x1!=0)
-            {
-                
-               int adet = i1 / 55;
-                ord =l1.Text + " x"+adet.ToString() + ", ";
-            }
-            if (x2 != 0)
-            {
-                int adet = i2 / 99;
-                ord = ord + l2.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x3 != 0)
-            {
-                int adet = i3 / 45;
-                ord = ord + l3.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x4 != 0)
-            {
-                int adet = i4 / 30;
-                ord = ord + l4.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x5 != 0)
-            {
-                int adet = i5 / 59;
-                ord = ord + l5.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x6 != 0)
-            {
-                int adet = i6 / 29;
-                ord = ord+ l6.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x7 != 0)
-            {
-                int adet = i7 / 25;
-                ord = ord+ l7.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x8 != 0)
-            {
-                int adet = i8 / 20;
-                ord = ord+ l8.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x9 != 0)
-            {
-                int adet = i9 / 15;
-                ord = ord+ l9.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x10 != 0)
-            {
-                int adet = i10 / 3;
-                ord = ord+ l10.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x11 != 0)
-            {
-                int adet = i11 / 13;
-                ord = ord + l11.Text + " x" + adet.ToString() + ", ";
-            }
-            if (x12 != 0)
-            {
-                int adet = i12 / 5;
-                ord = ord+ l12.Text + " x" + adet.ToString() + ", ";
-            }
+            
 
             if (z==0)
             {
@@ -201,89 +147,11 @@ namespace resturant
             }
             else
             {
-                DialogResult result = MessageBox.Show("Onyalamak ister misiniz?", "Onaylamak", MessageBoxButtons.OKCancel);
-                if (result == DialogResult.OK)
-                {
-                    MessageBox.Show("Siparişiniz hazırlanıyor^^, sipariş listindeki görebilirsiniz!", "yaaay", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    form2.order = ord;
-                    form2.price = z;
-                    form2.ide = id;
-
-                    x1 = 0;
-                    n1.Text = x1.ToString();
-                    i1 = 0;
-                    p1.Text = i1.ToString();
-
-                    x2 = 0;
-                    n2.Text = x2.ToString();
-                    i2 = 0;
-                    label34.Text = i2.ToString();
-
-                    x3 = 0;
-                    n3.Text = x3.ToString();
-                    i3 = 0;
-                    p3.Text = i3.ToString();
-
-                    x4 = 0;
-                    n4.Text = x4.ToString();
-                    i4 = 0;
-                    p4.Text = i4.ToString();
-
-                    x5 = 0;
-                    n5.Text = x5.ToString();
-                    i5 = 0;
-                    p5.Text = i5.ToString();
-
-                    x6 = 0;
-                    n6.Text = x6.ToString();
-                    i6 = 0;
-                    p6.Text = i6.ToString();
-
-                    x7 = 0;
-                    n7.Text = x7.ToString();
-                    i7 = 0;
-                    p7.Text = i7.ToString();
-
-                    x8 = 0;
-                    n8.Text = x8.ToString();
-                    i8 = 0;
-                    p8.Text = i8.ToString();
-
-                    x9 = 0;
-                    n9.Text = x9.ToString();
-                    i9 = 0;
-                    p9.Text = i9.ToString();
-
-                    x10 = 0;
-                    n10.Text = x10.ToString();
-                    i10 = 0;
-                    p10.Text = i10.ToString();
-
-                    x11 = 0;
-                    n11.Text = x11.ToString();
-                    i11 = 0;
-                    p11.Text = i11.ToString();
-
-                    x12 = 0;
-                    n12.Text = x12.ToString();
-                    i12 = 0;
-                    p12.Text = i12.ToString();
-
-                    Toplam.Text = "";
-                    top();
-                    id++;
-                    form2.ShowDialog();
-
-
-                }
-                else
-                {
-                    return;
-                }
+                costumerPanel.Visible = true;
             }
             
-
         }
+
         int x2;
         int i2;
         private void bunifuButton11_Click(object sender, EventArgs e)
@@ -1224,6 +1092,210 @@ namespace resturant
         private void c12_MouseEnter(object sender, EventArgs e)
         {
             c12.BackColor = Color.Red;
+        }
+
+        private void PhoneTxtBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+                
+            }
+            
+        }
+
+        private void SNameTxtBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && e.KeyChar!='\b')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void infosConf_Click(object sender, EventArgs e)
+        {
+            int z = top();
+            string namee = NameTxtBox.Text;
+            string secondname = SNameTxtBox.Text;
+            string number = PhoneTxtBox.Text;
+
+            bool isLonly = namee.All(char.IsLetter);
+            bool isLonly1 =secondname.All(char.IsLetter);
+            if (!isLonly || !isLonly1)
+            {
+                MessageBox.Show("Input must contain letters only", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (!IsNumeric(number))
+            {
+                MessageBox.Show("Input must contain numbers only", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            ord = "";
+
+            // pasing the order to form 2
+            if (x1 != 0)
+            {
+                int adet = i1 / 55;
+                ord = l1.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x2 != 0)
+            {
+                int adet = i2 / 99;
+                ord = ord + l2.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x3 != 0)
+            {
+                int adet = i3 / 45;
+                ord = ord + l3.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x4 != 0)
+            {
+                int adet = i4 / 30;
+                ord = ord + l4.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x5 != 0)
+            {
+                int adet = i5 / 59;
+                ord = ord + l5.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x6 != 0)
+            {
+                int adet = i6 / 29;
+                ord = ord + l6.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x7 != 0)
+            {
+                int adet = i7 / 25;
+                ord = ord + l7.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x8 != 0)
+            {
+                int adet = i8 / 20;
+                ord = ord + l8.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x9 != 0)
+            {
+                int adet = i9 / 15;
+                ord = ord + l9.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x10 != 0)
+            {
+                int adet = i10 / 3;
+                ord = ord + l10.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x11 != 0)
+            {
+                int adet = i11 / 13;
+                ord = ord + l11.Text + " x" + adet.ToString() + ", ";
+            }
+            if (x12 != 0)
+            {
+                int adet = i12 / 5;
+                ord = ord + l12.Text + " x" + adet.ToString() + ", ";
+            }
+
+            DialogResult result = MessageBox.Show("Onyalamak ister misiniz?", "Onaylamak", MessageBoxButtons.OKCancel);
+            if (result == DialogResult.OK)
+            {
+                MessageBox.Show("Siparişiniz hazırlanıyor^^, sipariş listindeki görebilirsiniz!", "yaaay", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                form2.order = ord;
+                form2.price = z;
+                form2.ide = id;
+                form2.phoNUM = Convert.ToInt32(number);
+                form2.FullNAME = namee +" "+secondname;
+
+
+                x1 = 0;
+                n1.Text = x1.ToString();
+                i1 = 0;
+                p1.Text = i1.ToString();
+
+                x2 = 0;
+                n2.Text = x2.ToString();
+                i2 = 0;
+                label34.Text = i2.ToString();
+
+                x3 = 0;
+                n3.Text = x3.ToString();
+                i3 = 0;
+                p3.Text = i3.ToString();
+
+                x4 = 0;
+                n4.Text = x4.ToString();
+                i4 = 0;
+                p4.Text = i4.ToString();
+
+                x5 = 0;
+                n5.Text = x5.ToString();
+                i5 = 0;
+                p5.Text = i5.ToString();
+
+                x6 = 0;
+                n6.Text = x6.ToString();
+                i6 = 0;
+                p6.Text = i6.ToString();
+
+                x7 = 0;
+                n7.Text = x7.ToString();
+                i7 = 0;
+                p7.Text = i7.ToString();
+
+                x8 = 0;
+                n8.Text = x8.ToString();
+                i8 = 0;
+                p8.Text = i8.ToString();
+
+                x9 = 0;
+                n9.Text = x9.ToString();
+                i9 = 0;
+                p9.Text = i9.ToString();
+
+                x10 = 0;
+                n10.Text = x10.ToString();
+                i10 = 0;
+                p10.Text = i10.ToString();
+
+                x11 = 0;
+                n11.Text = x11.ToString();
+                i11 = 0;
+                p11.Text = i11.ToString();
+
+                x12 = 0;
+                n12.Text = x12.ToString();
+                i12 = 0;
+                p12.Text = i12.ToString();
+
+                Toplam.Text = "";
+                top();
+                id++;
+                form2.ShowDialog();
+                vis();
+                costumerPanel.Visible = false;
+
+            }
+            else
+            {
+                costumerPanel.Visible = false;
+                return; 
+            }
+        }
+
+
+        public static bool IsNumeric (string input)
+        {
+            int num;
+            return int.TryParse(input, out num);
+        }
+
+        private void NameTxtBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && e.KeyChar != '\b')
+            {
+                e.Handled = true;
+            }
         }
 
         private void se2_Click(object sender, EventArgs e)
