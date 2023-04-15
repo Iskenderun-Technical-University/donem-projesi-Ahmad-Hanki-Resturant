@@ -143,19 +143,21 @@ namespace resturant
             // 
             // idd
             // 
-            this.idd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.idd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.idd.HeaderText = "ID";
             this.idd.MinimumWidth = 6;
             this.idd.Name = "idd";
             this.idd.ReadOnly = true;
-            this.idd.Width = 191;
+            this.idd.Width = 50;
             // 
             // Sipariş
             // 
+            this.Sipariş.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.Sipariş.HeaderText = "Sipariş";
             this.Sipariş.MinimumWidth = 6;
             this.Sipariş.Name = "Sipariş";
             this.Sipariş.ReadOnly = true;
+            this.Sipariş.Width = 191;
             // 
             // Fiyat
             // 

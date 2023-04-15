@@ -31,7 +31,7 @@ namespace resturant
        
       
         }
-        int load = 9;
+        int load = 1;
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -1121,15 +1121,15 @@ namespace resturant
 
             bool isLonly = namee.All(char.IsLetter);
             bool isLonly1 =secondname.All(char.IsLetter);
-            if (!isLonly || !isLonly1)
+            if (!isLonly || !isLonly1 || namee=="" ||secondname=="")
             {
-                MessageBox.Show("Input must contain letters only", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Input must contain letters", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             if (!IsNumeric(number))
             {
-                MessageBox.Show("Input must contain numbers only", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Input must contain numbers", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -1274,11 +1274,17 @@ namespace resturant
                 form2.ShowDialog();
                 vis();
                 costumerPanel.Visible = false;
+                NameTxtBox.Text = "";
+                SNameTxtBox.Text = "";
+                PhoneTxtBox.Text = "";
 
             }
             else
             {
                 costumerPanel.Visible = false;
+                NameTxtBox.Text = "";
+                SNameTxtBox.Text = "";
+                PhoneTxtBox.Text = "";
                 return; 
             }
         }
@@ -1296,6 +1302,14 @@ namespace resturant
             {
                 e.Handled = true;
             }
+        }
+
+        private void cik_Click(object sender, EventArgs e)
+        {
+            NameTxtBox.Text = "";
+            SNameTxtBox.Text = "";
+            PhoneTxtBox.Text = "";
+            costumerPanel.Visible = false;
         }
 
         private void se2_Click(object sender, EventArgs e)
