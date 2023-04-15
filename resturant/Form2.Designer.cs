@@ -31,6 +31,7 @@ namespace resturant
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cart));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.close = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -40,14 +41,13 @@ namespace resturant
             this.Sipariş = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Home = new System.Windows.Forms.Button();
-            this.close = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.close);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -55,6 +55,18 @@ namespace resturant
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1033, 100);
             this.panel1.TabIndex = 1;
+            // 
+            // close
+            // 
+            this.close.AutoSize = true;
+            this.close.Location = new System.Drawing.Point(1004, 9);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(17, 17);
+            this.close.TabIndex = 10;
+            this.close.Text = "X";
+            this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.MouseEnter += new System.EventHandler(this.close_MouseEnter);
+            this.close.MouseLeave += new System.EventHandler(this.close_MouseLeave);
             // 
             // label1
             // 
@@ -80,7 +92,7 @@ namespace resturant
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Location = new System.Drawing.Point(12, 257);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1009, 10);
@@ -146,18 +158,6 @@ namespace resturant
             this.Home.TabIndex = 3;
             this.Home.UseVisualStyleBackColor = true;
             this.Home.Click += new System.EventHandler(this.Home_Click);
-            // 
-            // close
-            // 
-            this.close.AutoSize = true;
-            this.close.Location = new System.Drawing.Point(1004, 9);
-            this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(17, 17);
-            this.close.TabIndex = 10;
-            this.close.Text = "X";
-            this.close.Click += new System.EventHandler(this.close_Click);
-            this.close.MouseEnter += new System.EventHandler(this.close_MouseEnter);
-            this.close.MouseLeave += new System.EventHandler(this.close_MouseLeave);
             // 
             // Cart
             // 

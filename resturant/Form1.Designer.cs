@@ -30,23 +30,23 @@ namespace resturant
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges16 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges17 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges52 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges53 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges54 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges59 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges60 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges61 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges62 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges63 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges64 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges65 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges66 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges67 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges55 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges56 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges57 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges58 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges68 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.close = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -120,6 +120,72 @@ namespace resturant
             this.Side = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.menuu = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.panelSepete = new System.Windows.Forms.Panel();
+            this.pc12 = new System.Windows.Forms.Panel();
+            this.e12 = new System.Windows.Forms.Label();
+            this.c12 = new System.Windows.Forms.Label();
+            this.l12 = new System.Windows.Forms.Label();
+            this.p12 = new System.Windows.Forms.Label();
+            this.n12 = new System.Windows.Forms.Label();
+            this.pc11 = new System.Windows.Forms.Panel();
+            this.e11 = new System.Windows.Forms.Label();
+            this.c11 = new System.Windows.Forms.Label();
+            this.l11 = new System.Windows.Forms.Label();
+            this.p11 = new System.Windows.Forms.Label();
+            this.n11 = new System.Windows.Forms.Label();
+            this.pc10 = new System.Windows.Forms.Panel();
+            this.e10 = new System.Windows.Forms.Label();
+            this.c10 = new System.Windows.Forms.Label();
+            this.l10 = new System.Windows.Forms.Label();
+            this.p10 = new System.Windows.Forms.Label();
+            this.n10 = new System.Windows.Forms.Label();
+            this.pc9 = new System.Windows.Forms.Panel();
+            this.e9 = new System.Windows.Forms.Label();
+            this.c9 = new System.Windows.Forms.Label();
+            this.l9 = new System.Windows.Forms.Label();
+            this.p9 = new System.Windows.Forms.Label();
+            this.n9 = new System.Windows.Forms.Label();
+            this.pc8 = new System.Windows.Forms.Panel();
+            this.e8 = new System.Windows.Forms.Label();
+            this.c8 = new System.Windows.Forms.Label();
+            this.l8 = new System.Windows.Forms.Label();
+            this.p8 = new System.Windows.Forms.Label();
+            this.n8 = new System.Windows.Forms.Label();
+            this.pc7 = new System.Windows.Forms.Panel();
+            this.e7 = new System.Windows.Forms.Label();
+            this.c7 = new System.Windows.Forms.Label();
+            this.l7 = new System.Windows.Forms.Label();
+            this.p7 = new System.Windows.Forms.Label();
+            this.n7 = new System.Windows.Forms.Label();
+            this.pc6 = new System.Windows.Forms.Panel();
+            this.e6 = new System.Windows.Forms.Label();
+            this.c6 = new System.Windows.Forms.Label();
+            this.l6 = new System.Windows.Forms.Label();
+            this.p6 = new System.Windows.Forms.Label();
+            this.n6 = new System.Windows.Forms.Label();
+            this.pc5 = new System.Windows.Forms.Panel();
+            this.e5 = new System.Windows.Forms.Label();
+            this.c5 = new System.Windows.Forms.Label();
+            this.l5 = new System.Windows.Forms.Label();
+            this.p5 = new System.Windows.Forms.Label();
+            this.n5 = new System.Windows.Forms.Label();
+            this.pc4 = new System.Windows.Forms.Panel();
+            this.e4 = new System.Windows.Forms.Label();
+            this.c4 = new System.Windows.Forms.Label();
+            this.l4 = new System.Windows.Forms.Label();
+            this.p4 = new System.Windows.Forms.Label();
+            this.n4 = new System.Windows.Forms.Label();
+            this.pc3 = new System.Windows.Forms.Panel();
+            this.e3 = new System.Windows.Forms.Label();
+            this.c3 = new System.Windows.Forms.Label();
+            this.l3 = new System.Windows.Forms.Label();
+            this.p3 = new System.Windows.Forms.Label();
+            this.n3 = new System.Windows.Forms.Label();
+            this.pc2 = new System.Windows.Forms.Panel();
+            this.e2 = new System.Windows.Forms.Label();
+            this.c2 = new System.Windows.Forms.Label();
+            this.l2 = new System.Windows.Forms.Label();
+            this.p2 = new System.Windows.Forms.Label();
+            this.n2 = new System.Windows.Forms.Label();
             this.pc1 = new System.Windows.Forms.Panel();
             this.e1 = new System.Windows.Forms.Label();
             this.c1 = new System.Windows.Forms.Label();
@@ -133,72 +199,7 @@ namespace resturant
             this.orders = new System.Windows.Forms.Button();
             this.cart = new System.Windows.Forms.Button();
             this.Home = new System.Windows.Forms.Button();
-            this.pc2 = new System.Windows.Forms.Panel();
-            this.e2 = new System.Windows.Forms.Label();
-            this.c2 = new System.Windows.Forms.Label();
-            this.l2 = new System.Windows.Forms.Label();
-            this.p2 = new System.Windows.Forms.Label();
-            this.n2 = new System.Windows.Forms.Label();
-            this.pc3 = new System.Windows.Forms.Panel();
-            this.e3 = new System.Windows.Forms.Label();
-            this.c3 = new System.Windows.Forms.Label();
-            this.l3 = new System.Windows.Forms.Label();
-            this.p3 = new System.Windows.Forms.Label();
-            this.n3 = new System.Windows.Forms.Label();
-            this.pc4 = new System.Windows.Forms.Panel();
-            this.e4 = new System.Windows.Forms.Label();
-            this.c4 = new System.Windows.Forms.Label();
-            this.l4 = new System.Windows.Forms.Label();
-            this.p4 = new System.Windows.Forms.Label();
-            this.n4 = new System.Windows.Forms.Label();
-            this.pc5 = new System.Windows.Forms.Panel();
-            this.e5 = new System.Windows.Forms.Label();
-            this.c5 = new System.Windows.Forms.Label();
-            this.l5 = new System.Windows.Forms.Label();
-            this.p5 = new System.Windows.Forms.Label();
-            this.n5 = new System.Windows.Forms.Label();
-            this.pc6 = new System.Windows.Forms.Panel();
-            this.e6 = new System.Windows.Forms.Label();
-            this.c6 = new System.Windows.Forms.Label();
-            this.l6 = new System.Windows.Forms.Label();
-            this.p6 = new System.Windows.Forms.Label();
-            this.n6 = new System.Windows.Forms.Label();
-            this.pc7 = new System.Windows.Forms.Panel();
-            this.e7 = new System.Windows.Forms.Label();
-            this.c7 = new System.Windows.Forms.Label();
-            this.l7 = new System.Windows.Forms.Label();
-            this.p7 = new System.Windows.Forms.Label();
-            this.n7 = new System.Windows.Forms.Label();
-            this.pc8 = new System.Windows.Forms.Panel();
-            this.e8 = new System.Windows.Forms.Label();
-            this.c8 = new System.Windows.Forms.Label();
-            this.l8 = new System.Windows.Forms.Label();
-            this.p8 = new System.Windows.Forms.Label();
-            this.n8 = new System.Windows.Forms.Label();
-            this.pc9 = new System.Windows.Forms.Panel();
-            this.e9 = new System.Windows.Forms.Label();
-            this.c9 = new System.Windows.Forms.Label();
-            this.l9 = new System.Windows.Forms.Label();
-            this.p9 = new System.Windows.Forms.Label();
-            this.n9 = new System.Windows.Forms.Label();
-            this.pc10 = new System.Windows.Forms.Panel();
-            this.e10 = new System.Windows.Forms.Label();
-            this.c10 = new System.Windows.Forms.Label();
-            this.l10 = new System.Windows.Forms.Label();
-            this.p10 = new System.Windows.Forms.Label();
-            this.n10 = new System.Windows.Forms.Label();
-            this.pc11 = new System.Windows.Forms.Panel();
-            this.e11 = new System.Windows.Forms.Label();
-            this.c11 = new System.Windows.Forms.Label();
-            this.l11 = new System.Windows.Forms.Label();
-            this.p11 = new System.Windows.Forms.Label();
-            this.n11 = new System.Windows.Forms.Label();
-            this.pc12 = new System.Windows.Forms.Panel();
-            this.e12 = new System.Windows.Forms.Label();
-            this.c12 = new System.Windows.Forms.Label();
-            this.l12 = new System.Windows.Forms.Label();
-            this.p12 = new System.Windows.Forms.Label();
-            this.n12 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panelHome.SuspendLayout();
             this.panelIceck.SuspendLayout();
@@ -218,18 +219,18 @@ namespace resturant
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelSepete.SuspendLayout();
-            this.pc1.SuspendLayout();
-            this.pc2.SuspendLayout();
-            this.pc3.SuspendLayout();
-            this.pc4.SuspendLayout();
-            this.pc5.SuspendLayout();
-            this.pc6.SuspendLayout();
-            this.pc7.SuspendLayout();
-            this.pc8.SuspendLayout();
-            this.pc9.SuspendLayout();
-            this.pc10.SuspendLayout();
-            this.pc11.SuspendLayout();
             this.pc12.SuspendLayout();
+            this.pc11.SuspendLayout();
+            this.pc10.SuspendLayout();
+            this.pc9.SuspendLayout();
+            this.pc8.SuspendLayout();
+            this.pc7.SuspendLayout();
+            this.pc6.SuspendLayout();
+            this.pc5.SuspendLayout();
+            this.pc4.SuspendLayout();
+            this.pc3.SuspendLayout();
+            this.pc2.SuspendLayout();
+            this.pc1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -286,7 +287,7 @@ namespace resturant
             this.panelHome.Controls.Add(this.menuu);
             this.panelHome.Location = new System.Drawing.Point(136, 156);
             this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(828, 30);
+            this.panelHome.Size = new System.Drawing.Size(828, 569);
             this.panelHome.TabIndex = 6;
             // 
             // panelIceck
@@ -307,7 +308,7 @@ namespace resturant
             this.panelIceck.Controls.Add(this.pictureBox12);
             this.panelIceck.Location = new System.Drawing.Point(1, 102);
             this.panelIceck.Name = "panelIceck";
-            this.panelIceck.Size = new System.Drawing.Size(792, 475);
+            this.panelIceck.Size = new System.Drawing.Size(792, 458);
             this.panelIceck.TabIndex = 16;
             // 
             // se12
@@ -321,7 +322,7 @@ namespace resturant
             this.se12.AutoSizeLeftIcon = true;
             this.se12.AutoSizeRightIcon = true;
             this.se12.BackColor = System.Drawing.Color.Transparent;
-            this.se12.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se12.BackColor1 = System.Drawing.Color.Black;
             this.se12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se12.BackgroundImage")));
             this.se12.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se12.ButtonText = "sepete ekle";
@@ -329,15 +330,15 @@ namespace resturant
             this.se12.ColorContrastOnClick = 45;
             this.se12.ColorContrastOnHover = 45;
             this.se12.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.se12.CustomizableEdges = borderEdges1;
+            borderEdges52.BottomLeft = true;
+            borderEdges52.BottomRight = true;
+            borderEdges52.TopLeft = true;
+            borderEdges52.TopRight = true;
+            this.se12.CustomizableEdges = borderEdges52;
             this.se12.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se12.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se12.DisabledFillColor = System.Drawing.Color.Red;
-            this.se12.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se12.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se12.DisabledFillColor = System.Drawing.Color.Black;
+            this.se12.DisabledForecolor = System.Drawing.Color.White;
             this.se12.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se12.ForeColor = System.Drawing.Color.White;
@@ -350,24 +351,24 @@ namespace resturant
             this.se12.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se12.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se12.IconSize = 25;
-            this.se12.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se12.IdleBorderColor = System.Drawing.Color.Black;
             this.se12.IdleBorderRadius = 1;
             this.se12.IdleBorderThickness = 1;
-            this.se12.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se12.IdleFillColor = System.Drawing.Color.Black;
             this.se12.IdleIconLeftImage = null;
             this.se12.IdleIconRightImage = null;
             this.se12.IndicateFocus = false;
             this.se12.Location = new System.Drawing.Point(573, 312);
             this.se12.Name = "se12";
-            this.se12.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se12.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se12.OnDisabledState.BorderRadius = 1;
             this.se12.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se12.OnDisabledState.BorderThickness = 1;
-            this.se12.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se12.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se12.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se12.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se12.OnDisabledState.IconLeftImage = null;
             this.se12.OnDisabledState.IconRightImage = null;
-            this.se12.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se12.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se12.onHoverState.BorderRadius = 1;
             this.se12.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se12.onHoverState.BorderThickness = 1;
@@ -375,19 +376,19 @@ namespace resturant
             this.se12.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se12.onHoverState.IconLeftImage = null;
             this.se12.onHoverState.IconRightImage = null;
-            this.se12.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se12.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se12.OnIdleState.BorderRadius = 1;
             this.se12.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se12.OnIdleState.BorderThickness = 1;
-            this.se12.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se12.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se12.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se12.OnIdleState.IconLeftImage = null;
             this.se12.OnIdleState.IconRightImage = null;
-            this.se12.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se12.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se12.OnPressedState.BorderRadius = 1;
             this.se12.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se12.OnPressedState.BorderThickness = 1;
-            this.se12.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se12.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se12.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se12.OnPressedState.IconLeftImage = null;
             this.se12.OnPressedState.IconRightImage = null;
@@ -411,7 +412,7 @@ namespace resturant
             this.se11.AutoSizeLeftIcon = true;
             this.se11.AutoSizeRightIcon = true;
             this.se11.BackColor = System.Drawing.Color.Transparent;
-            this.se11.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se11.BackColor1 = System.Drawing.Color.Black;
             this.se11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se11.BackgroundImage")));
             this.se11.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se11.ButtonText = "sepete ekle";
@@ -419,15 +420,15 @@ namespace resturant
             this.se11.ColorContrastOnClick = 45;
             this.se11.ColorContrastOnHover = 45;
             this.se11.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.se11.CustomizableEdges = borderEdges2;
+            borderEdges53.BottomLeft = true;
+            borderEdges53.BottomRight = true;
+            borderEdges53.TopLeft = true;
+            borderEdges53.TopRight = true;
+            this.se11.CustomizableEdges = borderEdges53;
             this.se11.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se11.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se11.DisabledFillColor = System.Drawing.Color.Red;
-            this.se11.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se11.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se11.DisabledFillColor = System.Drawing.Color.Black;
+            this.se11.DisabledForecolor = System.Drawing.Color.White;
             this.se11.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se11.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se11.ForeColor = System.Drawing.Color.White;
@@ -440,24 +441,24 @@ namespace resturant
             this.se11.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se11.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se11.IconSize = 25;
-            this.se11.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se11.IdleBorderColor = System.Drawing.Color.Black;
             this.se11.IdleBorderRadius = 1;
             this.se11.IdleBorderThickness = 1;
-            this.se11.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se11.IdleFillColor = System.Drawing.Color.Black;
             this.se11.IdleIconLeftImage = null;
             this.se11.IdleIconRightImage = null;
             this.se11.IndicateFocus = false;
             this.se11.Location = new System.Drawing.Point(577, 194);
             this.se11.Name = "se11";
-            this.se11.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se11.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se11.OnDisabledState.BorderRadius = 1;
             this.se11.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se11.OnDisabledState.BorderThickness = 1;
-            this.se11.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se11.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se11.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se11.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se11.OnDisabledState.IconLeftImage = null;
             this.se11.OnDisabledState.IconRightImage = null;
-            this.se11.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se11.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se11.onHoverState.BorderRadius = 1;
             this.se11.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se11.onHoverState.BorderThickness = 1;
@@ -465,19 +466,19 @@ namespace resturant
             this.se11.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se11.onHoverState.IconLeftImage = null;
             this.se11.onHoverState.IconRightImage = null;
-            this.se11.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se11.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se11.OnIdleState.BorderRadius = 1;
             this.se11.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se11.OnIdleState.BorderThickness = 1;
-            this.se11.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se11.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se11.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se11.OnIdleState.IconLeftImage = null;
             this.se11.OnIdleState.IconRightImage = null;
-            this.se11.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se11.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se11.OnPressedState.BorderRadius = 1;
             this.se11.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se11.OnPressedState.BorderThickness = 1;
-            this.se11.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se11.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se11.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se11.OnPressedState.IconLeftImage = null;
             this.se11.OnPressedState.IconRightImage = null;
@@ -501,7 +502,7 @@ namespace resturant
             this.se10.AutoSizeLeftIcon = true;
             this.se10.AutoSizeRightIcon = true;
             this.se10.BackColor = System.Drawing.Color.Transparent;
-            this.se10.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se10.BackColor1 = System.Drawing.Color.Black;
             this.se10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se10.BackgroundImage")));
             this.se10.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se10.ButtonText = "sepete ekle";
@@ -509,15 +510,15 @@ namespace resturant
             this.se10.ColorContrastOnClick = 45;
             this.se10.ColorContrastOnHover = 45;
             this.se10.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.se10.CustomizableEdges = borderEdges3;
+            borderEdges54.BottomLeft = true;
+            borderEdges54.BottomRight = true;
+            borderEdges54.TopLeft = true;
+            borderEdges54.TopRight = true;
+            this.se10.CustomizableEdges = borderEdges54;
             this.se10.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se10.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se10.DisabledFillColor = System.Drawing.Color.Red;
-            this.se10.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se10.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se10.DisabledFillColor = System.Drawing.Color.Black;
+            this.se10.DisabledForecolor = System.Drawing.Color.White;
             this.se10.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se10.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se10.ForeColor = System.Drawing.Color.White;
@@ -530,24 +531,24 @@ namespace resturant
             this.se10.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se10.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se10.IconSize = 25;
-            this.se10.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se10.IdleBorderColor = System.Drawing.Color.Black;
             this.se10.IdleBorderRadius = 1;
             this.se10.IdleBorderThickness = 1;
-            this.se10.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se10.IdleFillColor = System.Drawing.Color.Black;
             this.se10.IdleIconLeftImage = null;
             this.se10.IdleIconRightImage = null;
             this.se10.IndicateFocus = false;
             this.se10.Location = new System.Drawing.Point(569, 45);
             this.se10.Name = "se10";
-            this.se10.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se10.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se10.OnDisabledState.BorderRadius = 1;
             this.se10.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se10.OnDisabledState.BorderThickness = 1;
-            this.se10.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se10.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se10.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se10.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se10.OnDisabledState.IconLeftImage = null;
             this.se10.OnDisabledState.IconRightImage = null;
-            this.se10.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se10.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se10.onHoverState.BorderRadius = 1;
             this.se10.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se10.onHoverState.BorderThickness = 1;
@@ -555,19 +556,19 @@ namespace resturant
             this.se10.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se10.onHoverState.IconLeftImage = null;
             this.se10.onHoverState.IconRightImage = null;
-            this.se10.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se10.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se10.OnIdleState.BorderRadius = 1;
             this.se10.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se10.OnIdleState.BorderThickness = 1;
-            this.se10.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se10.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se10.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se10.OnIdleState.IconLeftImage = null;
             this.se10.OnIdleState.IconRightImage = null;
-            this.se10.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se10.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se10.OnPressedState.BorderRadius = 1;
             this.se10.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se10.OnPressedState.BorderThickness = 1;
-            this.se10.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se10.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se10.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se10.OnPressedState.IconLeftImage = null;
             this.se10.OnPressedState.IconRightImage = null;
@@ -708,7 +709,7 @@ namespace resturant
             this.panelMezeler.Controls.Add(this.pictureBox9);
             this.panelMezeler.Location = new System.Drawing.Point(3, 99);
             this.panelMezeler.Name = "panelMezeler";
-            this.panelMezeler.Size = new System.Drawing.Size(789, 434);
+            this.panelMezeler.Size = new System.Drawing.Size(789, 458);
             this.panelMezeler.TabIndex = 15;
             // 
             // se9
@@ -722,7 +723,7 @@ namespace resturant
             this.se9.AutoSizeLeftIcon = true;
             this.se9.AutoSizeRightIcon = true;
             this.se9.BackColor = System.Drawing.Color.Transparent;
-            this.se9.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se9.BackColor1 = System.Drawing.Color.Black;
             this.se9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se9.BackgroundImage")));
             this.se9.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se9.ButtonText = "sepete ekle";
@@ -730,15 +731,15 @@ namespace resturant
             this.se9.ColorContrastOnClick = 45;
             this.se9.ColorContrastOnHover = 45;
             this.se9.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.se9.CustomizableEdges = borderEdges4;
+            borderEdges59.BottomLeft = true;
+            borderEdges59.BottomRight = true;
+            borderEdges59.TopLeft = true;
+            borderEdges59.TopRight = true;
+            this.se9.CustomizableEdges = borderEdges59;
             this.se9.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se9.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se9.DisabledFillColor = System.Drawing.Color.Red;
-            this.se9.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se9.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se9.DisabledFillColor = System.Drawing.Color.Black;
+            this.se9.DisabledForecolor = System.Drawing.Color.White;
             this.se9.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se9.ForeColor = System.Drawing.Color.White;
@@ -751,24 +752,24 @@ namespace resturant
             this.se9.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se9.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se9.IconSize = 25;
-            this.se9.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se9.IdleBorderColor = System.Drawing.Color.Black;
             this.se9.IdleBorderRadius = 1;
             this.se9.IdleBorderThickness = 1;
-            this.se9.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se9.IdleFillColor = System.Drawing.Color.Black;
             this.se9.IdleIconLeftImage = null;
             this.se9.IdleIconRightImage = null;
             this.se9.IndicateFocus = false;
             this.se9.Location = new System.Drawing.Point(573, 312);
             this.se9.Name = "se9";
-            this.se9.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se9.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se9.OnDisabledState.BorderRadius = 1;
             this.se9.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se9.OnDisabledState.BorderThickness = 1;
-            this.se9.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se9.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se9.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se9.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se9.OnDisabledState.IconLeftImage = null;
             this.se9.OnDisabledState.IconRightImage = null;
-            this.se9.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se9.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se9.onHoverState.BorderRadius = 1;
             this.se9.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se9.onHoverState.BorderThickness = 1;
@@ -776,19 +777,19 @@ namespace resturant
             this.se9.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se9.onHoverState.IconLeftImage = null;
             this.se9.onHoverState.IconRightImage = null;
-            this.se9.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se9.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se9.OnIdleState.BorderRadius = 1;
             this.se9.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se9.OnIdleState.BorderThickness = 1;
-            this.se9.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se9.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se9.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se9.OnIdleState.IconLeftImage = null;
             this.se9.OnIdleState.IconRightImage = null;
-            this.se9.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se9.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se9.OnPressedState.BorderRadius = 1;
             this.se9.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se9.OnPressedState.BorderThickness = 1;
-            this.se9.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se9.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se9.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se9.OnPressedState.IconLeftImage = null;
             this.se9.OnPressedState.IconRightImage = null;
@@ -812,7 +813,7 @@ namespace resturant
             this.se8.AutoSizeLeftIcon = true;
             this.se8.AutoSizeRightIcon = true;
             this.se8.BackColor = System.Drawing.Color.Transparent;
-            this.se8.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se8.BackColor1 = System.Drawing.Color.Black;
             this.se8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se8.BackgroundImage")));
             this.se8.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se8.ButtonText = "sepete ekle";
@@ -820,15 +821,15 @@ namespace resturant
             this.se8.ColorContrastOnClick = 45;
             this.se8.ColorContrastOnHover = 45;
             this.se8.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.se8.CustomizableEdges = borderEdges5;
+            borderEdges60.BottomLeft = true;
+            borderEdges60.BottomRight = true;
+            borderEdges60.TopLeft = true;
+            borderEdges60.TopRight = true;
+            this.se8.CustomizableEdges = borderEdges60;
             this.se8.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se8.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se8.DisabledFillColor = System.Drawing.Color.Red;
-            this.se8.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se8.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se8.DisabledFillColor = System.Drawing.Color.Black;
+            this.se8.DisabledForecolor = System.Drawing.Color.White;
             this.se8.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se8.ForeColor = System.Drawing.Color.White;
@@ -841,24 +842,24 @@ namespace resturant
             this.se8.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se8.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se8.IconSize = 25;
-            this.se8.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se8.IdleBorderColor = System.Drawing.Color.Black;
             this.se8.IdleBorderRadius = 1;
             this.se8.IdleBorderThickness = 1;
-            this.se8.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se8.IdleFillColor = System.Drawing.Color.Black;
             this.se8.IdleIconLeftImage = null;
             this.se8.IdleIconRightImage = null;
             this.se8.IndicateFocus = false;
             this.se8.Location = new System.Drawing.Point(573, 176);
             this.se8.Name = "se8";
-            this.se8.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se8.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se8.OnDisabledState.BorderRadius = 1;
             this.se8.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se8.OnDisabledState.BorderThickness = 1;
-            this.se8.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se8.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se8.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se8.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se8.OnDisabledState.IconLeftImage = null;
             this.se8.OnDisabledState.IconRightImage = null;
-            this.se8.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se8.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se8.onHoverState.BorderRadius = 1;
             this.se8.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se8.onHoverState.BorderThickness = 1;
@@ -866,19 +867,19 @@ namespace resturant
             this.se8.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se8.onHoverState.IconLeftImage = null;
             this.se8.onHoverState.IconRightImage = null;
-            this.se8.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se8.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se8.OnIdleState.BorderRadius = 1;
             this.se8.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se8.OnIdleState.BorderThickness = 1;
-            this.se8.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se8.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se8.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se8.OnIdleState.IconLeftImage = null;
             this.se8.OnIdleState.IconRightImage = null;
-            this.se8.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se8.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se8.OnPressedState.BorderRadius = 1;
             this.se8.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se8.OnPressedState.BorderThickness = 1;
-            this.se8.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se8.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se8.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se8.OnPressedState.IconLeftImage = null;
             this.se8.OnPressedState.IconRightImage = null;
@@ -902,7 +903,7 @@ namespace resturant
             this.se7.AutoSizeLeftIcon = true;
             this.se7.AutoSizeRightIcon = true;
             this.se7.BackColor = System.Drawing.Color.Transparent;
-            this.se7.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se7.BackColor1 = System.Drawing.Color.Black;
             this.se7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se7.BackgroundImage")));
             this.se7.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se7.ButtonText = "sepete ekle";
@@ -910,15 +911,15 @@ namespace resturant
             this.se7.ColorContrastOnClick = 45;
             this.se7.ColorContrastOnHover = 45;
             this.se7.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.se7.CustomizableEdges = borderEdges6;
+            borderEdges61.BottomLeft = true;
+            borderEdges61.BottomRight = true;
+            borderEdges61.TopLeft = true;
+            borderEdges61.TopRight = true;
+            this.se7.CustomizableEdges = borderEdges61;
             this.se7.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se7.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se7.DisabledFillColor = System.Drawing.Color.Red;
-            this.se7.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se7.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se7.DisabledFillColor = System.Drawing.Color.Black;
+            this.se7.DisabledForecolor = System.Drawing.Color.White;
             this.se7.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se7.ForeColor = System.Drawing.Color.White;
@@ -931,24 +932,24 @@ namespace resturant
             this.se7.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se7.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se7.IconSize = 25;
-            this.se7.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se7.IdleBorderColor = System.Drawing.Color.Black;
             this.se7.IdleBorderRadius = 1;
             this.se7.IdleBorderThickness = 1;
-            this.se7.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se7.IdleFillColor = System.Drawing.Color.Black;
             this.se7.IdleIconLeftImage = null;
             this.se7.IdleIconRightImage = null;
             this.se7.IndicateFocus = false;
             this.se7.Location = new System.Drawing.Point(569, 45);
             this.se7.Name = "se7";
-            this.se7.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se7.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se7.OnDisabledState.BorderRadius = 1;
             this.se7.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se7.OnDisabledState.BorderThickness = 1;
-            this.se7.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se7.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se7.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se7.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se7.OnDisabledState.IconLeftImage = null;
             this.se7.OnDisabledState.IconRightImage = null;
-            this.se7.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se7.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se7.onHoverState.BorderRadius = 1;
             this.se7.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se7.onHoverState.BorderThickness = 1;
@@ -956,19 +957,19 @@ namespace resturant
             this.se7.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se7.onHoverState.IconLeftImage = null;
             this.se7.onHoverState.IconRightImage = null;
-            this.se7.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se7.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se7.OnIdleState.BorderRadius = 1;
             this.se7.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se7.OnIdleState.BorderThickness = 1;
-            this.se7.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se7.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se7.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se7.OnIdleState.IconLeftImage = null;
             this.se7.OnIdleState.IconRightImage = null;
-            this.se7.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se7.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se7.OnPressedState.BorderRadius = 1;
             this.se7.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se7.OnPressedState.BorderThickness = 1;
-            this.se7.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se7.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se7.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se7.OnPressedState.IconLeftImage = null;
             this.se7.OnPressedState.IconRightImage = null;
@@ -1140,9 +1141,9 @@ namespace resturant
             this.panelSanvic.Controls.Add(this.label33);
             this.panelSanvic.Controls.Add(this.label34);
             this.panelSanvic.Controls.Add(this.pictureBox6);
-            this.panelSanvic.Location = new System.Drawing.Point(3, 404);
+            this.panelSanvic.Location = new System.Drawing.Point(3, 6);
             this.panelSanvic.Name = "panelSanvic";
-            this.panelSanvic.Size = new System.Drawing.Size(790, 30);
+            this.panelSanvic.Size = new System.Drawing.Size(790, 452);
             this.panelSanvic.TabIndex = 6;
             // 
             // se6
@@ -1156,7 +1157,7 @@ namespace resturant
             this.se6.AutoSizeLeftIcon = true;
             this.se6.AutoSizeRightIcon = true;
             this.se6.BackColor = System.Drawing.Color.Transparent;
-            this.se6.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se6.BackColor1 = System.Drawing.Color.Black;
             this.se6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se6.BackgroundImage")));
             this.se6.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se6.ButtonText = "sepete ekle";
@@ -1164,15 +1165,15 @@ namespace resturant
             this.se6.ColorContrastOnClick = 45;
             this.se6.ColorContrastOnHover = 45;
             this.se6.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.se6.CustomizableEdges = borderEdges7;
+            borderEdges62.BottomLeft = true;
+            borderEdges62.BottomRight = true;
+            borderEdges62.TopLeft = true;
+            borderEdges62.TopRight = true;
+            this.se6.CustomizableEdges = borderEdges62;
             this.se6.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se6.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se6.DisabledFillColor = System.Drawing.Color.Red;
-            this.se6.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se6.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se6.DisabledFillColor = System.Drawing.Color.Black;
+            this.se6.DisabledForecolor = System.Drawing.Color.White;
             this.se6.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se6.ForeColor = System.Drawing.Color.White;
@@ -1185,24 +1186,24 @@ namespace resturant
             this.se6.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se6.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se6.IconSize = 25;
-            this.se6.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se6.IdleBorderColor = System.Drawing.Color.Black;
             this.se6.IdleBorderRadius = 1;
             this.se6.IdleBorderThickness = 1;
-            this.se6.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se6.IdleFillColor = System.Drawing.Color.Black;
             this.se6.IdleIconLeftImage = null;
             this.se6.IdleIconRightImage = null;
             this.se6.IndicateFocus = false;
             this.se6.Location = new System.Drawing.Point(573, 312);
             this.se6.Name = "se6";
-            this.se6.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se6.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se6.OnDisabledState.BorderRadius = 1;
             this.se6.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se6.OnDisabledState.BorderThickness = 1;
-            this.se6.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se6.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se6.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se6.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se6.OnDisabledState.IconLeftImage = null;
             this.se6.OnDisabledState.IconRightImage = null;
-            this.se6.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se6.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se6.onHoverState.BorderRadius = 1;
             this.se6.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se6.onHoverState.BorderThickness = 1;
@@ -1210,19 +1211,19 @@ namespace resturant
             this.se6.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se6.onHoverState.IconLeftImage = null;
             this.se6.onHoverState.IconRightImage = null;
-            this.se6.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se6.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se6.OnIdleState.BorderRadius = 1;
             this.se6.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se6.OnIdleState.BorderThickness = 1;
-            this.se6.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se6.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se6.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se6.OnIdleState.IconLeftImage = null;
             this.se6.OnIdleState.IconRightImage = null;
-            this.se6.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se6.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se6.OnPressedState.BorderRadius = 1;
             this.se6.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se6.OnPressedState.BorderThickness = 1;
-            this.se6.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se6.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se6.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se6.OnPressedState.IconLeftImage = null;
             this.se6.OnPressedState.IconRightImage = null;
@@ -1246,7 +1247,7 @@ namespace resturant
             this.se5.AutoSizeLeftIcon = true;
             this.se5.AutoSizeRightIcon = true;
             this.se5.BackColor = System.Drawing.Color.Transparent;
-            this.se5.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se5.BackColor1 = System.Drawing.Color.Black;
             this.se5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se5.BackgroundImage")));
             this.se5.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se5.ButtonText = "sepete ekle";
@@ -1254,15 +1255,15 @@ namespace resturant
             this.se5.ColorContrastOnClick = 45;
             this.se5.ColorContrastOnHover = 45;
             this.se5.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.se5.CustomizableEdges = borderEdges8;
+            borderEdges63.BottomLeft = true;
+            borderEdges63.BottomRight = true;
+            borderEdges63.TopLeft = true;
+            borderEdges63.TopRight = true;
+            this.se5.CustomizableEdges = borderEdges63;
             this.se5.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se5.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se5.DisabledFillColor = System.Drawing.Color.Red;
-            this.se5.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se5.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se5.DisabledFillColor = System.Drawing.Color.Black;
+            this.se5.DisabledForecolor = System.Drawing.Color.White;
             this.se5.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se5.ForeColor = System.Drawing.Color.White;
@@ -1275,24 +1276,24 @@ namespace resturant
             this.se5.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se5.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se5.IconSize = 25;
-            this.se5.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se5.IdleBorderColor = System.Drawing.Color.Black;
             this.se5.IdleBorderRadius = 1;
             this.se5.IdleBorderThickness = 1;
-            this.se5.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se5.IdleFillColor = System.Drawing.Color.Black;
             this.se5.IdleIconLeftImage = null;
             this.se5.IdleIconRightImage = null;
             this.se5.IndicateFocus = false;
             this.se5.Location = new System.Drawing.Point(573, 176);
             this.se5.Name = "se5";
-            this.se5.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se5.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se5.OnDisabledState.BorderRadius = 1;
             this.se5.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se5.OnDisabledState.BorderThickness = 1;
-            this.se5.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se5.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se5.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se5.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se5.OnDisabledState.IconLeftImage = null;
             this.se5.OnDisabledState.IconRightImage = null;
-            this.se5.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se5.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se5.onHoverState.BorderRadius = 1;
             this.se5.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se5.onHoverState.BorderThickness = 1;
@@ -1300,19 +1301,19 @@ namespace resturant
             this.se5.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se5.onHoverState.IconLeftImage = null;
             this.se5.onHoverState.IconRightImage = null;
-            this.se5.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se5.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se5.OnIdleState.BorderRadius = 1;
             this.se5.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se5.OnIdleState.BorderThickness = 1;
-            this.se5.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se5.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se5.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se5.OnIdleState.IconLeftImage = null;
             this.se5.OnIdleState.IconRightImage = null;
-            this.se5.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se5.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se5.OnPressedState.BorderRadius = 1;
             this.se5.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se5.OnPressedState.BorderThickness = 1;
-            this.se5.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se5.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se5.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se5.OnPressedState.IconLeftImage = null;
             this.se5.OnPressedState.IconRightImage = null;
@@ -1336,7 +1337,7 @@ namespace resturant
             this.se4.AutoSizeLeftIcon = true;
             this.se4.AutoSizeRightIcon = true;
             this.se4.BackColor = System.Drawing.Color.Transparent;
-            this.se4.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se4.BackColor1 = System.Drawing.Color.Black;
             this.se4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se4.BackgroundImage")));
             this.se4.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se4.ButtonText = "sepete ekle";
@@ -1344,15 +1345,15 @@ namespace resturant
             this.se4.ColorContrastOnClick = 45;
             this.se4.ColorContrastOnHover = 45;
             this.se4.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.se4.CustomizableEdges = borderEdges9;
+            borderEdges64.BottomLeft = true;
+            borderEdges64.BottomRight = true;
+            borderEdges64.TopLeft = true;
+            borderEdges64.TopRight = true;
+            this.se4.CustomizableEdges = borderEdges64;
             this.se4.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se4.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se4.DisabledFillColor = System.Drawing.Color.Red;
-            this.se4.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se4.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se4.DisabledFillColor = System.Drawing.Color.Black;
+            this.se4.DisabledForecolor = System.Drawing.Color.White;
             this.se4.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se4.ForeColor = System.Drawing.Color.White;
@@ -1365,24 +1366,24 @@ namespace resturant
             this.se4.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se4.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se4.IconSize = 25;
-            this.se4.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se4.IdleBorderColor = System.Drawing.Color.Black;
             this.se4.IdleBorderRadius = 1;
             this.se4.IdleBorderThickness = 1;
-            this.se4.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se4.IdleFillColor = System.Drawing.Color.Black;
             this.se4.IdleIconLeftImage = null;
             this.se4.IdleIconRightImage = null;
             this.se4.IndicateFocus = false;
             this.se4.Location = new System.Drawing.Point(569, 45);
             this.se4.Name = "se4";
-            this.se4.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se4.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se4.OnDisabledState.BorderRadius = 1;
             this.se4.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se4.OnDisabledState.BorderThickness = 1;
-            this.se4.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se4.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se4.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se4.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se4.OnDisabledState.IconLeftImage = null;
             this.se4.OnDisabledState.IconRightImage = null;
-            this.se4.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se4.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se4.onHoverState.BorderRadius = 1;
             this.se4.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se4.onHoverState.BorderThickness = 1;
@@ -1390,19 +1391,19 @@ namespace resturant
             this.se4.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se4.onHoverState.IconLeftImage = null;
             this.se4.onHoverState.IconRightImage = null;
-            this.se4.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se4.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se4.OnIdleState.BorderRadius = 1;
             this.se4.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se4.OnIdleState.BorderThickness = 1;
-            this.se4.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se4.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se4.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se4.OnIdleState.IconLeftImage = null;
             this.se4.OnIdleState.IconRightImage = null;
-            this.se4.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se4.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se4.OnPressedState.BorderRadius = 1;
             this.se4.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se4.OnPressedState.BorderThickness = 1;
-            this.se4.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se4.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se4.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se4.OnPressedState.IconLeftImage = null;
             this.se4.OnPressedState.IconRightImage = null;
@@ -1546,7 +1547,7 @@ namespace resturant
             this.se3.AutoSizeLeftIcon = true;
             this.se3.AutoSizeRightIcon = true;
             this.se3.BackColor = System.Drawing.Color.Transparent;
-            this.se3.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se3.BackColor1 = System.Drawing.Color.Black;
             this.se3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se3.BackgroundImage")));
             this.se3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se3.ButtonText = "sepete ekle";
@@ -1554,15 +1555,15 @@ namespace resturant
             this.se3.ColorContrastOnClick = 45;
             this.se3.ColorContrastOnHover = 45;
             this.se3.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges10.BottomLeft = true;
-            borderEdges10.BottomRight = true;
-            borderEdges10.TopLeft = true;
-            borderEdges10.TopRight = true;
-            this.se3.CustomizableEdges = borderEdges10;
+            borderEdges65.BottomLeft = true;
+            borderEdges65.BottomRight = true;
+            borderEdges65.TopLeft = true;
+            borderEdges65.TopRight = true;
+            this.se3.CustomizableEdges = borderEdges65;
             this.se3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se3.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se3.DisabledFillColor = System.Drawing.Color.Red;
-            this.se3.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se3.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se3.DisabledFillColor = System.Drawing.Color.White;
+            this.se3.DisabledForecolor = System.Drawing.Color.Black;
             this.se3.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se3.ForeColor = System.Drawing.Color.White;
@@ -1575,24 +1576,24 @@ namespace resturant
             this.se3.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se3.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se3.IconSize = 25;
-            this.se3.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se3.IdleBorderColor = System.Drawing.Color.Black;
             this.se3.IdleBorderRadius = 1;
             this.se3.IdleBorderThickness = 1;
-            this.se3.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se3.IdleFillColor = System.Drawing.Color.Black;
             this.se3.IdleIconLeftImage = null;
             this.se3.IdleIconRightImage = null;
             this.se3.IndicateFocus = false;
             this.se3.Location = new System.Drawing.Point(573, 295);
             this.se3.Name = "se3";
-            this.se3.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se3.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se3.OnDisabledState.BorderRadius = 1;
             this.se3.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se3.OnDisabledState.BorderThickness = 1;
-            this.se3.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se3.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se3.OnDisabledState.FillColor = System.Drawing.Color.White;
+            this.se3.OnDisabledState.ForeColor = System.Drawing.Color.Black;
             this.se3.OnDisabledState.IconLeftImage = null;
             this.se3.OnDisabledState.IconRightImage = null;
-            this.se3.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se3.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se3.onHoverState.BorderRadius = 1;
             this.se3.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se3.onHoverState.BorderThickness = 1;
@@ -1600,19 +1601,19 @@ namespace resturant
             this.se3.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se3.onHoverState.IconLeftImage = null;
             this.se3.onHoverState.IconRightImage = null;
-            this.se3.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se3.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se3.OnIdleState.BorderRadius = 1;
             this.se3.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se3.OnIdleState.BorderThickness = 1;
-            this.se3.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se3.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se3.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se3.OnIdleState.IconLeftImage = null;
             this.se3.OnIdleState.IconRightImage = null;
-            this.se3.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se3.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se3.OnPressedState.BorderRadius = 1;
             this.se3.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se3.OnPressedState.BorderThickness = 1;
-            this.se3.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se3.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se3.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se3.OnPressedState.IconLeftImage = null;
             this.se3.OnPressedState.IconRightImage = null;
@@ -1636,7 +1637,7 @@ namespace resturant
             this.se2.AutoSizeLeftIcon = true;
             this.se2.AutoSizeRightIcon = true;
             this.se2.BackColor = System.Drawing.Color.Transparent;
-            this.se2.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se2.BackColor1 = System.Drawing.Color.Black;
             this.se2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se2.BackgroundImage")));
             this.se2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se2.ButtonText = "sepete ekle";
@@ -1644,15 +1645,15 @@ namespace resturant
             this.se2.ColorContrastOnClick = 45;
             this.se2.ColorContrastOnHover = 45;
             this.se2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges11.BottomLeft = true;
-            borderEdges11.BottomRight = true;
-            borderEdges11.TopLeft = true;
-            borderEdges11.TopRight = true;
-            this.se2.CustomizableEdges = borderEdges11;
+            borderEdges66.BottomLeft = true;
+            borderEdges66.BottomRight = true;
+            borderEdges66.TopLeft = true;
+            borderEdges66.TopRight = true;
+            this.se2.CustomizableEdges = borderEdges66;
             this.se2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se2.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se2.DisabledFillColor = System.Drawing.Color.Red;
-            this.se2.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se2.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se2.DisabledFillColor = System.Drawing.Color.Black;
+            this.se2.DisabledForecolor = System.Drawing.Color.White;
             this.se2.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se2.ForeColor = System.Drawing.Color.White;
@@ -1665,24 +1666,24 @@ namespace resturant
             this.se2.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se2.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se2.IconSize = 25;
-            this.se2.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se2.IdleBorderColor = System.Drawing.Color.Black;
             this.se2.IdleBorderRadius = 1;
             this.se2.IdleBorderThickness = 1;
-            this.se2.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se2.IdleFillColor = System.Drawing.Color.Black;
             this.se2.IdleIconLeftImage = null;
             this.se2.IdleIconRightImage = null;
             this.se2.IndicateFocus = false;
             this.se2.Location = new System.Drawing.Point(573, 176);
             this.se2.Name = "se2";
-            this.se2.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se2.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se2.OnDisabledState.BorderRadius = 1;
             this.se2.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se2.OnDisabledState.BorderThickness = 1;
-            this.se2.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se2.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se2.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se2.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se2.OnDisabledState.IconLeftImage = null;
             this.se2.OnDisabledState.IconRightImage = null;
-            this.se2.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se2.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se2.onHoverState.BorderRadius = 1;
             this.se2.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se2.onHoverState.BorderThickness = 1;
@@ -1690,19 +1691,19 @@ namespace resturant
             this.se2.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se2.onHoverState.IconLeftImage = null;
             this.se2.onHoverState.IconRightImage = null;
-            this.se2.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se2.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se2.OnIdleState.BorderRadius = 1;
             this.se2.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se2.OnIdleState.BorderThickness = 1;
-            this.se2.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se2.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se2.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se2.OnIdleState.IconLeftImage = null;
             this.se2.OnIdleState.IconRightImage = null;
-            this.se2.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se2.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se2.OnPressedState.BorderRadius = 1;
             this.se2.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se2.OnPressedState.BorderThickness = 1;
-            this.se2.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se2.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se2.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se2.OnPressedState.IconLeftImage = null;
             this.se2.OnPressedState.IconRightImage = null;
@@ -1726,7 +1727,7 @@ namespace resturant
             this.se1.AutoSizeLeftIcon = true;
             this.se1.AutoSizeRightIcon = true;
             this.se1.BackColor = System.Drawing.Color.Transparent;
-            this.se1.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.se1.BackColor1 = System.Drawing.Color.Black;
             this.se1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("se1.BackgroundImage")));
             this.se1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se1.ButtonText = "sepete ekle";
@@ -1734,15 +1735,15 @@ namespace resturant
             this.se1.ColorContrastOnClick = 45;
             this.se1.ColorContrastOnHover = 45;
             this.se1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges12.BottomLeft = true;
-            borderEdges12.BottomRight = true;
-            borderEdges12.TopLeft = true;
-            borderEdges12.TopRight = true;
-            this.se1.CustomizableEdges = borderEdges12;
+            borderEdges67.BottomLeft = true;
+            borderEdges67.BottomRight = true;
+            borderEdges67.TopLeft = true;
+            borderEdges67.TopRight = true;
+            this.se1.CustomizableEdges = borderEdges67;
             this.se1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.se1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.se1.DisabledFillColor = System.Drawing.Color.Red;
-            this.se1.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se1.DisabledBorderColor = System.Drawing.Color.Black;
+            this.se1.DisabledFillColor = System.Drawing.Color.Black;
+            this.se1.DisabledForecolor = System.Drawing.Color.White;
             this.se1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.se1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.se1.ForeColor = System.Drawing.Color.White;
@@ -1755,24 +1756,24 @@ namespace resturant
             this.se1.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.se1.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
             this.se1.IconSize = 25;
-            this.se1.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.se1.IdleBorderColor = System.Drawing.Color.Black;
             this.se1.IdleBorderRadius = 1;
             this.se1.IdleBorderThickness = 1;
-            this.se1.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.se1.IdleFillColor = System.Drawing.Color.Black;
             this.se1.IdleIconLeftImage = null;
             this.se1.IdleIconRightImage = null;
             this.se1.IndicateFocus = false;
             this.se1.Location = new System.Drawing.Point(573, 65);
             this.se1.Name = "se1";
-            this.se1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.se1.OnDisabledState.BorderColor = System.Drawing.Color.Black;
             this.se1.OnDisabledState.BorderRadius = 1;
             this.se1.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se1.OnDisabledState.BorderThickness = 1;
-            this.se1.OnDisabledState.FillColor = System.Drawing.Color.Red;
-            this.se1.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.se1.OnDisabledState.FillColor = System.Drawing.Color.Black;
+            this.se1.OnDisabledState.ForeColor = System.Drawing.Color.White;
             this.se1.OnDisabledState.IconLeftImage = null;
             this.se1.OnDisabledState.IconRightImage = null;
-            this.se1.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.se1.onHoverState.BorderColor = System.Drawing.Color.White;
             this.se1.onHoverState.BorderRadius = 1;
             this.se1.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se1.onHoverState.BorderThickness = 1;
@@ -1780,19 +1781,19 @@ namespace resturant
             this.se1.onHoverState.ForeColor = System.Drawing.Color.White;
             this.se1.onHoverState.IconLeftImage = null;
             this.se1.onHoverState.IconRightImage = null;
-            this.se1.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.se1.OnIdleState.BorderColor = System.Drawing.Color.Black;
             this.se1.OnIdleState.BorderRadius = 1;
             this.se1.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se1.OnIdleState.BorderThickness = 1;
-            this.se1.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.se1.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.se1.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.se1.OnIdleState.IconLeftImage = null;
             this.se1.OnIdleState.IconRightImage = null;
-            this.se1.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se1.OnPressedState.BorderColor = System.Drawing.Color.Black;
             this.se1.OnPressedState.BorderRadius = 1;
             this.se1.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.se1.OnPressedState.BorderThickness = 1;
-            this.se1.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.se1.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.se1.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.se1.OnPressedState.IconLeftImage = null;
             this.se1.OnPressedState.IconRightImage = null;
@@ -1936,7 +1937,7 @@ namespace resturant
             this.Drinks.AutoSizeLeftIcon = true;
             this.Drinks.AutoSizeRightIcon = true;
             this.Drinks.BackColor = System.Drawing.Color.Transparent;
-            this.Drinks.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.Drinks.BackColor1 = System.Drawing.Color.Black;
             this.Drinks.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Drinks.BackgroundImage")));
             this.Drinks.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Drinks.ButtonText = "içecek";
@@ -1944,11 +1945,11 @@ namespace resturant
             this.Drinks.ColorContrastOnClick = 45;
             this.Drinks.ColorContrastOnHover = 45;
             this.Drinks.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges13.BottomLeft = true;
-            borderEdges13.BottomRight = true;
-            borderEdges13.TopLeft = true;
-            borderEdges13.TopRight = true;
-            this.Drinks.CustomizableEdges = borderEdges13;
+            borderEdges55.BottomLeft = true;
+            borderEdges55.BottomRight = true;
+            borderEdges55.TopLeft = true;
+            borderEdges55.TopRight = true;
+            this.Drinks.CustomizableEdges = borderEdges55;
             this.Drinks.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Drinks.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Drinks.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -1968,7 +1969,7 @@ namespace resturant
             this.Drinks.IdleBorderColor = System.Drawing.Color.Black;
             this.Drinks.IdleBorderRadius = 37;
             this.Drinks.IdleBorderThickness = 1;
-            this.Drinks.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.Drinks.IdleFillColor = System.Drawing.Color.Black;
             this.Drinks.IdleIconLeftImage = null;
             this.Drinks.IdleIconRightImage = null;
             this.Drinks.IndicateFocus = false;
@@ -1994,16 +1995,16 @@ namespace resturant
             this.Drinks.OnIdleState.BorderRadius = 1;
             this.Drinks.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Drinks.OnIdleState.BorderThickness = 1;
-            this.Drinks.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.Drinks.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.Drinks.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.Drinks.OnIdleState.IconLeftImage = null;
             this.Drinks.OnIdleState.IconRightImage = null;
-            this.Drinks.OnPressedState.BorderColor = System.Drawing.Color.Black;
+            this.Drinks.OnPressedState.BorderColor = System.Drawing.Color.Red;
             this.Drinks.OnPressedState.BorderRadius = 1;
             this.Drinks.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Drinks.OnPressedState.BorderThickness = 1;
             this.Drinks.OnPressedState.FillColor = System.Drawing.Color.Black;
-            this.Drinks.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.Drinks.OnPressedState.ForeColor = System.Drawing.Color.Red;
             this.Drinks.OnPressedState.IconLeftImage = null;
             this.Drinks.OnPressedState.IconRightImage = null;
             this.Drinks.Size = new System.Drawing.Size(150, 39);
@@ -2026,7 +2027,7 @@ namespace resturant
             this.Sandwitch.AutoSizeLeftIcon = true;
             this.Sandwitch.AutoSizeRightIcon = true;
             this.Sandwitch.BackColor = System.Drawing.Color.Transparent;
-            this.Sandwitch.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.Sandwitch.BackColor1 = System.Drawing.Color.Black;
             this.Sandwitch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Sandwitch.BackgroundImage")));
             this.Sandwitch.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Sandwitch.ButtonText = "Sandvic";
@@ -2034,11 +2035,11 @@ namespace resturant
             this.Sandwitch.ColorContrastOnClick = 45;
             this.Sandwitch.ColorContrastOnHover = 45;
             this.Sandwitch.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges14.BottomLeft = true;
-            borderEdges14.BottomRight = true;
-            borderEdges14.TopLeft = true;
-            borderEdges14.TopRight = true;
-            this.Sandwitch.CustomizableEdges = borderEdges14;
+            borderEdges56.BottomLeft = true;
+            borderEdges56.BottomRight = true;
+            borderEdges56.TopLeft = true;
+            borderEdges56.TopRight = true;
+            this.Sandwitch.CustomizableEdges = borderEdges56;
             this.Sandwitch.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Sandwitch.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Sandwitch.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2058,7 +2059,7 @@ namespace resturant
             this.Sandwitch.IdleBorderColor = System.Drawing.Color.Black;
             this.Sandwitch.IdleBorderRadius = 37;
             this.Sandwitch.IdleBorderThickness = 1;
-            this.Sandwitch.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.Sandwitch.IdleFillColor = System.Drawing.Color.Black;
             this.Sandwitch.IdleIconLeftImage = null;
             this.Sandwitch.IdleIconRightImage = null;
             this.Sandwitch.IndicateFocus = false;
@@ -2084,16 +2085,16 @@ namespace resturant
             this.Sandwitch.OnIdleState.BorderRadius = 1;
             this.Sandwitch.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Sandwitch.OnIdleState.BorderThickness = 1;
-            this.Sandwitch.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.Sandwitch.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.Sandwitch.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.Sandwitch.OnIdleState.IconLeftImage = null;
             this.Sandwitch.OnIdleState.IconRightImage = null;
-            this.Sandwitch.OnPressedState.BorderColor = System.Drawing.Color.Black;
+            this.Sandwitch.OnPressedState.BorderColor = System.Drawing.Color.Red;
             this.Sandwitch.OnPressedState.BorderRadius = 1;
             this.Sandwitch.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Sandwitch.OnPressedState.BorderThickness = 1;
             this.Sandwitch.OnPressedState.FillColor = System.Drawing.Color.Black;
-            this.Sandwitch.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.Sandwitch.OnPressedState.ForeColor = System.Drawing.Color.Red;
             this.Sandwitch.OnPressedState.IconLeftImage = null;
             this.Sandwitch.OnPressedState.IconRightImage = null;
             this.Sandwitch.Size = new System.Drawing.Size(150, 39);
@@ -2116,7 +2117,7 @@ namespace resturant
             this.Side.AutoSizeLeftIcon = true;
             this.Side.AutoSizeRightIcon = true;
             this.Side.BackColor = System.Drawing.Color.Transparent;
-            this.Side.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.Side.BackColor1 = System.Drawing.Color.Black;
             this.Side.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Side.BackgroundImage")));
             this.Side.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Side.ButtonText = "Mezeler";
@@ -2124,11 +2125,11 @@ namespace resturant
             this.Side.ColorContrastOnClick = 45;
             this.Side.ColorContrastOnHover = 45;
             this.Side.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges15.BottomLeft = true;
-            borderEdges15.BottomRight = true;
-            borderEdges15.TopLeft = true;
-            borderEdges15.TopRight = true;
-            this.Side.CustomizableEdges = borderEdges15;
+            borderEdges57.BottomLeft = true;
+            borderEdges57.BottomRight = true;
+            borderEdges57.TopLeft = true;
+            borderEdges57.TopRight = true;
+            this.Side.CustomizableEdges = borderEdges57;
             this.Side.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Side.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Side.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2148,7 +2149,7 @@ namespace resturant
             this.Side.IdleBorderColor = System.Drawing.Color.Black;
             this.Side.IdleBorderRadius = 37;
             this.Side.IdleBorderThickness = 1;
-            this.Side.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.Side.IdleFillColor = System.Drawing.Color.Black;
             this.Side.IdleIconLeftImage = null;
             this.Side.IdleIconRightImage = null;
             this.Side.IndicateFocus = false;
@@ -2174,16 +2175,16 @@ namespace resturant
             this.Side.OnIdleState.BorderRadius = 1;
             this.Side.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Side.OnIdleState.BorderThickness = 1;
-            this.Side.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.Side.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.Side.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.Side.OnIdleState.IconLeftImage = null;
             this.Side.OnIdleState.IconRightImage = null;
-            this.Side.OnPressedState.BorderColor = System.Drawing.Color.Black;
+            this.Side.OnPressedState.BorderColor = System.Drawing.Color.Red;
             this.Side.OnPressedState.BorderRadius = 1;
             this.Side.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.Side.OnPressedState.BorderThickness = 1;
             this.Side.OnPressedState.FillColor = System.Drawing.Color.Black;
-            this.Side.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.Side.OnPressedState.ForeColor = System.Drawing.Color.Red;
             this.Side.OnPressedState.IconLeftImage = null;
             this.Side.OnPressedState.IconRightImage = null;
             this.Side.Size = new System.Drawing.Size(150, 39);
@@ -2206,7 +2207,7 @@ namespace resturant
             this.menuu.AutoSizeLeftIcon = true;
             this.menuu.AutoSizeRightIcon = true;
             this.menuu.BackColor = System.Drawing.Color.Transparent;
-            this.menuu.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.menuu.BackColor1 = System.Drawing.Color.Black;
             this.menuu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menuu.BackgroundImage")));
             this.menuu.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.menuu.ButtonText = "Menu";
@@ -2214,11 +2215,11 @@ namespace resturant
             this.menuu.ColorContrastOnClick = 45;
             this.menuu.ColorContrastOnHover = 45;
             this.menuu.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges16.BottomLeft = true;
-            borderEdges16.BottomRight = true;
-            borderEdges16.TopLeft = true;
-            borderEdges16.TopRight = true;
-            this.menuu.CustomizableEdges = borderEdges16;
+            borderEdges58.BottomLeft = true;
+            borderEdges58.BottomRight = true;
+            borderEdges58.TopLeft = true;
+            borderEdges58.TopRight = true;
+            this.menuu.CustomizableEdges = borderEdges58;
             this.menuu.DialogResult = System.Windows.Forms.DialogResult.None;
             this.menuu.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.menuu.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2238,7 +2239,7 @@ namespace resturant
             this.menuu.IdleBorderColor = System.Drawing.Color.Black;
             this.menuu.IdleBorderRadius = 37;
             this.menuu.IdleBorderThickness = 1;
-            this.menuu.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.menuu.IdleFillColor = System.Drawing.Color.Black;
             this.menuu.IdleIconLeftImage = null;
             this.menuu.IdleIconRightImage = null;
             this.menuu.IndicateFocus = false;
@@ -2264,16 +2265,16 @@ namespace resturant
             this.menuu.OnIdleState.BorderRadius = 1;
             this.menuu.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.menuu.OnIdleState.BorderThickness = 1;
-            this.menuu.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.menuu.OnIdleState.FillColor = System.Drawing.Color.Black;
             this.menuu.OnIdleState.ForeColor = System.Drawing.Color.White;
             this.menuu.OnIdleState.IconLeftImage = null;
             this.menuu.OnIdleState.IconRightImage = null;
-            this.menuu.OnPressedState.BorderColor = System.Drawing.Color.Black;
+            this.menuu.OnPressedState.BorderColor = System.Drawing.Color.Red;
             this.menuu.OnPressedState.BorderRadius = 1;
             this.menuu.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.menuu.OnPressedState.BorderThickness = 1;
             this.menuu.OnPressedState.FillColor = System.Drawing.Color.Black;
-            this.menuu.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.menuu.OnPressedState.ForeColor = System.Drawing.Color.Red;
             this.menuu.OnPressedState.IconLeftImage = null;
             this.menuu.OnPressedState.IconRightImage = null;
             this.menuu.Size = new System.Drawing.Size(150, 39);
@@ -2303,8 +2304,734 @@ namespace resturant
             this.panelSepete.Controls.Add(this.Toplam);
             this.panelSepete.Location = new System.Drawing.Point(136, 153);
             this.panelSepete.Name = "panelSepete";
-            this.panelSepete.Size = new System.Drawing.Size(848, 609);
+            this.panelSepete.Size = new System.Drawing.Size(848, 563);
             this.panelSepete.TabIndex = 5;
+            // 
+            // pc12
+            // 
+            this.pc12.Controls.Add(this.e12);
+            this.pc12.Controls.Add(this.c12);
+            this.pc12.Controls.Add(this.l12);
+            this.pc12.Controls.Add(this.p12);
+            this.pc12.Controls.Add(this.n12);
+            this.pc12.Location = new System.Drawing.Point(436, 397);
+            this.pc12.Name = "pc12";
+            this.pc12.Size = new System.Drawing.Size(392, 47);
+            this.pc12.TabIndex = 83;
+            // 
+            // e12
+            // 
+            this.e12.AutoSize = true;
+            this.e12.Location = new System.Drawing.Point(344, 14);
+            this.e12.Name = "e12";
+            this.e12.Size = new System.Drawing.Size(16, 17);
+            this.e12.TabIndex = 73;
+            this.e12.Text = "+";
+            this.e12.Click += new System.EventHandler(this.e12_Click_1);
+            this.e12.MouseEnter += new System.EventHandler(this.e12_MouseEnter);
+            this.e12.MouseLeave += new System.EventHandler(this.e12_MouseLeave);
+            // 
+            // c12
+            // 
+            this.c12.AutoSize = true;
+            this.c12.Location = new System.Drawing.Point(244, 22);
+            this.c12.Name = "c12";
+            this.c12.Size = new System.Drawing.Size(13, 17);
+            this.c12.TabIndex = 72;
+            this.c12.Text = "-";
+            this.c12.Click += new System.EventHandler(this.label35_Click_5);
+            this.c12.MouseEnter += new System.EventHandler(this.c12_MouseEnter);
+            this.c12.MouseLeave += new System.EventHandler(this.c12_MouseLeave);
+            // 
+            // l12
+            // 
+            this.l12.AutoSize = true;
+            this.l12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l12.Location = new System.Drawing.Point(3, 4);
+            this.l12.Name = "l12";
+            this.l12.Size = new System.Drawing.Size(59, 35);
+            this.l12.TabIndex = 2;
+            this.l12.Text = " çay";
+            // 
+            // p12
+            // 
+            this.p12.AutoSize = true;
+            this.p12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p12.ForeColor = System.Drawing.Color.Red;
+            this.p12.Location = new System.Drawing.Point(187, 14);
+            this.p12.Name = "p12";
+            this.p12.Size = new System.Drawing.Size(17, 17);
+            this.p12.TabIndex = 17;
+            this.p12.Text = "0";
+            // 
+            // n12
+            // 
+            this.n12.AutoSize = true;
+            this.n12.Location = new System.Drawing.Point(286, 14);
+            this.n12.Name = "n12";
+            this.n12.Size = new System.Drawing.Size(16, 17);
+            this.n12.TabIndex = 15;
+            this.n12.Text = "0";
+            // 
+            // pc11
+            // 
+            this.pc11.Controls.Add(this.e11);
+            this.pc11.Controls.Add(this.c11);
+            this.pc11.Controls.Add(this.l11);
+            this.pc11.Controls.Add(this.p11);
+            this.pc11.Controls.Add(this.n11);
+            this.pc11.Location = new System.Drawing.Point(436, 330);
+            this.pc11.Name = "pc11";
+            this.pc11.Size = new System.Drawing.Size(392, 47);
+            this.pc11.TabIndex = 82;
+            // 
+            // e11
+            // 
+            this.e11.AutoSize = true;
+            this.e11.Location = new System.Drawing.Point(344, 12);
+            this.e11.Name = "e11";
+            this.e11.Size = new System.Drawing.Size(16, 17);
+            this.e11.TabIndex = 73;
+            this.e11.Text = "+";
+            this.e11.Click += new System.EventHandler(this.e11_Click_1);
+            this.e11.MouseEnter += new System.EventHandler(this.e11_MouseEnter);
+            this.e11.MouseLeave += new System.EventHandler(this.e11_MouseLeave);
+            // 
+            // c11
+            // 
+            this.c11.AutoSize = true;
+            this.c11.Location = new System.Drawing.Point(244, 19);
+            this.c11.Name = "c11";
+            this.c11.Size = new System.Drawing.Size(13, 17);
+            this.c11.TabIndex = 72;
+            this.c11.Text = "-";
+            this.c11.Click += new System.EventHandler(this.c11_Click_1);
+            this.c11.MouseEnter += new System.EventHandler(this.c11_MouseEnter);
+            this.c11.MouseLeave += new System.EventHandler(this.c11_MouseLeave);
+            // 
+            // l11
+            // 
+            this.l11.AutoSize = true;
+            this.l11.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l11.Location = new System.Drawing.Point(3, 4);
+            this.l11.Name = "l11";
+            this.l11.Size = new System.Drawing.Size(163, 35);
+            this.l11.TabIndex = 2;
+            this.l11.Text = "Gazuzlu iceck";
+            // 
+            // p11
+            // 
+            this.p11.AutoSize = true;
+            this.p11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p11.ForeColor = System.Drawing.Color.Red;
+            this.p11.Location = new System.Drawing.Point(187, 14);
+            this.p11.Name = "p11";
+            this.p11.Size = new System.Drawing.Size(17, 17);
+            this.p11.TabIndex = 17;
+            this.p11.Text = "0";
+            // 
+            // n11
+            // 
+            this.n11.AutoSize = true;
+            this.n11.Location = new System.Drawing.Point(286, 12);
+            this.n11.Name = "n11";
+            this.n11.Size = new System.Drawing.Size(16, 17);
+            this.n11.TabIndex = 15;
+            this.n11.Text = "0";
+            // 
+            // pc10
+            // 
+            this.pc10.Controls.Add(this.e10);
+            this.pc10.Controls.Add(this.c10);
+            this.pc10.Controls.Add(this.l10);
+            this.pc10.Controls.Add(this.p10);
+            this.pc10.Controls.Add(this.n10);
+            this.pc10.Location = new System.Drawing.Point(435, 262);
+            this.pc10.Name = "pc10";
+            this.pc10.Size = new System.Drawing.Size(392, 47);
+            this.pc10.TabIndex = 81;
+            // 
+            // e10
+            // 
+            this.e10.AutoSize = true;
+            this.e10.Location = new System.Drawing.Point(345, 12);
+            this.e10.Name = "e10";
+            this.e10.Size = new System.Drawing.Size(16, 17);
+            this.e10.TabIndex = 73;
+            this.e10.Text = "+";
+            this.e10.Click += new System.EventHandler(this.label22_Click_3);
+            this.e10.MouseEnter += new System.EventHandler(this.e10_MouseEnter);
+            this.e10.MouseLeave += new System.EventHandler(this.e10_MouseLeave);
+            // 
+            // c10
+            // 
+            this.c10.AutoSize = true;
+            this.c10.Location = new System.Drawing.Point(245, 19);
+            this.c10.Name = "c10";
+            this.c10.Size = new System.Drawing.Size(13, 17);
+            this.c10.TabIndex = 72;
+            this.c10.Text = "-";
+            this.c10.Click += new System.EventHandler(this.c10_Click_1);
+            this.c10.MouseEnter += new System.EventHandler(this.c10_MouseEnter);
+            this.c10.MouseLeave += new System.EventHandler(this.c10_MouseLeave);
+            // 
+            // l10
+            // 
+            this.l10.AutoSize = true;
+            this.l10.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l10.Location = new System.Drawing.Point(3, 4);
+            this.l10.Name = "l10";
+            this.l10.Size = new System.Drawing.Size(49, 35);
+            this.l10.TabIndex = 2;
+            this.l10.Text = "Su ";
+            // 
+            // p10
+            // 
+            this.p10.AutoSize = true;
+            this.p10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p10.ForeColor = System.Drawing.Color.Red;
+            this.p10.Location = new System.Drawing.Point(187, 14);
+            this.p10.Name = "p10";
+            this.p10.Size = new System.Drawing.Size(17, 17);
+            this.p10.TabIndex = 17;
+            this.p10.Text = "0";
+            // 
+            // n10
+            // 
+            this.n10.AutoSize = true;
+            this.n10.Location = new System.Drawing.Point(287, 14);
+            this.n10.Name = "n10";
+            this.n10.Size = new System.Drawing.Size(16, 17);
+            this.n10.TabIndex = 15;
+            this.n10.Text = "0";
+            // 
+            // pc9
+            // 
+            this.pc9.Controls.Add(this.e9);
+            this.pc9.Controls.Add(this.c9);
+            this.pc9.Controls.Add(this.l9);
+            this.pc9.Controls.Add(this.p9);
+            this.pc9.Controls.Add(this.n9);
+            this.pc9.Location = new System.Drawing.Point(436, 195);
+            this.pc9.Name = "pc9";
+            this.pc9.Size = new System.Drawing.Size(392, 47);
+            this.pc9.TabIndex = 80;
+            // 
+            // e9
+            // 
+            this.e9.AutoSize = true;
+            this.e9.Location = new System.Drawing.Point(344, 10);
+            this.e9.Name = "e9";
+            this.e9.Size = new System.Drawing.Size(16, 17);
+            this.e9.TabIndex = 73;
+            this.e9.Text = "+";
+            this.e9.Click += new System.EventHandler(this.e9_Click_1);
+            this.e9.MouseEnter += new System.EventHandler(this.e9_MouseEnter);
+            this.e9.MouseLeave += new System.EventHandler(this.e9_MouseLeave);
+            // 
+            // c9
+            // 
+            this.c9.AutoSize = true;
+            this.c9.Location = new System.Drawing.Point(244, 14);
+            this.c9.Name = "c9";
+            this.c9.Size = new System.Drawing.Size(13, 17);
+            this.c9.TabIndex = 72;
+            this.c9.Text = "-";
+            this.c9.Click += new System.EventHandler(this.c9_Click_1);
+            this.c9.MouseEnter += new System.EventHandler(this.c9_MouseEnter);
+            this.c9.MouseLeave += new System.EventHandler(this.c9_MouseLeave);
+            // 
+            // l9
+            // 
+            this.l9.AutoSize = true;
+            this.l9.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l9.Location = new System.Drawing.Point(3, 4);
+            this.l9.Name = "l9";
+            this.l9.Size = new System.Drawing.Size(81, 35);
+            this.l9.TabIndex = 2;
+            this.l9.Text = "Salata";
+            // 
+            // p9
+            // 
+            this.p9.AutoSize = true;
+            this.p9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p9.ForeColor = System.Drawing.Color.Red;
+            this.p9.Location = new System.Drawing.Point(187, 14);
+            this.p9.Name = "p9";
+            this.p9.Size = new System.Drawing.Size(17, 17);
+            this.p9.TabIndex = 17;
+            this.p9.Text = "0";
+            // 
+            // n9
+            // 
+            this.n9.AutoSize = true;
+            this.n9.Location = new System.Drawing.Point(286, 14);
+            this.n9.Name = "n9";
+            this.n9.Size = new System.Drawing.Size(16, 17);
+            this.n9.TabIndex = 15;
+            this.n9.Text = "0";
+            // 
+            // pc8
+            // 
+            this.pc8.Controls.Add(this.e8);
+            this.pc8.Controls.Add(this.c8);
+            this.pc8.Controls.Add(this.l8);
+            this.pc8.Controls.Add(this.p8);
+            this.pc8.Controls.Add(this.n8);
+            this.pc8.Location = new System.Drawing.Point(435, 121);
+            this.pc8.Name = "pc8";
+            this.pc8.Size = new System.Drawing.Size(392, 47);
+            this.pc8.TabIndex = 79;
+            // 
+            // e8
+            // 
+            this.e8.AutoSize = true;
+            this.e8.Location = new System.Drawing.Point(345, 14);
+            this.e8.Name = "e8";
+            this.e8.Size = new System.Drawing.Size(16, 17);
+            this.e8.TabIndex = 73;
+            this.e8.Text = "+";
+            this.e8.Click += new System.EventHandler(this.e8_Click_1);
+            this.e8.MouseEnter += new System.EventHandler(this.e8_MouseEnter);
+            this.e8.MouseLeave += new System.EventHandler(this.e8_MouseLeave);
+            // 
+            // c8
+            // 
+            this.c8.AutoSize = true;
+            this.c8.Location = new System.Drawing.Point(245, 14);
+            this.c8.Name = "c8";
+            this.c8.Size = new System.Drawing.Size(13, 17);
+            this.c8.TabIndex = 72;
+            this.c8.Text = "-";
+            this.c8.Click += new System.EventHandler(this.label35_Click_4);
+            this.c8.MouseEnter += new System.EventHandler(this.c8_MouseEnter);
+            this.c8.MouseLeave += new System.EventHandler(this.c8_MouseLeave);
+            // 
+            // l8
+            // 
+            this.l8.AutoSize = true;
+            this.l8.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l8.Location = new System.Drawing.Point(3, 4);
+            this.l8.Name = "l8";
+            this.l8.Size = new System.Drawing.Size(95, 35);
+            this.l8.TabIndex = 2;
+            this.l8.Text = "Homus";
+            // 
+            // p8
+            // 
+            this.p8.AutoSize = true;
+            this.p8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p8.ForeColor = System.Drawing.Color.Red;
+            this.p8.Location = new System.Drawing.Point(187, 14);
+            this.p8.Name = "p8";
+            this.p8.Size = new System.Drawing.Size(17, 17);
+            this.p8.TabIndex = 17;
+            this.p8.Text = "0";
+            // 
+            // n8
+            // 
+            this.n8.AutoSize = true;
+            this.n8.Location = new System.Drawing.Point(287, 10);
+            this.n8.Name = "n8";
+            this.n8.Size = new System.Drawing.Size(16, 17);
+            this.n8.TabIndex = 15;
+            this.n8.Text = "0";
+            // 
+            // pc7
+            // 
+            this.pc7.Controls.Add(this.e7);
+            this.pc7.Controls.Add(this.c7);
+            this.pc7.Controls.Add(this.l7);
+            this.pc7.Controls.Add(this.p7);
+            this.pc7.Controls.Add(this.n7);
+            this.pc7.Location = new System.Drawing.Point(435, 52);
+            this.pc7.Name = "pc7";
+            this.pc7.Size = new System.Drawing.Size(392, 47);
+            this.pc7.TabIndex = 78;
+            // 
+            // e7
+            // 
+            this.e7.AutoSize = true;
+            this.e7.Location = new System.Drawing.Point(345, 14);
+            this.e7.Name = "e7";
+            this.e7.Size = new System.Drawing.Size(16, 17);
+            this.e7.TabIndex = 73;
+            this.e7.Text = "+";
+            this.e7.Click += new System.EventHandler(this.e7_Click_1);
+            this.e7.MouseEnter += new System.EventHandler(this.e7_MouseEnter);
+            this.e7.MouseLeave += new System.EventHandler(this.e7_MouseLeave);
+            // 
+            // c7
+            // 
+            this.c7.AutoSize = true;
+            this.c7.Location = new System.Drawing.Point(245, 13);
+            this.c7.Name = "c7";
+            this.c7.Size = new System.Drawing.Size(13, 17);
+            this.c7.TabIndex = 72;
+            this.c7.Text = "-";
+            this.c7.Click += new System.EventHandler(this.label35_Click_3);
+            this.c7.MouseEnter += new System.EventHandler(this.c7_MouseEnter);
+            this.c7.MouseLeave += new System.EventHandler(this.c7_MouseLeave);
+            // 
+            // l7
+            // 
+            this.l7.AutoSize = true;
+            this.l7.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l7.Location = new System.Drawing.Point(3, 4);
+            this.l7.Name = "l7";
+            this.l7.Size = new System.Drawing.Size(94, 35);
+            this.l7.TabIndex = 2;
+            this.l7.Text = "Patates";
+            // 
+            // p7
+            // 
+            this.p7.AutoSize = true;
+            this.p7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p7.ForeColor = System.Drawing.Color.Red;
+            this.p7.Location = new System.Drawing.Point(187, 14);
+            this.p7.Name = "p7";
+            this.p7.Size = new System.Drawing.Size(17, 17);
+            this.p7.TabIndex = 17;
+            this.p7.Text = "0";
+            // 
+            // n7
+            // 
+            this.n7.AutoSize = true;
+            this.n7.Location = new System.Drawing.Point(287, 14);
+            this.n7.Name = "n7";
+            this.n7.Size = new System.Drawing.Size(16, 17);
+            this.n7.TabIndex = 15;
+            this.n7.Text = "0";
+            // 
+            // pc6
+            // 
+            this.pc6.Controls.Add(this.e6);
+            this.pc6.Controls.Add(this.c6);
+            this.pc6.Controls.Add(this.l6);
+            this.pc6.Controls.Add(this.p6);
+            this.pc6.Controls.Add(this.n6);
+            this.pc6.Location = new System.Drawing.Point(32, 400);
+            this.pc6.Name = "pc6";
+            this.pc6.Size = new System.Drawing.Size(387, 47);
+            this.pc6.TabIndex = 77;
+            // 
+            // e6
+            // 
+            this.e6.AutoSize = true;
+            this.e6.Location = new System.Drawing.Point(332, 17);
+            this.e6.Name = "e6";
+            this.e6.Size = new System.Drawing.Size(16, 17);
+            this.e6.TabIndex = 73;
+            this.e6.Text = "+";
+            this.e6.Click += new System.EventHandler(this.e6_Click_1);
+            this.e6.MouseEnter += new System.EventHandler(this.e6_MouseEnter);
+            this.e6.MouseLeave += new System.EventHandler(this.e6_MouseLeave);
+            // 
+            // c6
+            // 
+            this.c6.AutoSize = true;
+            this.c6.Location = new System.Drawing.Point(247, 15);
+            this.c6.Name = "c6";
+            this.c6.Size = new System.Drawing.Size(13, 17);
+            this.c6.TabIndex = 72;
+            this.c6.Text = "-";
+            this.c6.Click += new System.EventHandler(this.c6_Click_1);
+            this.c6.MouseEnter += new System.EventHandler(this.c6_MouseEnter);
+            this.c6.MouseLeave += new System.EventHandler(this.c6_MouseLeave);
+            // 
+            // l6
+            // 
+            this.l6.AutoSize = true;
+            this.l6.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l6.Location = new System.Drawing.Point(3, 4);
+            this.l6.Name = "l6";
+            this.l6.Size = new System.Drawing.Size(179, 35);
+            this.l6.TabIndex = 2;
+            this.l6.Text = "Burger sandviç";
+            // 
+            // p6
+            // 
+            this.p6.AutoSize = true;
+            this.p6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p6.ForeColor = System.Drawing.Color.Red;
+            this.p6.Location = new System.Drawing.Point(200, 12);
+            this.p6.Name = "p6";
+            this.p6.Size = new System.Drawing.Size(17, 17);
+            this.p6.TabIndex = 17;
+            this.p6.Text = "0";
+            // 
+            // n6
+            // 
+            this.n6.AutoSize = true;
+            this.n6.Location = new System.Drawing.Point(287, 14);
+            this.n6.Name = "n6";
+            this.n6.Size = new System.Drawing.Size(16, 17);
+            this.n6.TabIndex = 15;
+            this.n6.Text = "0";
+            // 
+            // pc5
+            // 
+            this.pc5.Controls.Add(this.e5);
+            this.pc5.Controls.Add(this.c5);
+            this.pc5.Controls.Add(this.l5);
+            this.pc5.Controls.Add(this.p5);
+            this.pc5.Controls.Add(this.n5);
+            this.pc5.Location = new System.Drawing.Point(32, 330);
+            this.pc5.Name = "pc5";
+            this.pc5.Size = new System.Drawing.Size(387, 47);
+            this.pc5.TabIndex = 76;
+            // 
+            // e5
+            // 
+            this.e5.AutoSize = true;
+            this.e5.Location = new System.Drawing.Point(332, 15);
+            this.e5.Name = "e5";
+            this.e5.Size = new System.Drawing.Size(16, 17);
+            this.e5.TabIndex = 73;
+            this.e5.Text = "+";
+            this.e5.Click += new System.EventHandler(this.e5_Click);
+            this.e5.MouseEnter += new System.EventHandler(this.e5_MouseEnter);
+            this.e5.MouseLeave += new System.EventHandler(this.e5_MouseLeave);
+            // 
+            // c5
+            // 
+            this.c5.AutoSize = true;
+            this.c5.Location = new System.Drawing.Point(247, 19);
+            this.c5.Name = "c5";
+            this.c5.Size = new System.Drawing.Size(13, 17);
+            this.c5.TabIndex = 72;
+            this.c5.Text = "-";
+            this.c5.Click += new System.EventHandler(this.c5_Click_1);
+            this.c5.MouseEnter += new System.EventHandler(this.c5_MouseEnter);
+            this.c5.MouseLeave += new System.EventHandler(this.c5_MouseLeave);
+            // 
+            // l5
+            // 
+            this.l5.AutoSize = true;
+            this.l5.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l5.Location = new System.Drawing.Point(3, 4);
+            this.l5.Name = "l5";
+            this.l5.Size = new System.Drawing.Size(188, 35);
+            this.l5.TabIndex = 2;
+            this.l5.Text = "Nagget sandviç";
+            // 
+            // p5
+            // 
+            this.p5.AutoSize = true;
+            this.p5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p5.ForeColor = System.Drawing.Color.Red;
+            this.p5.Location = new System.Drawing.Point(200, 12);
+            this.p5.Name = "p5";
+            this.p5.Size = new System.Drawing.Size(17, 17);
+            this.p5.TabIndex = 17;
+            this.p5.Text = "0";
+            // 
+            // n5
+            // 
+            this.n5.AutoSize = true;
+            this.n5.Location = new System.Drawing.Point(287, 12);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(16, 17);
+            this.n5.TabIndex = 15;
+            this.n5.Text = "0";
+            // 
+            // pc4
+            // 
+            this.pc4.Controls.Add(this.e4);
+            this.pc4.Controls.Add(this.c4);
+            this.pc4.Controls.Add(this.l4);
+            this.pc4.Controls.Add(this.p4);
+            this.pc4.Controls.Add(this.n4);
+            this.pc4.Location = new System.Drawing.Point(32, 262);
+            this.pc4.Name = "pc4";
+            this.pc4.Size = new System.Drawing.Size(387, 47);
+            this.pc4.TabIndex = 75;
+            // 
+            // e4
+            // 
+            this.e4.AutoSize = true;
+            this.e4.Location = new System.Drawing.Point(332, 12);
+            this.e4.Name = "e4";
+            this.e4.Size = new System.Drawing.Size(16, 17);
+            this.e4.TabIndex = 73;
+            this.e4.Text = "+";
+            this.e4.Click += new System.EventHandler(this.e4_Click);
+            this.e4.MouseEnter += new System.EventHandler(this.e4_MouseEnter);
+            this.e4.MouseLeave += new System.EventHandler(this.e4_MouseLeave);
+            // 
+            // c4
+            // 
+            this.c4.AutoSize = true;
+            this.c4.Location = new System.Drawing.Point(247, 19);
+            this.c4.Name = "c4";
+            this.c4.Size = new System.Drawing.Size(13, 17);
+            this.c4.TabIndex = 72;
+            this.c4.Text = "-";
+            this.c4.Click += new System.EventHandler(this.label35_Click_2);
+            this.c4.MouseEnter += new System.EventHandler(this.c4_MouseEnter);
+            this.c4.MouseLeave += new System.EventHandler(this.c4_MouseLeave);
+            // 
+            // l4
+            // 
+            this.l4.AutoSize = true;
+            this.l4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l4.Location = new System.Drawing.Point(3, 4);
+            this.l4.Name = "l4";
+            this.l4.Size = new System.Drawing.Size(165, 35);
+            this.l4.TabIndex = 2;
+            this.l4.Text = "Döner dürüm";
+            // 
+            // p4
+            // 
+            this.p4.AutoSize = true;
+            this.p4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p4.ForeColor = System.Drawing.Color.Red;
+            this.p4.Location = new System.Drawing.Point(200, 14);
+            this.p4.Name = "p4";
+            this.p4.Size = new System.Drawing.Size(17, 17);
+            this.p4.TabIndex = 17;
+            this.p4.Text = "0";
+            // 
+            // n4
+            // 
+            this.n4.AutoSize = true;
+            this.n4.Location = new System.Drawing.Point(287, 14);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(16, 17);
+            this.n4.TabIndex = 15;
+            this.n4.Text = "0";
+            // 
+            // pc3
+            // 
+            this.pc3.Controls.Add(this.e3);
+            this.pc3.Controls.Add(this.c3);
+            this.pc3.Controls.Add(this.l3);
+            this.pc3.Controls.Add(this.p3);
+            this.pc3.Controls.Add(this.n3);
+            this.pc3.Location = new System.Drawing.Point(32, 195);
+            this.pc3.Name = "pc3";
+            this.pc3.Size = new System.Drawing.Size(387, 47);
+            this.pc3.TabIndex = 74;
+            // 
+            // e3
+            // 
+            this.e3.AutoSize = true;
+            this.e3.Location = new System.Drawing.Point(332, 13);
+            this.e3.Name = "e3";
+            this.e3.Size = new System.Drawing.Size(16, 17);
+            this.e3.TabIndex = 73;
+            this.e3.Text = "+";
+            this.e3.Click += new System.EventHandler(this.label22_Click_2);
+            this.e3.MouseEnter += new System.EventHandler(this.e3_MouseEnter);
+            this.e3.MouseLeave += new System.EventHandler(this.e3_MouseLeave);
+            // 
+            // c3
+            // 
+            this.c3.AutoSize = true;
+            this.c3.Location = new System.Drawing.Point(247, 14);
+            this.c3.Name = "c3";
+            this.c3.Size = new System.Drawing.Size(13, 17);
+            this.c3.TabIndex = 72;
+            this.c3.Text = "-";
+            this.c3.Click += new System.EventHandler(this.label35_Click_1);
+            this.c3.MouseEnter += new System.EventHandler(this.c3_MouseEnter);
+            this.c3.MouseLeave += new System.EventHandler(this.c3_MouseLeave);
+            // 
+            // l3
+            // 
+            this.l3.AutoSize = true;
+            this.l3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l3.Location = new System.Drawing.Point(3, 4);
+            this.l3.Name = "l3";
+            this.l3.Size = new System.Drawing.Size(184, 35);
+            this.l3.TabIndex = 2;
+            this.l3.Text = "Burger menüsü";
+            // 
+            // p3
+            // 
+            this.p3.AutoSize = true;
+            this.p3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p3.ForeColor = System.Drawing.Color.Red;
+            this.p3.Location = new System.Drawing.Point(200, 14);
+            this.p3.Name = "p3";
+            this.p3.Size = new System.Drawing.Size(17, 17);
+            this.p3.TabIndex = 17;
+            this.p3.Text = "0";
+            // 
+            // n3
+            // 
+            this.n3.AutoSize = true;
+            this.n3.Location = new System.Drawing.Point(287, 13);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(16, 17);
+            this.n3.TabIndex = 15;
+            this.n3.Text = "0";
+            // 
+            // pc2
+            // 
+            this.pc2.Controls.Add(this.e2);
+            this.pc2.Controls.Add(this.c2);
+            this.pc2.Controls.Add(this.l2);
+            this.pc2.Controls.Add(this.p2);
+            this.pc2.Controls.Add(this.n2);
+            this.pc2.Location = new System.Drawing.Point(32, 121);
+            this.pc2.Name = "pc2";
+            this.pc2.Size = new System.Drawing.Size(387, 47);
+            this.pc2.TabIndex = 73;
+            // 
+            // e2
+            // 
+            this.e2.AutoSize = true;
+            this.e2.Location = new System.Drawing.Point(332, 19);
+            this.e2.Name = "e2";
+            this.e2.Size = new System.Drawing.Size(16, 17);
+            this.e2.TabIndex = 73;
+            this.e2.Text = "+";
+            this.e2.Click += new System.EventHandler(this.label22_Click_1);
+            this.e2.MouseEnter += new System.EventHandler(this.e2_MouseEnter);
+            this.e2.MouseLeave += new System.EventHandler(this.e2_MouseLeave);
+            // 
+            // c2
+            // 
+            this.c2.AutoSize = true;
+            this.c2.Location = new System.Drawing.Point(247, 19);
+            this.c2.Name = "c2";
+            this.c2.Size = new System.Drawing.Size(13, 17);
+            this.c2.TabIndex = 72;
+            this.c2.Text = "-";
+            this.c2.Click += new System.EventHandler(this.label35_Click);
+            this.c2.MouseEnter += new System.EventHandler(this.c2_MouseEnter);
+            this.c2.MouseLeave += new System.EventHandler(this.c2_MouseLeave);
+            // 
+            // l2
+            // 
+            this.l2.AutoSize = true;
+            this.l2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l2.Location = new System.Drawing.Point(3, 4);
+            this.l2.Name = "l2";
+            this.l2.Size = new System.Drawing.Size(180, 35);
+            this.l2.TabIndex = 2;
+            this.l2.Text = "Ngget menüsü";
+            // 
+            // p2
+            // 
+            this.p2.AutoSize = true;
+            this.p2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p2.ForeColor = System.Drawing.Color.Red;
+            this.p2.Location = new System.Drawing.Point(200, 14);
+            this.p2.Name = "p2";
+            this.p2.Size = new System.Drawing.Size(17, 17);
+            this.p2.TabIndex = 17;
+            this.p2.Text = "0";
+            // 
+            // n2
+            // 
+            this.n2.AutoSize = true;
+            this.n2.Location = new System.Drawing.Point(287, 19);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(16, 17);
+            this.n2.TabIndex = 15;
+            this.n2.Text = "0";
             // 
             // pc1
             // 
@@ -2392,11 +3119,11 @@ namespace resturant
             this.conf.ColorContrastOnClick = 45;
             this.conf.ColorContrastOnHover = 45;
             this.conf.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges17.BottomLeft = true;
-            borderEdges17.BottomRight = true;
-            borderEdges17.TopLeft = true;
-            borderEdges17.TopRight = true;
-            this.conf.CustomizableEdges = borderEdges17;
+            borderEdges68.BottomLeft = true;
+            borderEdges68.BottomRight = true;
+            borderEdges68.TopLeft = true;
+            borderEdges68.TopRight = true;
+            this.conf.CustomizableEdges = borderEdges68;
             this.conf.DialogResult = System.Windows.Forms.DialogResult.None;
             this.conf.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.conf.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -2529,738 +3256,21 @@ namespace resturant
             this.Home.UseVisualStyleBackColor = true;
             this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
-            // pc2
-            // 
-            this.pc2.Controls.Add(this.e2);
-            this.pc2.Controls.Add(this.c2);
-            this.pc2.Controls.Add(this.l2);
-            this.pc2.Controls.Add(this.p2);
-            this.pc2.Controls.Add(this.n2);
-            this.pc2.Location = new System.Drawing.Point(32, 121);
-            this.pc2.Name = "pc2";
-            this.pc2.Size = new System.Drawing.Size(387, 47);
-            this.pc2.TabIndex = 73;
-            // 
-            // e2
-            // 
-            this.e2.AutoSize = true;
-            this.e2.Location = new System.Drawing.Point(287, 14);
-            this.e2.Name = "e2";
-            this.e2.Size = new System.Drawing.Size(16, 17);
-            this.e2.TabIndex = 73;
-            this.e2.Text = "+";
-            this.e2.Click += new System.EventHandler(this.label22_Click_1);
-            this.e2.MouseEnter += new System.EventHandler(this.e2_MouseEnter);
-            this.e2.MouseLeave += new System.EventHandler(this.e2_MouseLeave);
-            // 
-            // c2
-            // 
-            this.c2.AutoSize = true;
-            this.c2.Location = new System.Drawing.Point(225, 14);
-            this.c2.Name = "c2";
-            this.c2.Size = new System.Drawing.Size(13, 17);
-            this.c2.TabIndex = 72;
-            this.c2.Text = "-";
-            this.c2.Click += new System.EventHandler(this.label35_Click);
-            this.c2.MouseEnter += new System.EventHandler(this.c2_MouseEnter);
-            this.c2.MouseLeave += new System.EventHandler(this.c2_MouseLeave);
-            // 
-            // l2
-            // 
-            this.l2.AutoSize = true;
-            this.l2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l2.Location = new System.Drawing.Point(3, 4);
-            this.l2.Name = "l2";
-            this.l2.Size = new System.Drawing.Size(180, 35);
-            this.l2.TabIndex = 2;
-            this.l2.Text = "Ngget menüsü";
-            // 
-            // p2
-            // 
-            this.p2.AutoSize = true;
-            this.p2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p2.ForeColor = System.Drawing.Color.Red;
-            this.p2.Location = new System.Drawing.Point(187, 14);
-            this.p2.Name = "p2";
-            this.p2.Size = new System.Drawing.Size(17, 17);
-            this.p2.TabIndex = 17;
-            this.p2.Text = "0";
-            // 
-            // n2
-            // 
-            this.n2.AutoSize = true;
-            this.n2.Location = new System.Drawing.Point(257, 14);
-            this.n2.Name = "n2";
-            this.n2.Size = new System.Drawing.Size(16, 17);
-            this.n2.TabIndex = 15;
-            this.n2.Text = "0";
-            // 
-            // pc3
-            // 
-            this.pc3.Controls.Add(this.e3);
-            this.pc3.Controls.Add(this.c3);
-            this.pc3.Controls.Add(this.l3);
-            this.pc3.Controls.Add(this.p3);
-            this.pc3.Controls.Add(this.n3);
-            this.pc3.Location = new System.Drawing.Point(32, 195);
-            this.pc3.Name = "pc3";
-            this.pc3.Size = new System.Drawing.Size(387, 47);
-            this.pc3.TabIndex = 74;
-            // 
-            // e3
-            // 
-            this.e3.AutoSize = true;
-            this.e3.Location = new System.Drawing.Point(287, 14);
-            this.e3.Name = "e3";
-            this.e3.Size = new System.Drawing.Size(16, 17);
-            this.e3.TabIndex = 73;
-            this.e3.Text = "+";
-            this.e3.Click += new System.EventHandler(this.label22_Click_2);
-            this.e3.MouseEnter += new System.EventHandler(this.e3_MouseEnter);
-            this.e3.MouseLeave += new System.EventHandler(this.e3_MouseLeave);
-            // 
-            // c3
-            // 
-            this.c3.AutoSize = true;
-            this.c3.Location = new System.Drawing.Point(225, 19);
-            this.c3.Name = "c3";
-            this.c3.Size = new System.Drawing.Size(13, 17);
-            this.c3.TabIndex = 72;
-            this.c3.Text = "-";
-            this.c3.Click += new System.EventHandler(this.label35_Click_1);
-            this.c3.MouseEnter += new System.EventHandler(this.c3_MouseEnter);
-            this.c3.MouseLeave += new System.EventHandler(this.c3_MouseLeave);
-            // 
-            // l3
-            // 
-            this.l3.AutoSize = true;
-            this.l3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l3.Location = new System.Drawing.Point(3, 4);
-            this.l3.Name = "l3";
-            this.l3.Size = new System.Drawing.Size(184, 35);
-            this.l3.TabIndex = 2;
-            this.l3.Text = "Burger menüsü";
-            // 
-            // p3
-            // 
-            this.p3.AutoSize = true;
-            this.p3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p3.ForeColor = System.Drawing.Color.Red;
-            this.p3.Location = new System.Drawing.Point(187, 14);
-            this.p3.Name = "p3";
-            this.p3.Size = new System.Drawing.Size(17, 17);
-            this.p3.TabIndex = 17;
-            this.p3.Text = "0";
-            // 
-            // n3
-            // 
-            this.n3.AutoSize = true;
-            this.n3.Location = new System.Drawing.Point(257, 14);
-            this.n3.Name = "n3";
-            this.n3.Size = new System.Drawing.Size(16, 17);
-            this.n3.TabIndex = 15;
-            this.n3.Text = "0";
-            // 
-            // pc4
-            // 
-            this.pc4.Controls.Add(this.e4);
-            this.pc4.Controls.Add(this.c4);
-            this.pc4.Controls.Add(this.l4);
-            this.pc4.Controls.Add(this.p4);
-            this.pc4.Controls.Add(this.n4);
-            this.pc4.Location = new System.Drawing.Point(32, 262);
-            this.pc4.Name = "pc4";
-            this.pc4.Size = new System.Drawing.Size(387, 47);
-            this.pc4.TabIndex = 75;
-            // 
-            // e4
-            // 
-            this.e4.AutoSize = true;
-            this.e4.Location = new System.Drawing.Point(287, 14);
-            this.e4.Name = "e4";
-            this.e4.Size = new System.Drawing.Size(16, 17);
-            this.e4.TabIndex = 73;
-            this.e4.Text = "+";
-            this.e4.Click += new System.EventHandler(this.e4_Click);
-            this.e4.MouseEnter += new System.EventHandler(this.e4_MouseEnter);
-            this.e4.MouseLeave += new System.EventHandler(this.e4_MouseLeave);
-            // 
-            // c4
-            // 
-            this.c4.AutoSize = true;
-            this.c4.Location = new System.Drawing.Point(225, 19);
-            this.c4.Name = "c4";
-            this.c4.Size = new System.Drawing.Size(13, 17);
-            this.c4.TabIndex = 72;
-            this.c4.Text = "-";
-            this.c4.Click += new System.EventHandler(this.label35_Click_2);
-            this.c4.MouseEnter += new System.EventHandler(this.c4_MouseEnter);
-            this.c4.MouseLeave += new System.EventHandler(this.c4_MouseLeave);
-            // 
-            // l4
-            // 
-            this.l4.AutoSize = true;
-            this.l4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l4.Location = new System.Drawing.Point(3, 4);
-            this.l4.Name = "l4";
-            this.l4.Size = new System.Drawing.Size(165, 35);
-            this.l4.TabIndex = 2;
-            this.l4.Text = "Döner dürüm";
-            // 
-            // p4
-            // 
-            this.p4.AutoSize = true;
-            this.p4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p4.ForeColor = System.Drawing.Color.Red;
-            this.p4.Location = new System.Drawing.Point(187, 14);
-            this.p4.Name = "p4";
-            this.p4.Size = new System.Drawing.Size(17, 17);
-            this.p4.TabIndex = 17;
-            this.p4.Text = "0";
-            // 
-            // n4
-            // 
-            this.n4.AutoSize = true;
-            this.n4.Location = new System.Drawing.Point(257, 14);
-            this.n4.Name = "n4";
-            this.n4.Size = new System.Drawing.Size(16, 17);
-            this.n4.TabIndex = 15;
-            this.n4.Text = "0";
-            // 
-            // pc5
-            // 
-            this.pc5.Controls.Add(this.e5);
-            this.pc5.Controls.Add(this.c5);
-            this.pc5.Controls.Add(this.l5);
-            this.pc5.Controls.Add(this.p5);
-            this.pc5.Controls.Add(this.n5);
-            this.pc5.Location = new System.Drawing.Point(32, 330);
-            this.pc5.Name = "pc5";
-            this.pc5.Size = new System.Drawing.Size(387, 47);
-            this.pc5.TabIndex = 76;
-            // 
-            // e5
-            // 
-            this.e5.AutoSize = true;
-            this.e5.Location = new System.Drawing.Point(287, 14);
-            this.e5.Name = "e5";
-            this.e5.Size = new System.Drawing.Size(16, 17);
-            this.e5.TabIndex = 73;
-            this.e5.Text = "+";
-            this.e5.Click += new System.EventHandler(this.e5_Click);
-            this.e5.MouseEnter += new System.EventHandler(this.e5_MouseEnter);
-            this.e5.MouseLeave += new System.EventHandler(this.e5_MouseLeave);
-            // 
-            // c5
-            // 
-            this.c5.AutoSize = true;
-            this.c5.Location = new System.Drawing.Point(225, 19);
-            this.c5.Name = "c5";
-            this.c5.Size = new System.Drawing.Size(13, 17);
-            this.c5.TabIndex = 72;
-            this.c5.Text = "-";
-            this.c5.Click += new System.EventHandler(this.c5_Click_1);
-            this.c5.MouseEnter += new System.EventHandler(this.c5_MouseEnter);
-            this.c5.MouseLeave += new System.EventHandler(this.c5_MouseLeave);
-            // 
-            // l5
-            // 
-            this.l5.AutoSize = true;
-            this.l5.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l5.Location = new System.Drawing.Point(3, 4);
-            this.l5.Name = "l5";
-            this.l5.Size = new System.Drawing.Size(188, 35);
-            this.l5.TabIndex = 2;
-            this.l5.Text = "Nagget sandviç";
-            // 
-            // p5
-            // 
-            this.p5.AutoSize = true;
-            this.p5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p5.ForeColor = System.Drawing.Color.Red;
-            this.p5.Location = new System.Drawing.Point(187, 14);
-            this.p5.Name = "p5";
-            this.p5.Size = new System.Drawing.Size(17, 17);
-            this.p5.TabIndex = 17;
-            this.p5.Text = "0";
-            // 
-            // n5
-            // 
-            this.n5.AutoSize = true;
-            this.n5.Location = new System.Drawing.Point(257, 14);
-            this.n5.Name = "n5";
-            this.n5.Size = new System.Drawing.Size(16, 17);
-            this.n5.TabIndex = 15;
-            this.n5.Text = "0";
-            // 
-            // pc6
-            // 
-            this.pc6.Controls.Add(this.e6);
-            this.pc6.Controls.Add(this.c6);
-            this.pc6.Controls.Add(this.l6);
-            this.pc6.Controls.Add(this.p6);
-            this.pc6.Controls.Add(this.n6);
-            this.pc6.Location = new System.Drawing.Point(32, 400);
-            this.pc6.Name = "pc6";
-            this.pc6.Size = new System.Drawing.Size(387, 47);
-            this.pc6.TabIndex = 77;
-            // 
-            // e6
-            // 
-            this.e6.AutoSize = true;
-            this.e6.Location = new System.Drawing.Point(287, 14);
-            this.e6.Name = "e6";
-            this.e6.Size = new System.Drawing.Size(16, 17);
-            this.e6.TabIndex = 73;
-            this.e6.Text = "+";
-            this.e6.Click += new System.EventHandler(this.e6_Click_1);
-            this.e6.MouseEnter += new System.EventHandler(this.e6_MouseEnter);
-            this.e6.MouseLeave += new System.EventHandler(this.e6_MouseLeave);
-            // 
-            // c6
-            // 
-            this.c6.AutoSize = true;
-            this.c6.Location = new System.Drawing.Point(225, 19);
-            this.c6.Name = "c6";
-            this.c6.Size = new System.Drawing.Size(13, 17);
-            this.c6.TabIndex = 72;
-            this.c6.Text = "-";
-            this.c6.Click += new System.EventHandler(this.c6_Click_1);
-            this.c6.MouseEnter += new System.EventHandler(this.c6_MouseEnter);
-            this.c6.MouseLeave += new System.EventHandler(this.c6_MouseLeave);
-            // 
-            // l6
-            // 
-            this.l6.AutoSize = true;
-            this.l6.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l6.Location = new System.Drawing.Point(3, 4);
-            this.l6.Name = "l6";
-            this.l6.Size = new System.Drawing.Size(179, 35);
-            this.l6.TabIndex = 2;
-            this.l6.Text = "Burger sandviç";
-            // 
-            // p6
-            // 
-            this.p6.AutoSize = true;
-            this.p6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p6.ForeColor = System.Drawing.Color.Red;
-            this.p6.Location = new System.Drawing.Point(187, 14);
-            this.p6.Name = "p6";
-            this.p6.Size = new System.Drawing.Size(17, 17);
-            this.p6.TabIndex = 17;
-            this.p6.Text = "0";
-            // 
-            // n6
-            // 
-            this.n6.AutoSize = true;
-            this.n6.Location = new System.Drawing.Point(257, 14);
-            this.n6.Name = "n6";
-            this.n6.Size = new System.Drawing.Size(16, 17);
-            this.n6.TabIndex = 15;
-            this.n6.Text = "0";
-            // 
-            // pc7
-            // 
-            this.pc7.Controls.Add(this.e7);
-            this.pc7.Controls.Add(this.c7);
-            this.pc7.Controls.Add(this.l7);
-            this.pc7.Controls.Add(this.p7);
-            this.pc7.Controls.Add(this.n7);
-            this.pc7.Location = new System.Drawing.Point(435, 52);
-            this.pc7.Name = "pc7";
-            this.pc7.Size = new System.Drawing.Size(392, 47);
-            this.pc7.TabIndex = 78;
-            // 
-            // e7
-            // 
-            this.e7.AutoSize = true;
-            this.e7.Location = new System.Drawing.Point(287, 14);
-            this.e7.Name = "e7";
-            this.e7.Size = new System.Drawing.Size(16, 17);
-            this.e7.TabIndex = 73;
-            this.e7.Text = "+";
-            this.e7.Click += new System.EventHandler(this.e7_Click_1);
-            this.e7.MouseEnter += new System.EventHandler(this.e7_MouseEnter);
-            this.e7.MouseLeave += new System.EventHandler(this.e7_MouseLeave);
-            // 
-            // c7
-            // 
-            this.c7.AutoSize = true;
-            this.c7.Location = new System.Drawing.Point(225, 19);
-            this.c7.Name = "c7";
-            this.c7.Size = new System.Drawing.Size(13, 17);
-            this.c7.TabIndex = 72;
-            this.c7.Text = "-";
-            this.c7.Click += new System.EventHandler(this.label35_Click_3);
-            this.c7.MouseEnter += new System.EventHandler(this.c7_MouseEnter);
-            this.c7.MouseLeave += new System.EventHandler(this.c7_MouseLeave);
-            // 
-            // l7
-            // 
-            this.l7.AutoSize = true;
-            this.l7.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l7.Location = new System.Drawing.Point(3, 4);
-            this.l7.Name = "l7";
-            this.l7.Size = new System.Drawing.Size(94, 35);
-            this.l7.TabIndex = 2;
-            this.l7.Text = "Patates";
-            // 
-            // p7
-            // 
-            this.p7.AutoSize = true;
-            this.p7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p7.ForeColor = System.Drawing.Color.Red;
-            this.p7.Location = new System.Drawing.Point(187, 14);
-            this.p7.Name = "p7";
-            this.p7.Size = new System.Drawing.Size(17, 17);
-            this.p7.TabIndex = 17;
-            this.p7.Text = "0";
-            // 
-            // n7
-            // 
-            this.n7.AutoSize = true;
-            this.n7.Location = new System.Drawing.Point(257, 14);
-            this.n7.Name = "n7";
-            this.n7.Size = new System.Drawing.Size(16, 17);
-            this.n7.TabIndex = 15;
-            this.n7.Text = "0";
-            // 
-            // pc8
-            // 
-            this.pc8.Controls.Add(this.e8);
-            this.pc8.Controls.Add(this.c8);
-            this.pc8.Controls.Add(this.l8);
-            this.pc8.Controls.Add(this.p8);
-            this.pc8.Controls.Add(this.n8);
-            this.pc8.Location = new System.Drawing.Point(435, 121);
-            this.pc8.Name = "pc8";
-            this.pc8.Size = new System.Drawing.Size(392, 47);
-            this.pc8.TabIndex = 79;
-            // 
-            // e8
-            // 
-            this.e8.AutoSize = true;
-            this.e8.Location = new System.Drawing.Point(287, 14);
-            this.e8.Name = "e8";
-            this.e8.Size = new System.Drawing.Size(16, 17);
-            this.e8.TabIndex = 73;
-            this.e8.Text = "+";
-            this.e8.Click += new System.EventHandler(this.e8_Click_1);
-            this.e8.MouseEnter += new System.EventHandler(this.e8_MouseEnter);
-            this.e8.MouseLeave += new System.EventHandler(this.e8_MouseLeave);
-            // 
-            // c8
-            // 
-            this.c8.AutoSize = true;
-            this.c8.Location = new System.Drawing.Point(225, 19);
-            this.c8.Name = "c8";
-            this.c8.Size = new System.Drawing.Size(13, 17);
-            this.c8.TabIndex = 72;
-            this.c8.Text = "-";
-            this.c8.Click += new System.EventHandler(this.label35_Click_4);
-            this.c8.MouseEnter += new System.EventHandler(this.c8_MouseEnter);
-            this.c8.MouseLeave += new System.EventHandler(this.c8_MouseLeave);
-            // 
-            // l8
-            // 
-            this.l8.AutoSize = true;
-            this.l8.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l8.Location = new System.Drawing.Point(3, 4);
-            this.l8.Name = "l8";
-            this.l8.Size = new System.Drawing.Size(95, 35);
-            this.l8.TabIndex = 2;
-            this.l8.Text = "Homus";
-            // 
-            // p8
-            // 
-            this.p8.AutoSize = true;
-            this.p8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p8.ForeColor = System.Drawing.Color.Red;
-            this.p8.Location = new System.Drawing.Point(187, 14);
-            this.p8.Name = "p8";
-            this.p8.Size = new System.Drawing.Size(17, 17);
-            this.p8.TabIndex = 17;
-            this.p8.Text = "0";
-            // 
-            // n8
-            // 
-            this.n8.AutoSize = true;
-            this.n8.Location = new System.Drawing.Point(257, 14);
-            this.n8.Name = "n8";
-            this.n8.Size = new System.Drawing.Size(16, 17);
-            this.n8.TabIndex = 15;
-            this.n8.Text = "0";
-            // 
-            // pc9
-            // 
-            this.pc9.Controls.Add(this.e9);
-            this.pc9.Controls.Add(this.c9);
-            this.pc9.Controls.Add(this.l9);
-            this.pc9.Controls.Add(this.p9);
-            this.pc9.Controls.Add(this.n9);
-            this.pc9.Location = new System.Drawing.Point(436, 195);
-            this.pc9.Name = "pc9";
-            this.pc9.Size = new System.Drawing.Size(392, 47);
-            this.pc9.TabIndex = 80;
-            // 
-            // e9
-            // 
-            this.e9.AutoSize = true;
-            this.e9.Location = new System.Drawing.Point(287, 14);
-            this.e9.Name = "e9";
-            this.e9.Size = new System.Drawing.Size(16, 17);
-            this.e9.TabIndex = 73;
-            this.e9.Text = "+";
-            this.e9.Click += new System.EventHandler(this.e9_Click_1);
-            this.e9.MouseEnter += new System.EventHandler(this.e9_MouseEnter);
-            this.e9.MouseLeave += new System.EventHandler(this.e9_MouseLeave);
-            // 
-            // c9
-            // 
-            this.c9.AutoSize = true;
-            this.c9.Location = new System.Drawing.Point(225, 19);
-            this.c9.Name = "c9";
-            this.c9.Size = new System.Drawing.Size(13, 17);
-            this.c9.TabIndex = 72;
-            this.c9.Text = "-";
-            this.c9.Click += new System.EventHandler(this.c9_Click_1);
-            this.c9.MouseEnter += new System.EventHandler(this.c9_MouseEnter);
-            this.c9.MouseLeave += new System.EventHandler(this.c9_MouseLeave);
-            // 
-            // l9
-            // 
-            this.l9.AutoSize = true;
-            this.l9.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l9.Location = new System.Drawing.Point(3, 4);
-            this.l9.Name = "l9";
-            this.l9.Size = new System.Drawing.Size(81, 35);
-            this.l9.TabIndex = 2;
-            this.l9.Text = "Salata";
-            // 
-            // p9
-            // 
-            this.p9.AutoSize = true;
-            this.p9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p9.ForeColor = System.Drawing.Color.Red;
-            this.p9.Location = new System.Drawing.Point(187, 14);
-            this.p9.Name = "p9";
-            this.p9.Size = new System.Drawing.Size(17, 17);
-            this.p9.TabIndex = 17;
-            this.p9.Text = "0";
-            // 
-            // n9
-            // 
-            this.n9.AutoSize = true;
-            this.n9.Location = new System.Drawing.Point(257, 14);
-            this.n9.Name = "n9";
-            this.n9.Size = new System.Drawing.Size(16, 17);
-            this.n9.TabIndex = 15;
-            this.n9.Text = "0";
-            // 
-            // pc10
-            // 
-            this.pc10.Controls.Add(this.e10);
-            this.pc10.Controls.Add(this.c10);
-            this.pc10.Controls.Add(this.l10);
-            this.pc10.Controls.Add(this.p10);
-            this.pc10.Controls.Add(this.n10);
-            this.pc10.Location = new System.Drawing.Point(435, 262);
-            this.pc10.Name = "pc10";
-            this.pc10.Size = new System.Drawing.Size(392, 47);
-            this.pc10.TabIndex = 81;
-            // 
-            // e10
-            // 
-            this.e10.AutoSize = true;
-            this.e10.Location = new System.Drawing.Point(287, 14);
-            this.e10.Name = "e10";
-            this.e10.Size = new System.Drawing.Size(16, 17);
-            this.e10.TabIndex = 73;
-            this.e10.Text = "+";
-            this.e10.Click += new System.EventHandler(this.label22_Click_3);
-            this.e10.MouseEnter += new System.EventHandler(this.e10_MouseEnter);
-            this.e10.MouseLeave += new System.EventHandler(this.e10_MouseLeave);
-            // 
-            // c10
-            // 
-            this.c10.AutoSize = true;
-            this.c10.Location = new System.Drawing.Point(225, 19);
-            this.c10.Name = "c10";
-            this.c10.Size = new System.Drawing.Size(13, 17);
-            this.c10.TabIndex = 72;
-            this.c10.Text = "-";
-            this.c10.Click += new System.EventHandler(this.c10_Click_1);
-            this.c10.MouseEnter += new System.EventHandler(this.c10_MouseEnter);
-            this.c10.MouseLeave += new System.EventHandler(this.c10_MouseLeave);
-            // 
-            // l10
-            // 
-            this.l10.AutoSize = true;
-            this.l10.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l10.Location = new System.Drawing.Point(3, 4);
-            this.l10.Name = "l10";
-            this.l10.Size = new System.Drawing.Size(49, 35);
-            this.l10.TabIndex = 2;
-            this.l10.Text = "Su ";
-            // 
-            // p10
-            // 
-            this.p10.AutoSize = true;
-            this.p10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p10.ForeColor = System.Drawing.Color.Red;
-            this.p10.Location = new System.Drawing.Point(187, 14);
-            this.p10.Name = "p10";
-            this.p10.Size = new System.Drawing.Size(17, 17);
-            this.p10.TabIndex = 17;
-            this.p10.Text = "0";
-            // 
-            // n10
-            // 
-            this.n10.AutoSize = true;
-            this.n10.Location = new System.Drawing.Point(257, 14);
-            this.n10.Name = "n10";
-            this.n10.Size = new System.Drawing.Size(16, 17);
-            this.n10.TabIndex = 15;
-            this.n10.Text = "0";
-            // 
-            // pc11
-            // 
-            this.pc11.Controls.Add(this.e11);
-            this.pc11.Controls.Add(this.c11);
-            this.pc11.Controls.Add(this.l11);
-            this.pc11.Controls.Add(this.p11);
-            this.pc11.Controls.Add(this.n11);
-            this.pc11.Location = new System.Drawing.Point(436, 330);
-            this.pc11.Name = "pc11";
-            this.pc11.Size = new System.Drawing.Size(392, 47);
-            this.pc11.TabIndex = 82;
-            // 
-            // e11
-            // 
-            this.e11.AutoSize = true;
-            this.e11.Location = new System.Drawing.Point(287, 14);
-            this.e11.Name = "e11";
-            this.e11.Size = new System.Drawing.Size(16, 17);
-            this.e11.TabIndex = 73;
-            this.e11.Text = "+";
-            this.e11.Click += new System.EventHandler(this.e11_Click_1);
-            this.e11.MouseEnter += new System.EventHandler(this.e11_MouseEnter);
-            this.e11.MouseLeave += new System.EventHandler(this.e11_MouseLeave);
-            // 
-            // c11
-            // 
-            this.c11.AutoSize = true;
-            this.c11.Location = new System.Drawing.Point(225, 19);
-            this.c11.Name = "c11";
-            this.c11.Size = new System.Drawing.Size(13, 17);
-            this.c11.TabIndex = 72;
-            this.c11.Text = "-";
-            this.c11.Click += new System.EventHandler(this.c11_Click_1);
-            this.c11.MouseEnter += new System.EventHandler(this.c11_MouseEnter);
-            this.c11.MouseLeave += new System.EventHandler(this.c11_MouseLeave);
-            // 
-            // l11
-            // 
-            this.l11.AutoSize = true;
-            this.l11.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l11.Location = new System.Drawing.Point(3, 4);
-            this.l11.Name = "l11";
-            this.l11.Size = new System.Drawing.Size(163, 35);
-            this.l11.TabIndex = 2;
-            this.l11.Text = "Gazuzlu iceck";
-            // 
-            // p11
-            // 
-            this.p11.AutoSize = true;
-            this.p11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p11.ForeColor = System.Drawing.Color.Red;
-            this.p11.Location = new System.Drawing.Point(187, 14);
-            this.p11.Name = "p11";
-            this.p11.Size = new System.Drawing.Size(17, 17);
-            this.p11.TabIndex = 17;
-            this.p11.Text = "0";
-            // 
-            // n11
-            // 
-            this.n11.AutoSize = true;
-            this.n11.Location = new System.Drawing.Point(257, 14);
-            this.n11.Name = "n11";
-            this.n11.Size = new System.Drawing.Size(16, 17);
-            this.n11.TabIndex = 15;
-            this.n11.Text = "0";
-            // 
-            // pc12
-            // 
-            this.pc12.Controls.Add(this.e12);
-            this.pc12.Controls.Add(this.c12);
-            this.pc12.Controls.Add(this.l12);
-            this.pc12.Controls.Add(this.p12);
-            this.pc12.Controls.Add(this.n12);
-            this.pc12.Location = new System.Drawing.Point(436, 397);
-            this.pc12.Name = "pc12";
-            this.pc12.Size = new System.Drawing.Size(392, 47);
-            this.pc12.TabIndex = 83;
-            // 
-            // e12
-            // 
-            this.e12.AutoSize = true;
-            this.e12.Location = new System.Drawing.Point(287, 14);
-            this.e12.Name = "e12";
-            this.e12.Size = new System.Drawing.Size(16, 17);
-            this.e12.TabIndex = 73;
-            this.e12.Text = "+";
-            this.e12.Click += new System.EventHandler(this.e12_Click_1);
-            this.e12.MouseEnter += new System.EventHandler(this.e12_MouseEnter);
-            this.e12.MouseLeave += new System.EventHandler(this.e12_MouseLeave);
-            // 
-            // c12
-            // 
-            this.c12.AutoSize = true;
-            this.c12.Location = new System.Drawing.Point(225, 19);
-            this.c12.Name = "c12";
-            this.c12.Size = new System.Drawing.Size(13, 17);
-            this.c12.TabIndex = 72;
-            this.c12.Text = "-";
-            this.c12.Click += new System.EventHandler(this.label35_Click_5);
-            this.c12.MouseEnter += new System.EventHandler(this.c12_MouseEnter);
-            this.c12.MouseLeave += new System.EventHandler(this.c12_MouseLeave);
-            // 
-            // l12
-            // 
-            this.l12.AutoSize = true;
-            this.l12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l12.Location = new System.Drawing.Point(3, 4);
-            this.l12.Name = "l12";
-            this.l12.Size = new System.Drawing.Size(59, 35);
-            this.l12.TabIndex = 2;
-            this.l12.Text = " çay";
-            // 
-            // p12
-            // 
-            this.p12.AutoSize = true;
-            this.p12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p12.ForeColor = System.Drawing.Color.Red;
-            this.p12.Location = new System.Drawing.Point(187, 14);
-            this.p12.Name = "p12";
-            this.p12.Size = new System.Drawing.Size(17, 17);
-            this.p12.TabIndex = 17;
-            this.p12.Text = "0";
-            // 
-            // n12
-            // 
-            this.n12.AutoSize = true;
-            this.n12.Location = new System.Drawing.Point(257, 14);
-            this.n12.Name = "n12";
-            this.n12.Size = new System.Drawing.Size(16, 17);
-            this.n12.TabIndex = 15;
-            this.n12.Text = "0";
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Location = new System.Drawing.Point(123, 731);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(907, 24);
+            this.panel3.TabIndex = 9;
             // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1033, 745);
+            this.ClientSize = new System.Drawing.Size(1033, 756);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Warning);
             this.Controls.Add(this.panelHome);
@@ -3299,30 +3309,30 @@ namespace resturant
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelSepete.ResumeLayout(false);
             this.panelSepete.PerformLayout();
-            this.pc1.ResumeLayout(false);
-            this.pc1.PerformLayout();
-            this.pc2.ResumeLayout(false);
-            this.pc2.PerformLayout();
-            this.pc3.ResumeLayout(false);
-            this.pc3.PerformLayout();
-            this.pc4.ResumeLayout(false);
-            this.pc4.PerformLayout();
-            this.pc5.ResumeLayout(false);
-            this.pc5.PerformLayout();
-            this.pc6.ResumeLayout(false);
-            this.pc6.PerformLayout();
-            this.pc7.ResumeLayout(false);
-            this.pc7.PerformLayout();
-            this.pc8.ResumeLayout(false);
-            this.pc8.PerformLayout();
-            this.pc9.ResumeLayout(false);
-            this.pc9.PerformLayout();
-            this.pc10.ResumeLayout(false);
-            this.pc10.PerformLayout();
-            this.pc11.ResumeLayout(false);
-            this.pc11.PerformLayout();
             this.pc12.ResumeLayout(false);
             this.pc12.PerformLayout();
+            this.pc11.ResumeLayout(false);
+            this.pc11.PerformLayout();
+            this.pc10.ResumeLayout(false);
+            this.pc10.PerformLayout();
+            this.pc9.ResumeLayout(false);
+            this.pc9.PerformLayout();
+            this.pc8.ResumeLayout(false);
+            this.pc8.PerformLayout();
+            this.pc7.ResumeLayout(false);
+            this.pc7.PerformLayout();
+            this.pc6.ResumeLayout(false);
+            this.pc6.PerformLayout();
+            this.pc5.ResumeLayout(false);
+            this.pc5.PerformLayout();
+            this.pc4.ResumeLayout(false);
+            this.pc4.PerformLayout();
+            this.pc3.ResumeLayout(false);
+            this.pc3.PerformLayout();
+            this.pc2.ResumeLayout(false);
+            this.pc2.PerformLayout();
+            this.pc1.ResumeLayout(false);
+            this.pc1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3482,6 +3492,7 @@ namespace resturant
         private System.Windows.Forms.Label l12;
         private System.Windows.Forms.Label p12;
         private System.Windows.Forms.Label n12;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

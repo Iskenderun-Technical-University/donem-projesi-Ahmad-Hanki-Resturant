@@ -27,6 +27,10 @@ namespace resturant
             panelMezeler.Visible = false;
             panelSanvic.Visible = false;
             panelIceck.Visible = false;
+
+            // hide the panels in the cart 
+            pc1.Visible = false;
+            pc1.Visible = false;
         }
         int load = 9;
         private void Form1_Load(object sender, EventArgs e)
@@ -665,7 +669,7 @@ namespace resturant
 
         private void e2_MouseEnter(object sender, EventArgs e)
         {
-            e1.BackColor = Color.LightGray;
+            e2.BackColor = Color.LightGray;
         }
 
         private void pc1_Paint(object sender, PaintEventArgs e)
