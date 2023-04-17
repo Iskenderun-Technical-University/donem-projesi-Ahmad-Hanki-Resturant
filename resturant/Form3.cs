@@ -41,10 +41,5 @@ namespace resturant
             this.Close();
 
         }
-
-        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
