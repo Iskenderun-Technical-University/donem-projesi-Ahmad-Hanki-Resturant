@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Data.SqlClient;
+using System.Configuration;
+
+
 
 namespace resturant
 {
@@ -57,7 +61,22 @@ namespace resturant
 
             vis();
 
+            // it will count from where it stoped.
+            //  you can stop this and start the id from 1 every time you start the project 
+            // by deleting from here 
             warn.Text = "Bir şeyi eklenmemişsiniz!\nEklanmek için Menu sayfasına geri dön!";
+            string filePath = "id.txt";
+            if (File.Exists(filePath))
+            {
+                
+                string idString = File.ReadAllText(filePath);
+                int ID;
+                if (int.TryParse(idString, out ID))
+                {
+                    id = ID;
+                }
+            } 
+            // to here
         }
 
          void vis ()
@@ -1204,10 +1223,20 @@ namespace resturant
                 form2.order = ord;
                 form2.price = z;
                 form2.ide = id;
-                form2.phoNUM = Convert.ToInt32(number);
-                form2.FullNAME = namee +" "+secondname;
+                int te = Convert.ToInt32(number);
+                form2.phoNUM = te;
+                string fu = namee + " " + secondname;
+                form2.FullNAME = fu;
 
+                // data base
 
+                SqlConnection con = new SqlConnection(@"Data Source=TOGYA\SQLEXPRESS;Initial Catalog=RestSQL;Integrated Security=True");
+                string InsertQuey = "insert into MyTable(ID, [Order], Price, FullName, PhoneNumber)values ('" + id + "','" + ord + "','" + z + "','" + fu + "','" + te + "')";
+                con.Open();
+                SqlCommand cmd = new SqlCommand(InsertQuey, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                // reset everything
                 x1 = 0;
                 n1.Text = x1.ToString();
                 i1 = 0;
@@ -1274,10 +1303,16 @@ namespace resturant
                 form2.ShowDialog();
                 vis();
                 costumerPanel.Visible = false;
+               
+
+
+                
+
+
+
                 NameTxtBox.Text = "";
                 SNameTxtBox.Text = "";
                 PhoneTxtBox.Text = "";
-
             }
             else
             {
@@ -1310,6 +1345,12 @@ namespace resturant
             SNameTxtBox.Text = "";
             PhoneTxtBox.Text = "";
             costumerPanel.Visible = false;
+        }
+
+        private void main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            string filePath = "id.txt";
+            File.WriteAllText(filePath, id.ToString());
         }
 
         private void se2_Click(object sender, EventArgs e)

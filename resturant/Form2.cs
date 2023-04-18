@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace resturant
 {
@@ -66,6 +69,10 @@ namespace resturant
                 i++;
 
             }
+            if (id>1)
+            {
+                not.Text = "Note: If you see that the ID number is not a one, that is because of an order that is before this one is been given, you can see it in the database file.";
+            }
         }
 
         public void AddItem (int i, string ordText, int pri, string name , int numberphone )
@@ -87,6 +94,11 @@ namespace resturant
         private void close_MouseLeave(object sender, EventArgs e)
         {
             close.BackColor = Color.Black;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

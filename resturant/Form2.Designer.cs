@@ -37,12 +37,13 @@ namespace resturant
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Home = new System.Windows.Forms.Button();
             this.idd = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sipariş = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Adı = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Home = new System.Windows.Forms.Button();
+            this.not = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -128,18 +129,7 @@ namespace resturant
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1008, 277);
             this.dataGridView1.TabIndex = 9;
-            // 
-            // Home
-            // 
-            this.Home.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Home.BackgroundImage")));
-            this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Home.ForeColor = System.Drawing.Color.Red;
-            this.Home.Location = new System.Drawing.Point(78, 171);
-            this.Home.Name = "Home";
-            this.Home.Size = new System.Drawing.Size(865, 79);
-            this.Home.TabIndex = 3;
-            this.Home.UseVisualStyleBackColor = true;
-            this.Home.Click += new System.EventHandler(this.Home_Click);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // idd
             // 
@@ -178,18 +168,41 @@ namespace resturant
             this.Telefon.Name = "Telefon";
             this.Telefon.ReadOnly = true;
             // 
+            // Home
+            // 
+            this.Home.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Home.BackgroundImage")));
+            this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Home.ForeColor = System.Drawing.Color.Red;
+            this.Home.Location = new System.Drawing.Point(78, 171);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(865, 79);
+            this.Home.TabIndex = 3;
+            this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
+            // not
+            // 
+            this.not.AutoSize = true;
+            this.not.ForeColor = System.Drawing.Color.Red;
+            this.not.Location = new System.Drawing.Point(37, 687);
+            this.not.Name = "not";
+            this.not.Size = new System.Drawing.Size(0, 17);
+            this.not.TabIndex = 10;
+            // 
             // Cart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1033, 745);
+            this.Controls.Add(this.not);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Home);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.DarkRed;
             this.Name = "Cart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sepet";
@@ -217,5 +230,6 @@ namespace resturant
         private System.Windows.Forms.DataGridViewTextBoxColumn Fiyat;
         private System.Windows.Forms.DataGridViewTextBoxColumn Adı;
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefon;
+        private System.Windows.Forms.Label not;
     }
 }
