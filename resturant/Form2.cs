@@ -166,10 +166,10 @@ namespace resturant
                 int one = 1;
                 ma.ide = 1;
                 ma.myid();
-                dataGridView1.Visible = false;
-                databaseBUT.Visible = false;
-                dataGridView2.Visible = true;
-                BackToOriginal.Visible = true;
+                dataGridView1.Visible = true;
+                databaseBUT.Visible = true;
+                dataGridView2.Visible = false;
+                BackToOriginal.Visible = false;
                 label.Text = "C# Tablosu";
             }
             catch 
