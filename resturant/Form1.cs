@@ -10,6 +10,9 @@ using System.Windows.Forms;
 using System.IO;
 using System.Data.SqlClient;
 using System.Configuration;
+using MySql.Data.MySqlClient;
+
+
 
 
 
@@ -35,7 +38,7 @@ namespace resturant
        
       
         }
-        int load = 1;
+        int load = 5;
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -60,12 +63,13 @@ namespace resturant
             costumerPanel.Visible = false;
 
             vis();
-
+            warn.Text = "Bir şeyi eklenmemişsiniz!\nEklanmek için Menu sayfasına geri dön!";
             // it will count from where it stoped.
             //  you can stop this and start the id from 1 every time you start the project 
             // by deleting from here 
-            warn.Text = "Bir şeyi eklenmemişsiniz!\nEklanmek için Menu sayfasına geri dön!";
+            
             string filePath = "id.txt";
+            /*
             if (File.Exists(filePath))
             {
                 
@@ -77,6 +81,7 @@ namespace resturant
                 }
             } 
             // to here
+            */
         }
 
          void vis ()
@@ -1229,13 +1234,25 @@ namespace resturant
                 form2.FullNAME = fu;
 
                 // data base
+                // Insert data
+                Database db = new Database();
+                try
+                {
+                    
+                    db.connOpen();
+                    db.insertdata(id, ord, z, fu, te);
+                    db.connClose();
+                    MessageBox.Show("The data has been inserted successfully!", "Data Inserted", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                SqlConnection con = new SqlConnection(@"Data Source=TOGYA\SQLEXPRESS;Initial Catalog=RestSQL;Integrated Security=True");
-                string InsertQuey = "insert into MyTable(ID, [Order], Price, FullName, PhoneNumber)values ('" + id + "','" + ord + "','" + z + "','" + fu + "','" + te + "')";
-                con.Open();
-                SqlCommand cmd = new SqlCommand(InsertQuey, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("The server you are using in the Program isnt the same as the server that you are trying to insert into","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                }
+
+                //
+                
+                
                 // reset everything
                 x1 = 0;
                 n1.Text = x1.ToString();
