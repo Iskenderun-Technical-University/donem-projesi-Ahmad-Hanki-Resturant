@@ -1136,6 +1136,7 @@ namespace resturant
             }
         }
 
+
         private void infosConf_Click(object sender, EventArgs e)
         {
             int z = top();
@@ -1224,6 +1225,12 @@ namespace resturant
             DialogResult result = MessageBox.Show("Onyalamak ister misiniz?", "Onaylamak", MessageBoxButtons.OKCancel);
             if (result == DialogResult.OK)
             {
+                // taking the id from last row in database
+                IdManager lastid = new IdManager();
+                id = lastid.GetLastID();
+                id++;
+                // 
+                //
                 MessageBox.Show("Siparişiniz hazırlanıyor^^, sipariş listindeki görebilirsiniz!", "yaaay", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 form2.order = ord;
                 form2.price = z;
@@ -1234,7 +1241,14 @@ namespace resturant
                 form2.FullNAME = fu;
 
                 // data base
+
+                
+                
+
+
+
                 // Insert data
+
                 Database db = new Database();
                 try
                 {
@@ -1341,7 +1355,7 @@ namespace resturant
             }
         }
 
-
+        
         public static bool IsNumeric (string input)
         {
             int num;
