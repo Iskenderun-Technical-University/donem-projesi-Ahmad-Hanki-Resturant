@@ -25,7 +25,13 @@ namespace resturant
         {
             InitializeComponent();
         }
-        
+        public int ide { get; set; }
+
+        public void myid ()
+        {
+            id = ide;
+        }
+
         private void Home_Click(object sender, EventArgs e)
         {
             panelSepete.Visible = false;
@@ -479,6 +485,7 @@ namespace resturant
 
         private void orders_Click(object sender, EventArgs e)
         {
+            form2.phoNUM = 0;
             form2.ShowDialog();
         }
         About abt = new About();
@@ -1143,7 +1150,7 @@ namespace resturant
             string namee = NameTxtBox.Text;
             string secondname = SNameTxtBox.Text;
             string number = PhoneTxtBox.Text;
-
+            int ph = Convert.ToInt32(number);
             bool isLonly = namee.All(char.IsLetter);
             bool isLonly1 =secondname.All(char.IsLetter);
             if (!isLonly || !isLonly1 || namee=="" ||secondname=="")
@@ -1157,6 +1164,12 @@ namespace resturant
                 MessageBox.Show("Input must contain numbers", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            if (ph==0)
+            {
+                MessageBox.Show("Input must not be zero", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            
 
             ord = "";
 
@@ -1329,6 +1342,7 @@ namespace resturant
                 p12.Text = i12.ToString();
 
                 Toplam.Text = "";
+                
                 top();
                 id++;
                 form2.ShowDialog();

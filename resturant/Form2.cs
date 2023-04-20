@@ -25,22 +25,33 @@ namespace resturant
         public string FullNAME { get; set; }
         public int phoNUM { get; set; }
 
+        
         private void Home_Click(object sender, EventArgs e)
         {
             this.Hide();
             
         }
-        string[] ordText = new string[500];
-        int[] pri = new int[500];
+        string ordText;
+        int pri;
         int id;
         int tele;
         string FName;
 
         static public int i;
-
+        
         private void Form2_Load(object sender, EventArgs e)
         {
             this.ControlBox = false;
+            
+            
+                dataGridView2.Visible = false;
+                BackToOriginal.Visible = false;
+                dataGridView1.Visible = true;
+                databaseBUT.Visible = true;
+                label.Text = "C# Tablosu";
+                
+            
+            
             this.FormBorderStyle = FormBorderStyle.None;
             foreach (DataGridViewColumn col in dataGridView1.Columns)
             {
@@ -48,31 +59,28 @@ namespace resturant
             }
             dataGridView1.ScrollBars = ScrollBars.Horizontal;
 
-            ordText[i] = order;
-            pri[i] = price;
+            ordText = order;
+            pri = price;
             id = ide;
             tele = phoNUM;
             FName = FullNAME;
 
-            if (i==id)
+            if (tele==0)
             { 
                 return;
             }
             else
             {
 
-                string or = ordText[i];
-                int tot = pri[i];
+                string or = ordText;
+                int tot = pri;
                 string FLN = FName;
                 int tel = tele;
                 AddItem(id, or, tot, FLN, tel);
                 i++;
-
+                tele = 0;
             }
-            if (id>1)
-            {
-                not.Text = "Note: If you see that the ID number is not a one, that is because of an order that is before this one is been given, you can see it in the database file.";
-            }
+            
         }
 
         public void AddItem (int i, string ordText, int pri, string name , int numberphone )
@@ -98,6 +106,76 @@ namespace resturant
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
+        }
+
+        private void Side_Click(object sender, EventArgs e)
+        {
+            
+            dataGridView2.DataSource = null;
+            //copy everything
+            string sql = "SELECT * FROM MyTable";
+            
+
+            try
+            {
+                DataTable data = DatabaseReader.GetDataTable(sql);
+                dataGridView2.DataSource = data;
+                foreach (DataGridViewColumn col in dataGridView2.Columns)
+                {
+                    col.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+                }
+                dataGridView1.ScrollBars = ScrollBars.Horizontal;
+
+                dataGridView1.Visible = false;
+                databaseBUT.Visible = false;
+                dataGridView2.Visible = true;
+                BackToOriginal.Visible = true;
+                label.Text = "VeriTabanı Tablosu";
+            }
+            catch 
+            {
+                MessageBox.Show("couldn't complete the because of the wrong current database connection\nthat your device is connected on");
+            }
+           
+        }
+
+        private void BackToOriginal_Click(object sender, EventArgs e)
+        {
+            BackToOriginal.Visible = false;
+            dataGridView1.Visible = true;
+            dataGridView2.Visible = false;
+            databaseBUT.Visible = true;
+            label.Text = "C# Tablosu";
+        }
+        
+        private void delete_Click(object sender, EventArgs e)
+        {
+            // set the data grid view1 to 0;!!
+            
+
+
+            //and from the database too
+            Delete delee = new Delete();
+            try
+            {
+                delee.DeleteAll("MyTable");
+                MessageBox.Show("Everything deleted!","sucsess",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                main ma = new main();
+                dataGridView1.Rows.Clear();
+                int one = 1;
+                ma.ide = 1;
+                ma.myid();
+                dataGridView1.Visible = false;
+                databaseBUT.Visible = false;
+                dataGridView2.Visible = true;
+                BackToOriginal.Visible = true;
+                label.Text = "C# Tablosu";
+            }
+            catch 
+            {
+                MessageBox.Show("couldn't complete the because of the wrong current database connection\nthat your device is connected on");
+            }
 
         }
     }
