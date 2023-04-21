@@ -152,30 +152,39 @@ namespace resturant
         private void delete_Click(object sender, EventArgs e)
         {
             // set the data grid view1 to 0;!!
+
+
+            DialogResult dig = MessageBox.Show("her şeyi silmek istediğinizden emin misiniz?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             
-
-
-            //and from the database too
-            Delete delee = new Delete();
-            try
+            if (dig == DialogResult.Yes)
             {
-                delee.DeleteAll("MyTable");
-                MessageBox.Show("Everything deleted!","sucsess",MessageBoxButtons.OK,MessageBoxIcon.Information);
-                main ma = new main();
-                dataGridView1.Rows.Clear();
-                int one = 1;
-                ma.ide = 1;
-                ma.myid();
-                dataGridView1.Visible = true;
-                databaseBUT.Visible = true;
-                dataGridView2.Visible = false;
-                BackToOriginal.Visible = false;
-                label.Text = "C# Tablosu";
+                Delete delee = new Delete();
+                try
+                {
+                    delee.DeleteAll("MyTable");
+                    MessageBox.Show("Herşeyi silindi!", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    main ma = new main();
+                    dataGridView1.Rows.Clear();
+                    int one = 1;
+                    ma.ide = 1;
+                    ma.myid();
+                    dataGridView1.Visible = true;
+                    databaseBUT.Visible = true;
+                    dataGridView2.Visible = false;
+                    BackToOriginal.Visible = false;
+                    label.Text = "C# Tablosu";
+                }
+                catch
+                {
+                    MessageBox.Show("couldn't complete the because of the wrong current database connection\nthat your device is connected on");
+                }
             }
-            catch 
+            else
             {
-                MessageBox.Show("couldn't complete the because of the wrong current database connection\nthat your device is connected on");
+                return;
             }
+                //and from the database too
+           
 
         }
     }
