@@ -18,7 +18,7 @@ Projede veritabanı 4 kez kullanılacak onlar:
 * Siparişi almak ve veritabanı tablosuna kaydetmek için kullanılacak.
 * Her şeyi silip yeniden başlatana kadar siparişin kimlik numarasını takip edecektir.
 * Sizden gelen bir siparişle ilgili, veritabanında kaydedilen tüm bilgileri size gösterebilir.
-*Sizden gelen bir siparişle ilgili, veritabanında kaydedilen tüm bilgileri silebilir.
+* Sizden gelen bir siparişle ilgili, veritabanında kaydedilen tüm bilgileri silebilir.
 <br>
 
 ## Tablo
