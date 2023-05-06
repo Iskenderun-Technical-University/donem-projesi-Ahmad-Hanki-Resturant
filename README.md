@@ -1,4 +1,4 @@
-# Fast-Food restaurant
+# VeriTabanı Fast-Food Restaurant
 
 ## Açıklama
 Müşteriden sipariş alınmasını ve bunun veritabanına kolayca kaydedilmesini sağlayan bir uygulama.
