@@ -121,3 +121,4 @@ C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\bi
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ir4ve\OneDrive\Desktop\donem-projesi-Ahmad-Hanki-Resturant\resturant\bin\Debug\Bunifu.Licensing.dll
